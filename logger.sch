@@ -20861,8 +20861,8 @@ Source: Fairchild .. BAT54.pdf</description>
 <part name="C17" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
 <part name="C18" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value="47pF"/>
 <part name="C19" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value="47pF"/>
-<part name="R11" library="SparkFun-Resistors" deviceset="RESISTOR" device="0402-RES" value="27"/>
-<part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="0402-RES" value="27"/>
+<part name="R11" library="SparkFun-Resistors" deviceset="RESISTOR" device="0402-RES" value="27ohm"/>
+<part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="0402-RES" value="27ohm"/>
 <part name="C20" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
 <part name="C21" library="SparkFun-Passives" deviceset="CAP_POL" device="1206" value="10uF"/>
 <part name="LED1" library="SparkFun-LED" deviceset="LED" device="0603" value="RED"/>
@@ -22279,14 +22279,14 @@ Source: Fairchild .. BAT54.pdf</description>
 <wire x1="93.98" y1="-48.26" x2="93.98" y2="-63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$60" class="0">
+<net name="TXLED-" class="0">
 <segment>
 <pinref part="LED2" gate="G$1" pin="C"/>
 <pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="-35.56" x2="101.6" y2="-38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$61" class="0">
+<net name="RXLED-" class="0">
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <pinref part="R14" gate="G$1" pin="2"/>
