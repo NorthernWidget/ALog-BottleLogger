@@ -20554,27 +20554,25 @@ High-power, low thermal resistance package.</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="diode">
-<description>&lt;b&gt;Diodes&lt;/b&gt;&lt;p&gt;
-Based on the following sources:
-&lt;ul&gt;
-&lt;li&gt;Motorola : www.onsemi.com
-&lt;li&gt;Fairchild : www.fairchildsemi.com
-&lt;li&gt;Philips : www.semiconductors.com
-&lt;li&gt;Vishay : www.vishay.de
-&lt;/ul&gt;
+<library name="semicon-smd-ipc">
+<description>&lt;b&gt;IPC Standard SMD Semiconductors&lt;/b&gt;&lt;p&gt;
+A few devices defined according to the IPC standard.&lt;p&gt;
+Based on:&lt;p&gt;
+IPC-SM-782&lt;br&gt;
+IRevision A, August 1993&lt;br&gt;
+Includes Amendment 1, October 1996&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="SOT23">
-<description>&lt;B&gt;DIODE&lt;/B&gt;</description>
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.1524" x2="-1.4224" y2="0.6604" width="0.1524" layer="21"/>
-<wire x1="-1.4224" y1="0.6604" x2="-0.8636" y2="0.6604" width="0.1524" layer="21"/>
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.1524" width="0.1524" layer="21"/>
-<wire x1="0.8636" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="21"/>
+<package name="SOT23C">
+<description>&lt;b&gt;SMALL OUTLINE TRANSISTOR&lt;/b&gt;</description>
+<wire x1="-1.973" y1="1.983" x2="1.973" y2="1.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="-1.983" x2="-1.973" y2="-1.983" width="0.0508" layer="39"/>
+<wire x1="-1.973" y1="-1.983" x2="-1.973" y2="1.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="1.983" x2="1.973" y2="-1.983" width="0.0508" layer="39"/>
+<wire x1="1.422" y1="0.66" x2="1.422" y2="-0.66" width="0.1524" layer="51"/>
+<wire x1="1.422" y1="-0.66" x2="-1.422" y2="-0.66" width="0.1524" layer="51"/>
+<wire x1="-1.422" y1="-0.66" x2="-1.422" y2="0.66" width="0.1524" layer="51"/>
+<wire x1="-1.422" y1="0.66" x2="1.422" y2="0.66" width="0.1524" layer="51"/>
 <smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
 <smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
 <smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
@@ -20583,146 +20581,42 @@ Based on the following sources:
 <rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
 <rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
 <rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
+<rectangle x1="-0.5001" y1="-0.3" x2="0.5001" y2="0.3" layer="35"/>
 </package>
 </packages>
 <symbols>
-<symbol name="SDD_AKKA">
-<wire x1="-3.81" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-3.81" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
-<wire x1="-3.81" y1="-1.27" x2="-3.81" y2="1.27" width="0.254" layer="94"/>
-<wire x1="3.81" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="3.81" y2="1.27" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="1.27" x2="3.81" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-0.635" y1="-1.016" x2="-0.635" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-0.635" y1="-1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.905" y1="1.016" x2="-1.905" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-1.905" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.905" y1="-1.016" x2="1.905" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.905" y1="-1.27" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<symbol name="D2-KK">
+<wire x1="-3.81" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-3.81" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="1.27" x2="-3.81" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="3.81" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="0.635" y1="1.016" x2="0.635" y2="1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-1.27" x2="3.81" y2="1.27" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="0.635" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
-<circle x="0" y="0" radius="0.127" width="0.4064" layer="94"/>
-<text x="0.762" y="2.0066" size="1.778" layer="95">&gt;NAME</text>
-<text x="-4.318" y="-3.9624" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="A1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="A2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="CC" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<circle x="0" y="0" radius="0.508" width="0" layer="94"/>
+<text x="0.762" y="1.778" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-3.556" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="K" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="A2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="BAT54C" prefix="D">
-<description>&lt;b&gt;Schottky Diodes&lt;/b&gt;&lt;p&gt;
-Source: Fairchild .. BAT54.pdf</description>
+<deviceset name="DIODE_AC-CA_" prefix="D" uservalue="yes">
+<description>&lt;B&gt;DUAL DIODE&lt;/B&gt;</description>
 <gates>
-<gate name="G$1" symbol="SDD_AKKA" x="0" y="0"/>
+<gate name="G$1" symbol="D2-KK" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOT23">
+<device name="" package="SOT23C">
 <connects>
 <connect gate="G$1" pin="A1" pad="1"/>
 <connect gate="G$1" pin="A2" pad="2"/>
-<connect gate="G$1" pin="CC" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="SteveMarple">
-<packages>
-<package name="SOT23-3-HAND">
-<wire x1="-0.7112" y1="-1.5748" x2="0.7112" y2="-1.5748" width="0.1524" layer="21"/>
-<wire x1="0.7112" y1="1.5748" x2="-0.7112" y2="1.5748" width="0.1524" layer="21"/>
-<wire x1="-0.7112" y1="-1.4986" x2="0.7112" y2="-1.4986" width="0" layer="51"/>
-<wire x1="0.7112" y1="-1.4986" x2="0.7112" y2="-0.254" width="0" layer="51"/>
-<wire x1="0.7112" y1="1.4986" x2="0.3048" y2="1.4986" width="0" layer="51"/>
-<wire x1="0.3048" y1="1.4986" x2="-0.3048" y2="1.4986" width="0" layer="51"/>
-<wire x1="-0.3048" y1="1.4986" x2="-0.7112" y2="1.4986" width="0" layer="51"/>
-<wire x1="-0.7112" y1="1.4986" x2="-0.7112" y2="1.27" width="0" layer="51"/>
-<wire x1="-0.7112" y1="1.27" x2="-0.7112" y2="0.762" width="0" layer="51"/>
-<wire x1="-0.7112" y1="0.762" x2="-0.7112" y2="-0.762" width="0" layer="51"/>
-<wire x1="-0.7112" y1="1.27" x2="-1.2446" y2="1.27" width="0" layer="51"/>
-<wire x1="-1.2446" y1="1.27" x2="-1.2446" y2="0.762" width="0" layer="51"/>
-<wire x1="-1.2446" y1="0.762" x2="-0.7112" y2="0.762" width="0" layer="51"/>
-<wire x1="-0.7112" y1="-1.4986" x2="-0.7112" y2="-1.27" width="0" layer="51"/>
-<wire x1="-0.7112" y1="-1.27" x2="-0.7112" y2="-0.762" width="0" layer="51"/>
-<wire x1="-0.7112" y1="-0.762" x2="-1.2446" y2="-0.762" width="0" layer="51"/>
-<wire x1="-1.2446" y1="-0.762" x2="-1.2446" y2="-1.27" width="0" layer="51"/>
-<wire x1="-1.2446" y1="-1.27" x2="-0.7112" y2="-1.27" width="0" layer="51"/>
-<wire x1="0.7112" y1="-0.254" x2="0.7112" y2="0.254" width="0" layer="51"/>
-<wire x1="0.7112" y1="0.254" x2="0.7112" y2="1.4986" width="0" layer="51"/>
-<wire x1="0.7112" y1="-0.254" x2="1.2446" y2="-0.254" width="0" layer="51"/>
-<wire x1="1.2446" y1="-0.254" x2="1.2446" y2="0.254" width="0" layer="51"/>
-<wire x1="1.2446" y1="0.254" x2="0.7112" y2="0.254" width="0" layer="51"/>
-<wire x1="0.3048" y1="1.4986" x2="-0.3048" y2="1.4986" width="0" layer="51" curve="-180"/>
-<smd name="1" x="-1.651" y="1.016" dx="2.5908" dy="0.5588" layer="1"/>
-<smd name="2" x="-1.651" y="-1.016" dx="2.5908" dy="0.5588" layer="1"/>
-<smd name="3" x="1.651" y="0" dx="2.5908" dy="0.5588" layer="1"/>
-<text x="-2.54" y="1.905" size="1.016" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-2.54" y="-3.175" size="1.016" layer="27" rot="SR0">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="2N7000">
-<wire x1="-1.778" y1="0.762" x2="-1.778" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.778" y1="0" x2="-1.778" y2="-0.762" width="0.254" layer="94"/>
-<wire x1="-1.778" y1="3.175" x2="-1.778" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-1.778" y1="2.54" x2="-1.778" y2="1.905" width="0.254" layer="94"/>
-<wire x1="-1.778" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-1.778" y1="-1.905" x2="-1.778" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-1.778" y1="-2.54" x2="-1.778" y2="-3.175" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-1.778" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="2.54" x2="1.27" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="0.508" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-1.778" y1="2.54" x2="1.27" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="2.032" y1="0.762" x2="1.778" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="0.508" x2="1.27" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="0.508" x2="0.762" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="0.508" x2="0.508" y2="0.254" width="0.1524" layer="94"/>
-<circle x="0" y="-2.54" radius="0.3592" width="0" layer="94"/>
-<circle x="0" y="2.54" radius="0.3592" width="0" layer="94"/>
-<text x="-13.97" y="0" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-13.97" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<pin name="S" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="G" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
-<pin name="D" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<polygon width="0.1524" layer="94">
-<vertex x="1.27" y="0.508"/>
-<vertex x="0.762" y="-0.254"/>
-<vertex x="1.778" y="-0.254"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="-1.524" y="0"/>
-<vertex x="-0.508" y="0.762"/>
-<vertex x="-0.508" y="-0.762"/>
-</polygon>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="BSS138">
-<description>&lt;b&gt;BSS138 FET&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="2N7000" x="0" y="0"/>
-</gates>
-<devices>
-<device name="SOT23-3-HAND" package="SOT23-3-HAND">
-<connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="G$1" pin="K" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -20875,7 +20769,7 @@ Source: Fairchild .. BAT54.pdf</description>
 <part name="U$9" library="MyPOW" deviceset="VUSB" device=""/>
 <part name="CLOCK_BATT_DECOUP" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
 <part name="SUPPLY47" library="supply2" deviceset="GND" device=""/>
-<part name="D1" library="diode" deviceset="BAT54C" device=""/>
+<part name="D1" library="semicon-smd-ipc" deviceset="DIODE_AC-CA_" device="" value="BAT54C"/>
 <part name="SUPPLY39" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY40" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY41" library="supply2" deviceset="GND" device=""/>
@@ -20884,7 +20778,7 @@ Source: Fairchild .. BAT54.pdf</description>
 <part name="U$8" library="MyPOW" deviceset="VUSB" device=""/>
 <part name="U$10" library="MyPOW" deviceset="VUSB" device=""/>
 <part name="RX_SW1" library="rcl" deviceset="R-US_" device="R0603" value="1Kohm"/>
-<part name="TX_SW1" library="rcl" deviceset="R-US_" device="R0603" value="1K"/>
+<part name="TX_SW1" library="rcl" deviceset="R-US_" device="R0603" value="1Kohm"/>
 <part name="SUPPLY44" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY45" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY46" library="supply2" deviceset="GND" device=""/>
@@ -20897,8 +20791,6 @@ Source: Fairchild .. BAT54.pdf</description>
 <part name="RCLK2" library="rcl" deviceset="R-US_" device="R0603" value="220ohm"/>
 <part name="P+10" library="supply1" deviceset="VCC" device=""/>
 <part name="SD_3V4" library="supply1" deviceset="VDD" device=""/>
-<part name="U$3" library="SteveMarple" deviceset="BSS138" device="SOT23-3-HAND" value="BSS138"/>
-<part name="U$4" library="SteveMarple" deviceset="BSS138" device="SOT23-3-HAND" value="BSS138"/>
 <part name="PU3" library="rcl" deviceset="R-US_" device="R0603" value="3K"/>
 <part name="PU4" library="rcl" deviceset="R-US_" device="R0603" value="3K"/>
 <part name="SD_3V5" library="supply1" deviceset="VDD" device=""/>
@@ -20906,6 +20798,8 @@ Source: Fairchild .. BAT54.pdf</description>
 <part name="SD_3V7" library="supply1" deviceset="VDD" device=""/>
 <part name="P+12" library="supply1" deviceset="VCC" device=""/>
 <part name="P+13" library="supply1" deviceset="VCC" device=""/>
+<part name="Q3" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="SOT323" value="2N7002PW"/>
+<part name="Q4" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="SOT323" value="2N7002PW"/>
 </parts>
 <sheets>
 <sheet>
@@ -21079,8 +20973,6 @@ Source: Fairchild .. BAT54.pdf</description>
 <instance part="RCLK2" gate="G$1" x="317.5" y="203.2" rot="R270"/>
 <instance part="P+10" gate="VCC" x="342.9" y="231.14"/>
 <instance part="SD_3V4" gate="G$1" x="231.14" y="231.14"/>
-<instance part="U$3" gate="G$1" x="200.66" y="248.92"/>
-<instance part="U$4" gate="G$1" x="200.66" y="231.14"/>
 <instance part="PU3" gate="G$1" x="304.8" y="223.52" rot="R90"/>
 <instance part="PU4" gate="G$1" x="294.64" y="226.06" rot="R90"/>
 <instance part="SD_3V5" gate="G$1" x="294.64" y="236.22"/>
@@ -21088,6 +20980,8 @@ Source: Fairchild .. BAT54.pdf</description>
 <instance part="SD_3V7" gate="G$1" x="180.34" y="254"/>
 <instance part="P+12" gate="VCC" x="231.14" y="251.46"/>
 <instance part="P+13" gate="VCC" x="220.98" y="269.24"/>
+<instance part="Q3" gate="G$1" x="200.66" y="248.92"/>
+<instance part="Q4" gate="G$1" x="200.66" y="231.14"/>
 </instances>
 <busses>
 </busses>
@@ -21732,10 +21626,10 @@ Source: Fairchild .. BAT54.pdf</description>
 <pinref part="JP6" gate="G$1" pin="4"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="D"/>
 <wire x1="200.66" y1="236.22" x2="231.14" y2="236.22" width="0.1524" layer="91"/>
 <label x="208.28" y="236.22" size="1.778" layer="95"/>
 <pinref part="PU2" gate="G$1" pin="1"/>
+<pinref part="Q4" gate="G$1" pin="D"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -21750,10 +21644,10 @@ Source: Fairchild .. BAT54.pdf</description>
 <pinref part="JP6" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="D"/>
 <wire x1="200.66" y1="254" x2="220.98" y2="254" width="0.1524" layer="91"/>
 <label x="208.28" y="254" size="1.778" layer="95"/>
 <pinref part="PU1" gate="G$1" pin="1"/>
+<pinref part="Q3" gate="G$1" pin="D"/>
 </segment>
 </net>
 <net name="INT0" class="0">
@@ -21796,7 +21690,8 @@ Source: Fairchild .. BAT54.pdf</description>
 <label x="274.32" y="215.9" size="1.778" layer="95"/>
 <pinref part="RTC" gate="G$1" pin="VBAT"/>
 <pinref part="CLOCK_BATT_DECOUP" gate="G$1" pin="1"/>
-<wire x1="279.4" y1="215.9" x2="281.94" y2="215.9" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="K"/>
+<wire x1="279.4" y1="215.9" x2="314.96" y2="215.9" width="0.1524" layer="91"/>
 <junction x="279.4" y="215.9"/>
 </segment>
 </net>
@@ -21981,14 +21876,14 @@ Source: Fairchild .. BAT54.pdf</description>
 <wire x1="304.8" y1="231.14" x2="304.8" y2="228.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="G"/>
-<wire x1="195.58" y1="228.6" x2="180.34" y2="228.6" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="228.6" x2="180.34" y2="246.38" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="G"/>
-<wire x1="180.34" y1="246.38" x2="180.34" y2="251.46" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="246.38" x2="180.34" y2="246.38" width="0.1524" layer="91"/>
-<junction x="180.34" y="246.38"/>
+<wire x1="193.04" y1="231.14" x2="180.34" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="231.14" x2="180.34" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="248.92" x2="180.34" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="248.92" x2="180.34" y2="248.92" width="0.1524" layer="91"/>
+<junction x="180.34" y="248.92"/>
 <pinref part="SD_3V7" gate="G$1" pin="VDD"/>
+<pinref part="Q3" gate="G$1" pin="G"/>
+<pinref part="Q4" gate="G$1" pin="G"/>
 </segment>
 </net>
 <net name="D4-SENSE_3V3_SWITCH" class="0">
@@ -22301,12 +22196,6 @@ Source: Fairchild .. BAT54.pdf</description>
 <pinref part="RCKL1" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$68" class="0">
-<segment>
-<pinref part="D1" gate="G$1" pin="CC"/>
-<wire x1="314.96" y1="215.9" x2="281.94" y2="215.9" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$27" class="0">
 <segment>
 <wire x1="45.72" y1="-38.1" x2="55.88" y2="-38.1" width="0.1524" layer="91"/>
@@ -22345,9 +22234,9 @@ Source: Fairchild .. BAT54.pdf</description>
 <pinref part="PU4" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="S"/>
-<wire x1="200.66" y1="226.06" x2="213.36" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="226.06" x2="215.9" y2="226.06" width="0.1524" layer="91"/>
 <label x="203.2" y="226.06" size="1.778" layer="95"/>
+<pinref part="Q4" gate="G$1" pin="S"/>
 </segment>
 </net>
 <net name="SDA_3V3" class="0">
@@ -22358,9 +22247,9 @@ Source: Fairchild .. BAT54.pdf</description>
 <pinref part="PU3" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="S"/>
 <wire x1="200.66" y1="243.84" x2="213.36" y2="243.84" width="0.1524" layer="91"/>
 <label x="203.2" y="243.84" size="1.778" layer="95"/>
+<pinref part="Q3" gate="G$1" pin="S"/>
 </segment>
 </net>
 </nets>
