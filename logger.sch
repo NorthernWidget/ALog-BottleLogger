@@ -12243,6 +12243,48 @@ chip</description>
 <wire x1="0.043746875" y1="3.08270625" x2="-3.064725" y2="-3.13288125" width="0.3" layer="21"/>
 <wire x1="0.043746875" y1="3.08270625" x2="3.150834375" y2="-3.13288125" width="0.3" layer="21"/>
 </package>
+<package name="NWLOGO_MED">
+<wire x1="-1.16203125" y1="-2.940684375" x2="-3.5298625" y2="1.794290625" width="0.2" layer="21"/>
+<wire x1="-3.5298625" y1="1.794290625" x2="-2.937903125" y2="2.09025625" width="0.2" layer="21"/>
+<wire x1="-2.937903125" y1="2.09025625" x2="-1.16203125" y2="-1.46148125" width="0.2" layer="21"/>
+<polygon width="0" layer="21">
+<vertex x="3.585440625" y="1.992978125"/>
+<vertex x="3.584059375" y="0.692359375"/>
+<vertex x="2.457796875" y="1.34475"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="3.585428125" y="1.992978125"/>
+<vertex x="3.584034375" y="0.692359375"/>
+<vertex x="2.457796875" y="1.34475"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="1.575415625" y="-2.201440625"/>
+<vertex x="1.205109375" y="-2.940684375"/>
+<vertex x="0.021871875" y="-0.57354375"/>
+<vertex x="-1.16203125" y="-2.940684375"/>
+<vertex x="-1.16203125" y="-1.46148125"/>
+<vertex x="0.021871875" y="0.906353125"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="-1.5323625" y="-2.201440625"/>
+<vertex x="-1.16203125" y="-2.940684375"/>
+<vertex x="0.021871875" y="-0.57354375"/>
+<vertex x="1.205109375" y="-2.940684375"/>
+<vertex x="3.424940625" y="1.054328125"/>
+<vertex x="2.83298125" y="1.350321875"/>
+<vertex x="1.205109375" y="-1.46148125"/>
+<vertex x="0.021871875" y="0.906353125"/>
+</polygon>
+<wire x1="-1.16203125" y1="-2.940684375" x2="0.021871875" y2="-0.57354375" width="0.2" layer="21"/>
+<wire x1="0.021871875" y1="-0.57354375" x2="1.205109375" y2="-2.940684375" width="0.2" layer="21"/>
+<wire x1="1.205109375" y1="-2.940684375" x2="3.424940625" y2="1.054328125" width="0.2" layer="21"/>
+<wire x1="2.83298125" y1="1.350321875" x2="1.205109375" y2="-1.46148125" width="0.2" layer="21"/>
+<wire x1="2.457796875" y1="1.34475" x2="3.585428125" y2="1.992978125" width="0.2" layer="21"/>
+<wire x1="3.585428125" y1="1.992978125" x2="3.584034375" y2="0.692359375" width="0.2" layer="21"/>
+<wire x1="3.584034375" y1="0.692359375" x2="2.457796875" y2="1.34475" width="0.2" layer="21"/>
+<wire x1="1.205109375" y1="-1.46148125" x2="0.021871875" y2="0.906353125" width="0.2" layer="21"/>
+<wire x1="0.021871875" y1="0.906353125" x2="-1.5323625" y2="-2.201440625" width="0.2" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ALOG_LOGO">
@@ -12306,6 +12348,19 @@ chip</description>
 </gates>
 <devices>
 <device name="" package="NWLOGO">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NWLOGO_MED">
+<description>Medium-sized Northern Widget logo</description>
+<gates>
+<gate name="G$1" symbol="NWLOGO" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="NWLOGO_MED">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -20632,11 +20687,11 @@ Includes Amendment 1, October 1996&lt;p&gt;
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.2032" drill="0.3048">
 </class>
-<class number="1" name="power" width="0.254" drill="0">
+<class number="1" name="power" width="0.3048" drill="0.508">
 </class>
-<class number="2" name="gnd" width="0.6096" drill="1">
+<class number="2" name="gnd" width="0.6096" drill="0.508">
 <clearance class="2" value="0.2032"/>
 </class>
 <class number="3" name="usbvcc" width="0.508" drill="0.508">
@@ -20750,7 +20805,6 @@ Includes Amendment 1, October 1996&lt;p&gt;
 <part name="SUPPLY37" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY38" library="supply2" deviceset="GND" device=""/>
 <part name="P+17" library="supply1" deviceset="VCC" device=""/>
-<part name="P+22" library="supply1" deviceset="VCC" device=""/>
 <part name="U3" library="SparkFun-DigitalIC" deviceset="FT231X" device="S"/>
 <part name="C17" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
 <part name="C18" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value="47pF"/>
@@ -20800,6 +20854,8 @@ Includes Amendment 1, October 1996&lt;p&gt;
 <part name="P+13" library="supply1" deviceset="VCC" device=""/>
 <part name="Q3" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="SOT323" value="2N7002PW"/>
 <part name="Q4" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="SOT323" value="2N7002PW"/>
+<part name="U$3" library="awickert" deviceset="NWLOGO_MED" device=""/>
+<part name="SD_3V8" library="supply1" deviceset="VDD" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -20926,7 +20982,6 @@ Includes Amendment 1, October 1996&lt;p&gt;
 <instance part="SUPPLY37" gate="GND" x="297.18" y="15.24"/>
 <instance part="SUPPLY38" gate="GND" x="297.18" y="30.48"/>
 <instance part="P+17" gate="VCC" x="292.1" y="40.64"/>
-<instance part="P+22" gate="VCC" x="292.1" y="25.4"/>
 <instance part="U3" gate="G$1" x="33.02" y="-53.34"/>
 <instance part="C17" gate="G$1" x="27.94" y="-22.86"/>
 <instance part="C18" gate="G$1" x="-2.54" y="-58.42"/>
@@ -20982,6 +21037,8 @@ Includes Amendment 1, October 1996&lt;p&gt;
 <instance part="P+13" gate="VCC" x="220.98" y="269.24"/>
 <instance part="Q3" gate="G$1" x="200.66" y="248.92"/>
 <instance part="Q4" gate="G$1" x="200.66" y="231.14"/>
+<instance part="U$3" gate="G$1" x="-5.08" y="220.98"/>
+<instance part="SD_3V8" gate="G$1" x="292.1" y="25.4"/>
 </instances>
 <busses>
 </busses>
@@ -21065,11 +21122,6 @@ Includes Amendment 1, October 1996&lt;p&gt;
 <pinref part="C15" gate="C" pin="1"/>
 <wire x1="292.1" y1="35.56" x2="292.1" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="P+17" gate="VCC" pin="VCC"/>
-</segment>
-<segment>
-<pinref part="C15" gate="D" pin="1"/>
-<wire x1="292.1" y1="20.32" x2="292.1" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="P+22" gate="VCC" pin="VCC"/>
 </segment>
 <segment>
 <pinref part="RCKL1" gate="G$1" pin="2"/>
@@ -21669,12 +21721,6 @@ Includes Amendment 1, October 1996&lt;p&gt;
 </net>
 <net name="DTR" class="0">
 <segment>
-<pinref part="U3" gate="G$1" pin="!DTR"/>
-<wire x1="45.72" y1="-50.8" x2="48.26" y2="-50.8" width="0.1524" layer="91"/>
-<label x="48.26" y="-50.8" size="1.27" layer="95" xref="yes"/>
-<label x="58.42" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="Q5" gate="G$1" pin="S"/>
 <pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="68.58" y1="157.48" x2="66.04" y2="157.48" width="0.1524" layer="91"/>
@@ -21682,6 +21728,11 @@ Includes Amendment 1, October 1996&lt;p&gt;
 <wire x1="66.04" y1="157.48" x2="58.42" y2="157.48" width="0.1524" layer="91"/>
 <junction x="66.04" y="157.48"/>
 <label x="58.42" y="157.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="!DTR"/>
+<wire x1="45.72" y1="-50.8" x2="53.34" y2="-50.8" width="0.1524" layer="91"/>
+<label x="48.26" y="-50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BAT" class="0">
@@ -21819,13 +21870,6 @@ Includes Amendment 1, October 1996&lt;p&gt;
 <pinref part="SD" gate="G$1" pin="CS"/>
 </segment>
 </net>
-<net name="CD_NOT_CONNECTED" class="0">
-<segment>
-<wire x1="137.16" y1="223.52" x2="104.14" y2="223.52" width="0.1524" layer="91"/>
-<label x="104.14" y="223.52" size="1.778" layer="95"/>
-<pinref part="SD" gate="G$1" pin="CARD_DETECT"/>
-</segment>
-</net>
 <net name="D8-SD_3V3_SWITCH" class="0">
 <segment>
 <wire x1="152.4" y1="76.2" x2="177.8" y2="76.2" width="0.1524" layer="91"/>
@@ -21884,6 +21928,11 @@ Includes Amendment 1, October 1996&lt;p&gt;
 <pinref part="SD_3V7" gate="G$1" pin="VDD"/>
 <pinref part="Q3" gate="G$1" pin="G"/>
 <pinref part="Q4" gate="G$1" pin="G"/>
+</segment>
+<segment>
+<pinref part="C15" gate="D" pin="1"/>
+<wire x1="292.1" y1="20.32" x2="292.1" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="SD_3V8" gate="G$1" pin="VDD"/>
 </segment>
 </net>
 <net name="D4-SENSE_3V3_SWITCH" class="0">
@@ -22051,34 +22100,6 @@ Includes Amendment 1, October 1996&lt;p&gt;
 <pinref part="RSTAT" gate="G$1" pin="1"/>
 <junction x="10.16" y="127"/>
 <pinref part="IC1" gate="G$1" pin="STAT"/>
-</segment>
-</net>
-<net name="RTS" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="!RTS"/>
-<wire x1="45.72" y1="-45.72" x2="48.26" y2="-45.72" width="0.1524" layer="91"/>
-<label x="48.26" y="-45.72" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="DSR" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="!DSR"/>
-<wire x1="45.72" y1="-53.34" x2="48.26" y2="-53.34" width="0.1524" layer="91"/>
-<label x="48.26" y="-53.34" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="DCD" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="!DCD"/>
-<wire x1="45.72" y1="-55.88" x2="48.26" y2="-55.88" width="0.1524" layer="91"/>
-<label x="48.26" y="-55.88" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="RI" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="!RI"/>
-<wire x1="45.72" y1="-58.42" x2="48.26" y2="-58.42" width="0.1524" layer="91"/>
-<label x="48.26" y="-58.42" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$56" class="0">
@@ -22255,6 +22276,26 @@ Includes Amendment 1, October 1996&lt;p&gt;
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="101,1,208.28,203.2,LSHIFTD,O,,,,"/>
+<approved hash="101,1,139.7,162.56,LSHIFTE,O,,,,"/>
+<approved hash="101,1,167.64,162.56,LSHIFTF,O,,,,"/>
+<approved hash="102,1,137.16,193.04,VSS1,GND,,,,"/>
+<approved hash="102,1,137.16,190.5,VSS2,GND,,,,"/>
+<approved hash="104,1,129.54,154.94,LSHIFTP,VSS,GND,,,"/>
+<approved hash="104,1,317.5,180.34,CLOCK_BATT,-,GND,,,"/>
+<approved hash="104,1,317.5,190.5,CLOCK_BATT,+,N$2,,,"/>
+<approved hash="113,1,216.577,109.025,H0,,,,,"/>
+<approved hash="113,1,208.493,69.5748,R_REF_A2,,,,,"/>
+<approved hash="113,1,208.493,59.4148,R_REF_A3,,,,,"/>
+<approved hash="113,1,151.13,51.1217,LED,,,,,"/>
+<approved hash="113,1,208.493,79.7348,R_REF_A1,,,,,"/>
+<approved hash="113,1,208.493,49.2548,R_REF_A6,,,,,"/>
+<approved hash="113,1,208.493,39.0948,R_REF_A7,,,,,"/>
+<approved hash="113,1,295.317,109.025,H1,,,,,"/>
+<approved hash="113,1,361.357,114.105,JP6,,,,,"/>
+<approved hash="113,1,330.877,103.945,H3,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
