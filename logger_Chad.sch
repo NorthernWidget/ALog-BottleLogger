@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -20892,6 +20892,12 @@ Source: RS Component / Phycomp</description>
 <wire x1="254" y1="38.1" x2="266.7" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="C15" gate="C" pin="2"/>
 <wire x1="254" y1="27.94" x2="266.7" y2="27.94" width="0.1524" layer="91"/>
+<junction x="266.7" y="78.74"/>
+<junction x="266.7" y="68.58"/>
+<junction x="266.7" y="58.42"/>
+<junction x="266.7" y="48.26"/>
+<junction x="266.7" y="38.1"/>
+<junction x="266.7" y="27.94"/>
 </segment>
 <segment>
 <pinref part="SUPPLY37" gate="GND" pin="GND"/>
