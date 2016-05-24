@@ -21139,7 +21139,7 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <attribute name="VALUE" x="124.46" y="-38.1" size="1.778" layer="96"/>
 </instance>
 <instance part="L1" gate="G$1" x="165.1" y="-27.94" smashed="yes">
-<attribute name="VALUE" x="161.29" y="-25.4" size="1.778" layer="96"/>
+<attribute name="VALUE" x="161.29" y="-30.48" size="1.778" layer="96"/>
 </instance>
 <instance part="C1" gate="G$1" x="180.34" y="-30.48" smashed="yes">
 <attribute name="VALUE" x="181.356" y="-34.671" size="1.778" layer="96"/>
@@ -21266,21 +21266,15 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <label x="284.48" y="271.78" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="TPS6122" gate="G$1" pin="EN"/>
-<wire x1="152.4" y1="-22.86" x2="147.32" y2="-22.86" width="0.1524" layer="91"/>
 <pinref part="TPS6122" gate="G$1" pin="VIN"/>
 <wire x1="116.84" y1="-22.86" x2="111.76" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="-22.86" x2="111.76" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="-15.24" x2="152.4" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="-15.24" x2="175.26" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="-15.24" x2="175.26" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="-15.24" x2="180.34" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="-15.24" x2="180.34" y2="-27.94" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="-27.94" x2="172.72" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="-22.86" x2="152.4" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="-27.94" x2="172.72" y2="-27.94" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="+"/>
-<wire x1="175.26" y1="-27.94" x2="180.34" y2="-27.94" width="0.1524" layer="91"/>
-<junction x="152.4" y="-15.24"/>
-<junction x="175.26" y="-27.94"/>
+<junction x="180.34" y="-27.94"/>
 <wire x1="111.76" y1="-22.86" x2="109.22" y2="-22.86" width="0.1524" layer="91"/>
 <pinref part="P+9" gate="VCC" pin="VCC"/>
 <junction x="111.76" y="-22.86"/>
@@ -21776,6 +21770,11 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <wire x1="152.4" y1="83.82" x2="157.48" y2="83.82" width="0.1524" layer="91"/>
 <label x="154.94" y="83.82" size="1.778" layer="95"/>
 <pinref part="MCU" gate="G$1" pin="PD6(AIN0)"/>
+</segment>
+<segment>
+<pinref part="TPS6122" gate="G$1" pin="EN"/>
+<wire x1="152.4" y1="-22.86" x2="147.32" y2="-22.86" width="0.1524" layer="91"/>
+<label x="147.32" y="-22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LED+" class="0">
