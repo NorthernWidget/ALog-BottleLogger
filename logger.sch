@@ -22084,11 +22084,6 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 </net>
 <net name="GND" class="0">
 <segment>
-<wire x1="276.86" y1="111.76" x2="266.7" y2="111.76" width="0.1524" layer="91"/>
-<label x="266.7" y="111.76" size="1.778" layer="95"/>
-<pinref part="H3" gate="G$1" pin="6"/>
-</segment>
-<segment>
 <wire x1="78.74" y1="101.6" x2="71.12" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="91.44" x2="71.12" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="101.6" x2="71.12" y2="91.44" width="0.1524" layer="91"/>
@@ -22426,6 +22421,11 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <pinref part="5V" gate="G$1" pin="5V"/>
 <junction x="152.4" y="-33.02"/>
 <junction x="160.02" y="-33.02"/>
+</segment>
+<segment>
+<pinref part="H3" gate="G$1" pin="6"/>
+<wire x1="276.86" y1="111.76" x2="266.7" y2="111.76" width="0.1524" layer="91"/>
+<label x="266.7" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
