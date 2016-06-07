@@ -21736,17 +21736,6 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 </net>
 <net name="D6-CLOCK_3V3_SWITCH" class="0">
 <segment>
-<wire x1="152.4" y1="88.9" x2="185.42" y2="88.9" width="0.1524" layer="91"/>
-<label x="154.94" y="88.9" size="1.778" layer="95"/>
-<pinref part="MCU" gate="G$1" pin="PD4(XCK/T0)"/>
-</segment>
-<segment>
-<wire x1="116.84" y1="17.78" x2="116.84" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="15.24" x2="83.82" y2="15.24" width="0.1524" layer="91"/>
-<label x="83.82" y="15.24" size="1.778" layer="95"/>
-<pinref part="SENSE" gate="G$1" pin="EN"/>
-</segment>
-<segment>
 <wire x1="287.02" y1="256.54" x2="287.02" y2="254" width="0.1524" layer="91"/>
 <wire x1="287.02" y1="254" x2="254" y2="254" width="0.1524" layer="91"/>
 <label x="254" y="254" size="1.778" layer="95"/>
@@ -21756,11 +21745,6 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <wire x1="152.4" y1="83.82" x2="157.48" y2="83.82" width="0.1524" layer="91"/>
 <label x="154.94" y="83.82" size="1.778" layer="95"/>
 <pinref part="MCU" gate="G$1" pin="PD6(AIN0)"/>
-</segment>
-<segment>
-<pinref part="TPS6122" gate="G$1" pin="EN"/>
-<wire x1="152.4" y1="-22.86" x2="147.32" y2="-22.86" width="0.1524" layer="91"/>
-<label x="147.32" y="-22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LED+" class="0">
@@ -22422,6 +22406,24 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <pinref part="H3" gate="G$1" pin="6"/>
 <wire x1="276.86" y1="111.76" x2="266.7" y2="111.76" width="0.1524" layer="91"/>
 <label x="266.7" y="111.76" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D4-SENSE_3V3_SWITCH" class="0">
+<segment>
+<pinref part="TPS6122" gate="G$1" pin="EN"/>
+<wire x1="147.32" y1="-22.86" x2="167.64" y2="-22.86" width="0.1524" layer="91"/>
+<label x="152.4" y="-22.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="MCU" gate="G$1" pin="PD4(XCK/T0)"/>
+<wire x1="152.4" y1="88.9" x2="175.26" y2="88.9" width="0.1524" layer="91"/>
+<label x="154.94" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SENSE" gate="G$1" pin="EN"/>
+<wire x1="116.84" y1="17.78" x2="116.84" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="15.24" x2="86.36" y2="15.24" width="0.1524" layer="91"/>
+<label x="86.36" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
