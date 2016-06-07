@@ -20888,8 +20888,6 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <part name="RCKL1" library="rcl" deviceset="R-US_" device="R0603" value="220"/>
 <part name="RCLK2" library="rcl" deviceset="R-US_" device="R0603" value="220"/>
 <part name="P+10" library="supply1" deviceset="VCC" device=""/>
-<part name="SD_3V5" library="supply1" deviceset="VDD" device=""/>
-<part name="SD_3V6" library="supply1" deviceset="VDD" device=""/>
 <part name="SD_3V7" library="supply1" deviceset="VDD" device=""/>
 <part name="P+12" library="supply1" deviceset="VCC" device=""/>
 <part name="P+13" library="supply1" deviceset="VCC" device=""/>
@@ -21070,8 +21068,6 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <instance part="RCKL1" gate="G$1" x="330.2" y="223.52"/>
 <instance part="RCLK2" gate="G$1" x="317.5" y="203.2" rot="R270"/>
 <instance part="P+10" gate="VCC" x="342.9" y="231.14"/>
-<instance part="SD_3V5" gate="G$1" x="294.64" y="236.22"/>
-<instance part="SD_3V6" gate="G$1" x="304.8" y="233.68"/>
 <instance part="SD_3V7" gate="G$1" x="180.34" y="254"/>
 <instance part="P+12" gate="VCC" x="231.14" y="251.46"/>
 <instance part="P+13" gate="VCC" x="220.98" y="269.24"/>
@@ -21723,16 +21719,6 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <pinref part="SD_3V2" gate="G$1" pin="VDD"/>
 </segment>
 <segment>
-<pinref part="SD_3V5" gate="G$1" pin="VDD"/>
-<wire x1="294.64" y1="233.68" x2="294.64" y2="231.14" width="0.1524" layer="91"/>
-<pinref part="RN2" gate="C" pin="2"/>
-</segment>
-<segment>
-<pinref part="SD_3V6" gate="G$1" pin="VDD"/>
-<wire x1="304.8" y1="231.14" x2="304.8" y2="228.6" width="0.1524" layer="91"/>
-<pinref part="RN2" gate="D" pin="2"/>
-</segment>
-<segment>
 <wire x1="193.04" y1="231.14" x2="180.34" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="231.14" x2="180.34" y2="248.92" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="248.92" x2="180.34" y2="251.46" width="0.1524" layer="91"/>
@@ -22071,6 +22057,16 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <wire x1="236.22" y1="218.44" x2="231.14" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="218.44" x2="231.14" y2="228.6" width="0.1524" layer="91"/>
 <label x="231.14" y="223.52" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<wire x1="294.64" y1="241.3" x2="294.64" y2="231.14" width="0.1524" layer="91"/>
+<pinref part="RN2" gate="C" pin="2"/>
+<label x="294.64" y="233.68" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<wire x1="304.8" y1="238.76" x2="304.8" y2="228.6" width="0.1524" layer="91"/>
+<pinref part="RN2" gate="D" pin="2"/>
+<label x="304.8" y="231.14" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="N$12" class="0">
