@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1891,8 +1891,8 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="81.2701" y="26.8697" size="0.6096" layer="27"/>
 </element>
 <element name="Q2" library="transistor-power" package="SUPER-SOT3" value="FDN360P" x="81.425" y="29.4175" smashed="yes" rot="R180"/>
-<element name="COUT" library="rcl" package="C0603" value="1uF" x="95.5675" y="32.7025" smashed="yes" rot="R90">
-<attribute name="VALUE" x="97.028" y="33.274" size="0.8128" layer="27" rot="R270"/>
+<element name="COUT" library="rcl" package="C0603" value="1uF" x="95.7199" y="32.7025" smashed="yes" rot="R90">
+<attribute name="VALUE" x="97.028" y="33.5788" size="0.8128" layer="27" rot="R270"/>
 </element>
 <element name="RSTAT" library="rcl" package="R0603" value="470k" x="91.7575" y="41.5925" smashed="yes" rot="R270">
 <attribute name="VALUE" x="90.17" y="42.8625" size="0.6096" layer="27" rot="R270"/>
@@ -1936,7 +1936,7 @@ design rules under a new name.</description>
 </element>
 <element name="LED1" library="SparkFun-LED" package="LED-0603" value="Yellow" x="91.935" y="2.835" smashed="yes" rot="R180"/>
 <element name="LED2" library="SparkFun-LED" package="LED-0603" value="Blue" x="90.1775" y="2.835" smashed="yes" rot="R180"/>
-<element name="CLOCK_BATT_DECOUP" library="rcl" package="C0603" value="1uF" x="93.5355" y="32.7025" smashed="yes" rot="R90"/>
+<element name="CLOCK_BATT_DECOUP" library="rcl" package="C0603" value="1uF" x="93.6879" y="32.7025" smashed="yes" rot="R90"/>
 <element name="D1" library="semicon-smd-ipc" package="SOT23C" value="BAT54C" x="82.305" y="24.9125" smashed="yes" rot="R270">
 <attribute name="VALUE" x="79.63" y="26.6175" size="0.6096" layer="27" rot="R270"/>
 </element>
@@ -2101,7 +2101,7 @@ design rules under a new name.</description>
 <via x="54.102" y="42.672" extent="1-16" drill="0.3048"/>
 <wire x1="96.4692" y1="32.766" x2="95.7072" y2="32.004" width="0.2032" layer="1"/>
 <wire x1="96.4692" y1="35.2044" x2="96.4692" y2="32.766" width="0.2032" layer="1"/>
-<wire x1="95.7072" y1="32.004" x2="95.5675" y2="31.8525" width="0.2032" layer="1"/>
+<wire x1="95.7072" y1="32.004" x2="95.7199" y2="31.8525" width="0.2032" layer="1"/>
 <wire x1="96.4692" y1="35.2044" x2="96.52" y2="35.345" width="0.2032" layer="1"/>
 <wire x1="92.6592" y1="40.6908" x2="91.8972" y2="40.6908" width="0.2032" layer="1"/>
 <wire x1="95.7072" y1="37.6428" x2="93.726" y2="39.624" width="0.2032" layer="1"/>
@@ -2626,7 +2626,7 @@ design rules under a new name.</description>
 <wire x1="88.2396" y1="23.0124" x2="89.7636" y2="24.5364" width="0.2032" layer="1"/>
 <wire x1="85.344" y1="23.0124" x2="88.2396" y2="23.0124" width="0.2032" layer="1"/>
 <wire x1="83.5152" y1="24.8412" x2="85.344" y2="23.0124" width="0.2032" layer="1"/>
-<wire x1="93.4212" y1="31.8516" x2="93.5355" y2="31.8525" width="0.2032" layer="1"/>
+<wire x1="93.4212" y1="31.8516" x2="93.6879" y2="31.8525" width="0.2032" layer="1"/>
 <wire x1="83.5152" y1="24.8412" x2="83.405" y2="24.9125" width="0.2032" layer="1"/>
 <wire x1="69.342" y1="24.6888" x2="68.7324" y2="24.6888" width="0.2032" layer="1"/>
 <wire x1="70.2564" y1="23.7744" x2="69.342" y2="24.6888" width="0.2032" layer="1"/>
@@ -3550,9 +3550,17 @@ design rules under a new name.</description>
 <wire x1="42.4053" y1="19.3929" x2="42.672" y2="19.6596" width="0.2032" layer="1"/>
 <wire x1="42.672" y1="19.6596" x2="43.3895" y2="19.6596" width="0.2032" layer="1"/>
 <wire x1="43.3895" y1="19.6596" x2="43.4975" y2="19.7676" width="0.2032" layer="1"/>
-<wire x1="66.167" y1="15.748" x2="64.4652" y2="14.2376" width="0" layer="19" extent="1-1"/>
-<wire x1="56.2102" y1="21.17" x2="59.4334" y2="20.9042" width="0" layer="19" extent="1-1"/>
-<wire x1="53.975" y1="26.035" x2="56.515" y2="23.8769" width="0" layer="19" extent="1-1"/>
+<via x="61.5696" y="22.2504" extent="1-16" drill="0.3048" shape="octagon"/>
+<via x="56.0832" y="22.5552" extent="1-16" drill="0.3048" shape="octagon"/>
+<via x="64.77" y="5.334" extent="1-16" drill="0.3048" shape="octagon"/>
+<via x="81.3816" y="33.8328" extent="1-16" drill="0.3048" shape="octagon"/>
+<via x="76.3524" y="32.004" extent="1-16" drill="0.3048" shape="octagon"/>
+<via x="59.2836" y="30.6324" extent="1-16" drill="0.3048" shape="octagon"/>
+<via x="74.0664" y="28.194" extent="1-16" drill="0.3048" shape="octagon"/>
+<via x="79.0956" y="15.0876" extent="1-16" drill="0.3048" shape="octagon"/>
+<via x="82.4484" y="19.812" extent="1-16" drill="0.3048" shape="octagon"/>
+<via x="81.8388" y="22.5552" extent="1-16" drill="0.3048" shape="octagon"/>
+<via x="86.4108" y="22.098" extent="1-16" drill="0.3048" shape="octagon"/>
 </signal>
 <signal name="5V">
 <contactref element="H1" pad="6"/>
