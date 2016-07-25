@@ -20318,7 +20318,6 @@ at 30/07/2012 10:08:22</description>
 <part name="R_RESET" library="rcl" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="SUPPLY4" library="supply2" deviceset="GND" device=""/>
-<part name="H0" library="SparkFun" deviceset="M08" device="3.5MM-8"/>
 <part name="A0" library="resistor" deviceset="R-US_" device="0207/10"/>
 <part name="SUPPLY12" library="supply2" deviceset="GND" device=""/>
 <part name="A2" library="resistor" deviceset="R-US_" device="0207/10"/>
@@ -20356,8 +20355,6 @@ at 30/07/2012 10:08:22</description>
 <part name="MCU" library="SparkFun" deviceset="ATMEGA168" device="" value="ATMega328"/>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
-<part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
-<part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
 <part name="A1" library="resistor" deviceset="R-US_" device="0207/10"/>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
 <part name="A6" library="resistor" deviceset="R-US_" device="0207/10"/>
@@ -20437,7 +20434,7 @@ at 30/07/2012 10:08:22</description>
 <part name="SUPPLY46" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY45" library="supply2" deviceset="GND" device=""/>
 <part name="5V2" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
-<part name="3.3_SENSE_LT1461" library="LTC_By_element14_Batch_1" deviceset="LT1461DHS8-5PBF" device=""/>
+<part name="3.3_SENSE" library="LTC_By_element14_Batch_1" deviceset="LT1461DHS8-5PBF" device=""/>
 <part name="CLOCK_CIN" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
 <part name="SD_CIN" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
 <part name="SENSE_CIN" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
@@ -20449,6 +20446,9 @@ at 30/07/2012 10:08:22</description>
 <part name="C1" library="resistor" deviceset="C-EU" device="C0603" value="0.1uF"/>
 <part name="SUPPLY43" library="supply2" deviceset="GND" device=""/>
 <part name="CLOCK_BATT_DECOUPLE" library="SparkFun-Passives" deviceset="CAP_POL" device="1206" value="10uF"/>
+<part name="H0" library="SparkFun" deviceset="M08" device="3.5MM-8"/>
+<part name="SUPPLY19" library="supply2" deviceset="GND" device=""/>
+<part name="SUPPLY44" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -20490,7 +20490,6 @@ at 30/07/2012 10:08:22</description>
 <instance part="R_RESET" gate="G$1" x="53.34" y="187.96" rot="R90"/>
 <instance part="P+1" gate="VCC" x="53.34" y="200.66"/>
 <instance part="SUPPLY4" gate="GND" x="53.34" y="160.02"/>
-<instance part="H0" gate="G$1" x="203.2" y="116.84" rot="R180"/>
 <instance part="A0" gate="G$1" x="233.68" y="78.74"/>
 <instance part="SUPPLY12" gate="GND" x="45.72" y="78.74"/>
 <instance part="A2" gate="G$1" x="233.68" y="58.42"/>
@@ -20534,8 +20533,6 @@ at 30/07/2012 10:08:22</description>
 <instance part="MCU" gate="G$1" x="127" y="96.52"/>
 <instance part="+3V8" gate="G$1" x="231.14" y="121.92" rot="R90"/>
 <instance part="+3V2" gate="G$1" x="180.34" y="116.84" rot="R90"/>
-<instance part="+3V9" gate="G$1" x="185.42" y="111.76" rot="R90"/>
-<instance part="+3V10" gate="G$1" x="190.5" y="106.68" rot="R90"/>
 <instance part="A1" gate="G$1" x="233.68" y="68.58"/>
 <instance part="SUPPLY5" gate="GND" x="226.06" y="66.04"/>
 <instance part="A6" gate="G$1" x="233.68" y="38.1"/>
@@ -20671,7 +20668,7 @@ at 30/07/2012 10:08:22</description>
 <instance part="5V2" gate="G$1" x="292.1" y="-15.24" smashed="yes">
 <attribute name="VALUE" x="293.624" y="-11.684" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="3.3_SENSE_LT1461" gate="A" x="132.08" y="-17.78"/>
+<instance part="3.3_SENSE" gate="A" x="132.08" y="-17.78"/>
 <instance part="CLOCK_CIN" gate="G$1" x="294.64" y="170.18"/>
 <instance part="SD_CIN" gate="G$1" x="203.2" y="172.72"/>
 <instance part="SENSE_CIN" gate="G$1" x="88.9" y="-2.54"/>
@@ -20690,6 +20687,9 @@ at 30/07/2012 10:08:22</description>
 <attribute name="NAME" x="318.516" y="234.315" size="1.778" layer="95"/>
 <attribute name="VALUE" x="331.216" y="244.729" size="1.778" layer="96"/>
 </instance>
+<instance part="H0" gate="G$1" x="203.2" y="119.38" rot="R180"/>
+<instance part="SUPPLY19" gate="GND" x="180.34" y="124.46"/>
+<instance part="SUPPLY44" gate="GND" x="187.96" y="109.22"/>
 </instances>
 <busses>
 </busses>
@@ -20703,6 +20703,7 @@ at 30/07/2012 10:08:22</description>
 <wire x1="215.9" y1="177.8" x2="203.2" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="SD_CIN" gate="G$1" pin="1"/>
 <wire x1="203.2" y1="177.8" x2="203.2" y2="175.26" width="0.1524" layer="91"/>
+<junction x="215.9" y="177.8"/>
 </segment>
 <segment>
 <wire x1="104.14" y1="114.3" x2="45.72" y2="114.3" width="0.1524" layer="91"/>
@@ -20760,9 +20761,9 @@ at 30/07/2012 10:08:22</description>
 <pinref part="H1" gate="G$1" pin="7"/>
 </segment>
 <segment>
-<wire x1="276.86" y1="114.3" x2="266.7" y2="114.3" width="0.1524" layer="91"/>
-<label x="266.7" y="114.3" size="1.778" layer="95"/>
-<pinref part="H3" gate="G$1" pin="5"/>
+<label x="266.7" y="116.84" size="1.778" layer="95"/>
+<wire x1="266.7" y1="116.84" x2="276.86" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="H3" gate="G$1" pin="4"/>
 </segment>
 <segment>
 <pinref part="RCKL1" gate="G$1" pin="2"/>
@@ -20789,6 +20790,7 @@ at 30/07/2012 10:08:22</description>
 <wire x1="312.42" y1="175.26" x2="294.64" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="CLOCK_CIN" gate="G$1" pin="1"/>
 <wire x1="294.64" y1="175.26" x2="294.64" y2="172.72" width="0.1524" layer="91"/>
+<junction x="312.42" y="175.26"/>
 </segment>
 <segment>
 <pinref part="P+8" gate="VCC" pin="VCC"/>
@@ -20802,7 +20804,7 @@ at 30/07/2012 10:08:22</description>
 <junction x="223.52" y="2.54"/>
 </segment>
 <segment>
-<pinref part="3.3_SENSE_LT1461" gate="A" pin="VIN"/>
+<pinref part="3.3_SENSE" gate="A" pin="VIN"/>
 <pinref part="P+3" gate="VCC" pin="VCC"/>
 <wire x1="114.3" y1="-10.16" x2="114.3" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="SENSE_CIN" gate="G$1" pin="1"/>
@@ -20963,7 +20965,7 @@ at 30/07/2012 10:08:22</description>
 <segment>
 <wire x1="198.12" y1="114.3" x2="193.04" y2="114.3" width="0.1524" layer="91"/>
 <label x="193.04" y="114.3" size="1.778" layer="95"/>
-<pinref part="H0" gate="G$1" pin="5"/>
+<pinref part="H0" gate="G$1" pin="6"/>
 </segment>
 <segment>
 <pinref part="A2" gate="G$1" pin="2"/>
@@ -20993,13 +20995,13 @@ at 30/07/2012 10:08:22</description>
 <junction x="154.94" y="-7.62"/>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
 <pinref part="C_LDO_SENSE" gate="G$1" pin="2"/>
-<pinref part="3.3_SENSE_LT1461" gate="A" pin="VOUT"/>
+<pinref part="3.3_SENSE" gate="A" pin="VOUT"/>
 <wire x1="154.94" y1="-10.16" x2="149.86" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="190.5" y1="121.92" x2="198.12" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="H0" gate="G$1" pin="2"/>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
+<pinref part="H0" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <wire x1="101.6" y1="106.68" x2="104.14" y2="106.68" width="0.1524" layer="91"/>
@@ -21018,25 +21020,15 @@ at 30/07/2012 10:08:22</description>
 </segment>
 <segment>
 <wire x1="198.12" y1="116.84" x2="182.88" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="H0" gate="G$1" pin="4"/>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
+<pinref part="H0" gate="G$1" pin="5"/>
 </segment>
 <segment>
-<wire x1="198.12" y1="111.76" x2="187.96" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="H0" gate="G$1" pin="6"/>
-<pinref part="+3V9" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
-<wire x1="198.12" y1="106.68" x2="193.04" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="H0" gate="G$1" pin="8"/>
-<pinref part="+3V10" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
-<wire x1="276.86" y1="109.22" x2="259.08" y2="109.22" width="0.1524" layer="91"/>
-<label x="266.7" y="109.22" size="1.778" layer="95"/>
-<wire x1="259.08" y1="109.22" x2="259.08" y2="114.3" width="0.1524" layer="91"/>
+<label x="266.7" y="111.76" size="1.778" layer="95"/>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
-<pinref part="H3" gate="G$1" pin="7"/>
+<pinref part="H3" gate="G$1" pin="6"/>
+<wire x1="259.08" y1="111.76" x2="259.08" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="111.76" x2="259.08" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -21122,7 +21114,7 @@ at 30/07/2012 10:08:22</description>
 <segment>
 <wire x1="198.12" y1="124.46" x2="193.04" y2="124.46" width="0.1524" layer="91"/>
 <label x="193.04" y="124.46" size="1.778" layer="95"/>
-<pinref part="H0" gate="G$1" pin="1"/>
+<pinref part="H0" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="152.4" y1="121.92" x2="157.48" y2="121.92" width="0.1524" layer="91"/>
@@ -21145,7 +21137,7 @@ at 30/07/2012 10:08:22</description>
 <segment>
 <wire x1="198.12" y1="109.22" x2="193.04" y2="109.22" width="0.1524" layer="91"/>
 <label x="193.04" y="109.22" size="1.778" layer="95"/>
-<pinref part="H0" gate="G$1" pin="7"/>
+<pinref part="H0" gate="G$1" pin="8"/>
 </segment>
 <segment>
 <pinref part="A3" gate="G$1" pin="2"/>
@@ -21174,9 +21166,9 @@ at 30/07/2012 10:08:22</description>
 <pinref part="MCU" gate="G$1" pin="PD7(AIN1)"/>
 </segment>
 <segment>
-<wire x1="276.86" y1="116.84" x2="261.62" y2="116.84" width="0.1524" layer="91"/>
-<label x="261.62" y="116.84" size="1.778" layer="95"/>
-<pinref part="H3" gate="G$1" pin="4"/>
+<label x="261.62" y="114.3" size="1.778" layer="95"/>
+<wire x1="261.62" y1="114.3" x2="276.86" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="H3" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="X0" class="0">
@@ -21360,7 +21352,7 @@ at 30/07/2012 10:08:22</description>
 <segment>
 <wire x1="198.12" y1="119.38" x2="193.04" y2="119.38" width="0.1524" layer="91"/>
 <label x="193.04" y="119.38" size="1.778" layer="95"/>
-<pinref part="H0" gate="G$1" pin="3"/>
+<pinref part="H0" gate="G$1" pin="4"/>
 </segment>
 <segment>
 <pinref part="A1" gate="G$1" pin="2"/>
@@ -21907,7 +21899,7 @@ at 30/07/2012 10:08:22</description>
 </segment>
 <segment>
 <pinref part="SUPPLY22" gate="GND" pin="GND"/>
-<pinref part="3.3_SENSE_LT1461" gate="A" pin="GND"/>
+<pinref part="3.3_SENSE" gate="A" pin="GND"/>
 <wire x1="111.76" y1="-33.02" x2="114.3" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -21929,6 +21921,16 @@ at 30/07/2012 10:08:22</description>
 <pinref part="SUPPLY37" gate="GND" pin="GND"/>
 <wire x1="297.18" y1="20.32" x2="297.18" y2="17.78" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="SUPPLY19" gate="GND" pin="GND"/>
+<pinref part="H0" gate="G$1" pin="1"/>
+<wire x1="180.34" y1="127" x2="198.12" y2="127" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="H0" gate="G$1" pin="7"/>
+<pinref part="SUPPLY44" gate="GND" pin="GND"/>
+<wire x1="198.12" y1="111.76" x2="187.96" y2="111.76" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="5V" class="0">
 <segment>
@@ -21939,9 +21941,9 @@ at 30/07/2012 10:08:22</description>
 <wire x1="226.06" y1="119.38" x2="220.98" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="H3" gate="G$1" pin="6"/>
-<wire x1="276.86" y1="111.76" x2="266.7" y2="111.76" width="0.1524" layer="91"/>
-<label x="266.7" y="111.76" size="1.778" layer="95"/>
+<label x="266.7" y="109.22" size="1.778" layer="95"/>
+<wire x1="266.7" y1="109.22" x2="276.86" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="H3" gate="G$1" pin="7"/>
 </segment>
 <segment>
 <pinref part="5V_CHARGE_PUMP" gate="A" pin="VOUT"/>
@@ -21963,7 +21965,7 @@ at 30/07/2012 10:08:22</description>
 <wire x1="111.76" y1="-15.24" x2="111.76" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="-22.86" x2="81.28" y2="-22.86" width="0.1524" layer="91"/>
 <label x="81.28" y="-22.86" size="1.778" layer="95"/>
-<pinref part="3.3_SENSE_LT1461" gate="A" pin="~SHDN"/>
+<pinref part="3.3_SENSE" gate="A" pin="~SHDN"/>
 <wire x1="111.76" y1="-15.24" x2="114.3" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -22015,20 +22017,16 @@ at 30/07/2012 10:08:22</description>
 <wire x1="-68.58" y1="58.42" x2="-73.66" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="58.42" x2="-73.66" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
+<junction x="-73.66" y="73.66"/>
+<junction x="-73.66" y="58.42"/>
 </segment>
 </net>
 </nets>
 </sheet>
 </sheets>
 <errors>
-<approved hash="101,1,208.28,203.2,LSHIFTD,O,,,,"/>
-<approved hash="101,1,139.7,162.56,LSHIFTE,O,,,,"/>
-<approved hash="101,1,167.64,162.56,LSHIFTF,O,,,,"/>
 <approved hash="102,1,137.16,193.04,VSS1,GND,,,,"/>
 <approved hash="102,1,137.16,190.5,VSS2,GND,,,,"/>
-<approved hash="104,1,129.54,154.94,LSHIFTP,VSS,GND,,,"/>
-<approved hash="104,1,317.5,180.34,CLOCK_BATT,-,GND,,,"/>
-<approved hash="104,1,317.5,190.5,CLOCK_BATT,+,N$2,,,"/>
 </errors>
 </schematic>
 </drawing>
