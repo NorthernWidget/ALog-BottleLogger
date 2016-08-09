@@ -175,8 +175,8 @@ INT1</text>
 <text x="63.3025" y="7.5702" size="1.27" layer="21" rot="R90">5V</text>
 <text x="70.2626" y="7.5702" size="1.27" layer="21" rot="R90">GND</text>
 <text x="66.8175" y="7.5702" size="1.27" layer="21" rot="R90">VCC</text>
-<text x="3.2766" y="14.6431" size="0.8128" layer="21">v. 1.4.0
-01 August 2016
+<text x="3.2766" y="14.6431" size="0.8128" layer="21">v. 1.4.1
+09 August 2016
 Andy Wickert
 Chad Sandell
 University of Minnesota</text>
