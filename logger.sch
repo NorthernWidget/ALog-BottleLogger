@@ -20319,7 +20319,7 @@ at 27/07/2012 14:02:49</description>
 <part name="U$11" library="MyPOW" deviceset="VUSB" device=""/>
 <part name="SUPPLY48" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY49" library="supply2" deviceset="GND" device=""/>
-<part name="COUT1" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
+<part name="COUT1" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF"/>
 <part name="D2" library="semicon-smd-ipc" deviceset="DIODE_AC-CA_" device="" value="BAT54C"/>
 <part name="LOG" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="PTH" value="LOG"/>
 <part name="RN1" library="resistor-dil" deviceset="4R-N" device="0603-ARC" value="1K"/>
