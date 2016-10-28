@@ -2,24 +2,24 @@ EAGLE AutoRouter Statistics:
 
 Job           : /home/chadsandell/Git/ALog-BottleLogger/logger.brd
 
-Start at      : 14:12:55 (9/27/16)
-End at        : 14:12:56 (9/27/16)
-Elapsed time  : 00:00:01
+Start at      : 16:25:07 (10/28/16)
+End at        : 16:26:09 (10/28/16)
+Elapsed time  : 00:00:59
 
-Signals       :    62   RoutingGrid: 5 mil  Layers: 2
-Connections   :   217   predefined:  216 ( 123 Vias )
+Signals       :    64   RoutingGrid: 5 mil  Layers: 2
+Connections   :   214   predefined:  189 ( 86 Vias )
 
-Router memory :   1208844
+Router memory :   1841400
 
-Passname          :     Route Optimize1 Optimize2 Optimize3 Optimize4 Optimize5 Optimize6 Optimize7
+Passname          :     Route Optimize1 Optimize2 Optimize3 Optimize4 Optimize5
 
-Time per pass     :  00:00:00  00:00:00  00:00:00  00:00:00  00:00:01  00:00:00  00:00:00  00:00:00
-Number of Ripups  :         0         0         0         0         0         0         0         0
-max. Level        :         0         0         0         0         0         0         0         0
-max. Total        :         0         0         0         0         0         0         0         0
+Time per pass     :  00:00:54  00:00:01  00:00:01  00:00:01  00:00:01  00:00:01
+Number of Ripups  :       202         0         0         0         0         0
+max. Level        :         1         0         0         0         0         0
+max. Total        :         2         0         0         0         0         0
 
-Routed            :         1         1         1         1         1         1         1         1
-Vias              :         1         0         0         0         0         0         0         0
-Resolution        :   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
+Routed            :        24        24        24        24        24        24
+Vias              :        24        21        21        22        23        23
+Resolution        :    99.5 %    99.5 %    99.5 %    99.5 %    99.5 %    99.5 %
 
-Final             : 100.0% finished
+Final             : 92.5% finished. Polygons may have fallen apart.
