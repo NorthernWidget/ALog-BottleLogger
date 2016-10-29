@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -21283,6 +21283,10 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <wire x1="401.32" y1="139.7" x2="403.86" y2="139.7" width="0.1524" layer="91"/>
 <junction x="401.32" y="142.24"/>
 <junction x="401.32" y="139.7"/>
+<pinref part="MCU" gate="A" pin="EP"/>
+<wire x1="403.86" y1="149.86" x2="401.32" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="401.32" y1="149.86" x2="401.32" y2="144.78" width="0.1524" layer="91"/>
+<junction x="401.32" y="144.78"/>
 </segment>
 <segment>
 <pinref part="CX3" gate="G$1" pin="1"/>
