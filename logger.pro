@@ -1,25 +1,25 @@
 EAGLE AutoRouter Statistics:
 
-Job           : /home/chadsandell/Git/ALog-BottleLogger/logger.brd
+Job           : /home/awickert/Dropbox/Papers/InProgress/DataLogger/ALog-BottleLogger/logger.brd
 
-Start at      : 16:25:07 (10/28/16)
-End at        : 16:26:09 (10/28/16)
-Elapsed time  : 00:00:59
+Start at      : 04:19:10 (10/30/16)
+End at        : 04:19:25 (10/30/16)
+Elapsed time  : 00:00:01
 
-Signals       :    64   RoutingGrid: 5 mil  Layers: 2
-Connections   :   214   predefined:  189 ( 86 Vias )
+Signals       :    63   RoutingGrid: 5 mil  Layers: 2
+Connections   :   216   predefined:  216 ( 124 Vias )
 
 Router memory :   1841400
 
 Passname          :     Route Optimize1 Optimize2 Optimize3 Optimize4 Optimize5
 
-Time per pass     :  00:00:54  00:00:01  00:00:01  00:00:01  00:00:01  00:00:01
-Number of Ripups  :       202         0         0         0         0         0
-max. Level        :         1         0         0         0         0         0
-max. Total        :         2         0         0         0         0         0
+Time per pass     :  00:00:00  00:00:00  00:00:00  00:00:01  00:00:00  00:00:00
+Number of Ripups  :         0         0         0         0         0         0
+max. Level        :         0         0         0         0         0         0
+max. Total        :         0         0         0         0         0         0
 
-Routed            :        24        24        24        24        24        24
-Vias              :        24        21        21        22        23        23
-Resolution        :    99.5 %    99.5 %    99.5 %    99.5 %    99.5 %    99.5 %
+Routed            :         0         0         0         0         0         0
+Vias              :         0         0         0         0         0         0
+Resolution        :   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
 
-Final             : 92.5% finished. Polygons may have fallen apart.
+Final             : 100.0% finished
