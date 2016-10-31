@@ -1767,7 +1767,7 @@ design rules under a new name.</description>
 <param name="RoutingGrid" value="5mil"/>
 <param name="AutoGrid" value="0"/>
 <param name="Efforts" value="2"/>
-<param name="TopRouterVariant" value="1"/>
+<param name="TopRouterVariant" value="0"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="*"/>
 <param name="PrefDir.2" value="0"/>
@@ -3352,14 +3352,6 @@ design rules under a new name.</description>
 <wire x1="70.104" y1="27.686" x2="73.025" y2="27.686" width="0.2032" layer="1"/>
 <wire x1="72.644" y1="32.131" x2="72.643" y2="32.194" width="0.2032" layer="1"/>
 <wire x1="70.104" y1="27.686" x2="70.065" y2="27.697" width="0.2032" layer="1"/>
-<wire x1="51.054" y1="21.209" x2="51.181" y2="21.209" width="0.2032" layer="1"/>
-<wire x1="51.181" y1="21.209" x2="52.7558" y2="21.209" width="0.2032" layer="1"/>
-<wire x1="50.292" y1="21.971" x2="51.054" y2="21.209" width="0.2032" layer="1"/>
-<wire x1="50.419" y1="21.717" x2="47.8282" y2="21.717" width="0.2032" layer="1"/>
-<wire x1="50.419" y1="21.717" x2="50.292" y2="21.971" width="0.2032" layer="1"/>
-<wire x1="52.197" y1="22.225" x2="52.7558" y2="22.225" width="0.2032" layer="1"/>
-<wire x1="51.181" y1="21.209" x2="52.197" y2="22.225" width="0.2032" layer="1"/>
-<wire x1="51.181" y1="21.209" x2="50.292" y2="21.971" width="0.2032" layer="1"/>
 <wire x1="32.258" y1="18.161" x2="32.258" y2="17.78" width="0.2032" layer="1"/>
 <wire x1="32.385" y1="18.161" x2="32.258" y2="18.161" width="0.2032" layer="1"/>
 <wire x1="32.639" y1="17.907" x2="32.385" y2="18.161" width="0.2032" layer="1"/>
@@ -3422,8 +3414,6 @@ design rules under a new name.</description>
 <wire x1="78.232" y1="16.764" x2="78.232" y2="16.6557875" width="0.2032" layer="1"/>
 <via x="69.088" y="37.719" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="64.389" y="38.481" extent="1-16" drill="0.3048" shape="octagon"/>
-<wire x1="49.657" y1="22.86" x2="50.292" y2="22.225" width="0.254" layer="1"/>
-<wire x1="50.292" y1="22.225" x2="50.292" y2="21.971" width="0.254" layer="1"/>
 <via x="54.991" y="24.13" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="56.476" y1="25.527" x2="55.079" y2="24.13" width="0.254" layer="1"/>
 <wire x1="55.079" y1="24.13" x2="54.991" y2="24.13" width="0.254" layer="1"/>
@@ -3441,8 +3431,14 @@ design rules under a new name.</description>
 <via x="35.433" y="18.288" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="11.303" y="22.606" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="69.723" y="29.845" extent="1-16" drill="0.3048" shape="octagon"/>
-<via x="50.292" y="21.971" extent="1-16" drill="0.3048" shape="octagon"/>
-<wire x1="39.77" y1="15.864" x2="38.97" y2="17.664" width="0" layer="19" extent="1-1"/>
+<wire x1="50.292" y1="21.971" x2="50.546" y2="22.225" width="0.2032" layer="1"/>
+<wire x1="50.546" y1="22.225" x2="52.7558" y2="22.225" width="0.2032" layer="1"/>
+<wire x1="50.292" y1="21.971" x2="51.054" y2="21.209" width="0.2032" layer="1"/>
+<wire x1="51.054" y1="21.209" x2="52.7558" y2="21.209" width="0.2032" layer="1"/>
+<wire x1="50.292" y1="21.971" x2="50.038" y2="21.717" width="0.2032" layer="1"/>
+<wire x1="50.038" y1="21.717" x2="47.8282" y2="21.717" width="0.2032" layer="1"/>
+<via x="43.561" y="6.096" extent="1-16" drill="0.3048" shape="octagon"/>
+<wire x1="52.832" y1="22.225" x2="52.7558" y2="22.225" width="0.2032" layer="1"/>
 </signal>
 <signal name="5V">
 <contactref element="H1" pad="4"/>
@@ -3726,6 +3722,7 @@ design rules under a new name.</description>
 <approved hash="7,39,4d64d39f74551534"/>
 <approved hash="4,1,29cf97c4a20b2996"/>
 <approved hash="5,1,8a880e2d517b6ef6"/>
+<approved hash="19,1,bcfa0b020b6cbc94"/>
 <approved hash="3,1,26105e1c5e23262f"/>
 <approved hash="3,1,23ee5bfa5bc523d1"/>
 <approved hash="3,1,b016b014a50ea50c"/>
@@ -3740,14 +3737,14 @@ design rules under a new name.</description>
 <approved hash="7,39,544b879e53d387d7"/>
 <approved hash="7,39,170a8bdbf77c8310"/>
 <approved hash="4,1,682828d4023ec936"/>
-<approved hash="5,1,649eb0e5ce319038"/>
 <approved hash="5,1,649d26b2185dd000"/>
-<approved hash="5,1,8cfdd3764e17d3e3"/>
+<approved hash="5,1,649eb0e5ce319038"/>
 <approved hash="5,1,bc1efb66d6e46302"/>
-<approved hash="5,1,b51ef26cc3ae7642"/>
+<approved hash="5,1,8cfdd3764e17d3e3"/>
 <approved hash="5,1,85fdda7c5b5dc6a3"/>
-<approved hash="5,1,659eb0fdd8a98248"/>
+<approved hash="5,1,b51ef26cc3ae7642"/>
 <approved hash="5,1,659d26aa0ec5c270"/>
+<approved hash="5,1,659eb0fdd8a98248"/>
 <approved hash="5,1,4b5036c339cf425c"/>
 <approved hash="5,1,bd08c0bbc9afb23c"/>
 <approved hash="5,1,b802cd91c285b136"/>
