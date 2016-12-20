@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -19886,6 +19886,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <text x="501.142" y="-288.544" size="2.54" layer="97">2/4</text>
 <text x="693.928" y="-32.004" size="2.54" layer="97">3/4</text>
 <text x="693.928" y="-288.29" size="2.54" layer="97">4/4</text>
+<text x="525.78" y="2.54" size="1.778" layer="91">BATTERY_POWER</text>
 </plain>
 <instances>
 <instance part="XTAL" gate="G$1" x="452.12" y="152.4" rot="MR90"/>
@@ -20281,6 +20282,15 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <junction x="591.82" y="121.92"/>
 <pinref part="P+9" gate="VCC" pin="VCC"/>
 <wire x1="581.66" y1="121.92" x2="581.66" y2="124.46" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="541.02" y1="-12.7" x2="538.48" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="538.48" y1="-12.7" x2="538.48" y2="0" width="0.1524" layer="91"/>
+<pinref part="Q1" gate="G$1" pin="D"/>
+<wire x1="538.48" y1="0" x2="566.42" y2="0" width="0.1524" layer="91"/>
+<wire x1="538.48" y1="0" x2="528.32" y2="0" width="0.1524" layer="91"/>
+<junction x="538.48" y="0"/>
+<pinref part="IC1" gate="G$1" pin="VIN"/>
 </segment>
 </net>
 <net name="CS-SD" class="0">
@@ -20861,18 +20871,6 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <segment>
 <pinref part="U2" gate="G$1" pin="VCC"/>
 <pinref part="U$7" gate="G$1" pin="VUSB"/>
-</segment>
-</net>
-<net name="BATTERY_POWER" class="0">
-<segment>
-<wire x1="541.02" y1="-12.7" x2="538.48" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="538.48" y1="-12.7" x2="538.48" y2="0" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="G$1" pin="D"/>
-<wire x1="538.48" y1="0" x2="566.42" y2="0" width="0.1524" layer="91"/>
-<wire x1="538.48" y1="0" x2="528.32" y2="0" width="0.1524" layer="91"/>
-<junction x="538.48" y="0"/>
-<label x="528.32" y="0" size="1.778" layer="95"/>
-<pinref part="IC1" gate="G$1" pin="VIN"/>
 </segment>
 </net>
 <net name="N$8" class="0">
