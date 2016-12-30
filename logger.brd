@@ -192,7 +192,7 @@ and Northern Widget LLC</text>
 <text x="98.2885" y="34.0755" size="0.8128" layer="21" rot="R180">1</text>
 <text x="73.7799" y="7.7226" size="1.27" layer="21" rot="R90">RX</text>
 <text x="77.4375" y="7.875" size="1.27" layer="21" rot="R90">TX</text>
-<text x="42.115015625" y="33.0456" size="1.016" layer="21" rot="R90">MOSI</text>
+<text x="38.051015625" y="36.6016" size="1.016" layer="21" rot="R225">MOSI</text>
 <text x="44.419" y="36.5623" size="1.27" layer="21" rot="R270">SCK</text>
 <text x="51.5945" y="36.4353" size="1.27" layer="21" rot="R270">D7</text>
 <text x="80.93" y="7.5575" size="1.27" layer="21" rot="R90">SDA</text>
@@ -211,7 +211,7 @@ and Northern Widget LLC</text>
 <text x="40.1076" y="18.9301" size="0.6096" layer="21">A6</text>
 <text x="42.6476" y="18.9301" size="0.6096" layer="21">A7</text>
 <text x="32.00103125" y="33.243734375" size="1.27" layer="21" rot="R45">GND</text>
-<text x="38.1452" y="36.6893" size="1.016" layer="21" rot="R235">MISO</text>
+<text x="41.3202" y="36.5623" size="1.016" layer="21" rot="R235">MISO</text>
 <text x="54.8965" y="36.3083" size="1.27" layer="21" rot="R270">D8</text>
 <text x="68.707" y="43.561" size="0.8128" layer="21" rot="R270">v2.0a</text>
 <text x="86.741" y="19.05" size="1.6764" layer="21">3.7-     5.5V</text>
