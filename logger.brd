@@ -1926,7 +1926,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="48.514" y="12.573" size="1.778" layer="27" font="vector" rot="R90" display="off"/>
 <attribute name="VALUE" x="47.4465" y="11.843" size="0.6096" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="5V_CHARGE_PUMP" library="ti_by_element14" package="SON65P200X200X80-7N" value="5V5" x="69.477" y="31.369" smashed="yes" rot="R90">
+<element name="5V_CHARGE_PUMP" library="ti_by_element14" package="SON65P200X200X80-7N" value="5V" x="69.477" y="31.369" smashed="yes" rot="R90">
 <attribute name="PACKAGE" value="SON-6" x="69.477" y="31.369" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="45P8283" x="69.477" y="31.369" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="TPS60150DRVR" x="69.477" y="31.369" size="1.778" layer="27" rot="R90" display="off"/>

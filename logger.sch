@@ -19502,7 +19502,7 @@ by exp-lbrs.ulp</description>
 <part name="SUPPLY40" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY41" library="supply2" deviceset="GND" device=""/>
 <part name="5V1" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
-<part name="5V_CHARGE_PUMP" library="ti_by_element14" deviceset="TPS60150DRVR" device="" value="5V5"/>
+<part name="5V_CHARGE_PUMP" library="ti_by_element14" deviceset="TPS60150DRVR" device="" value="5V"/>
 <part name="C_BOOST_1" library="resistor" deviceset="C-EU" device="C0603" value="4.7uF"/>
 <part name="C_BOOST_3" library="resistor" deviceset="C-EU" device="C0603" value="2.2uF"/>
 <part name="C_BOOST_2" library="resistor" deviceset="C-EU" device="C0603" value="2.2uF"/>
