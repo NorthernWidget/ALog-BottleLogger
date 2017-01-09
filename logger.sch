@@ -19305,48 +19305,208 @@ LETTER portrait</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="logger">
-<description>Generated from &lt;b&gt;logger.sch&lt;/b&gt;&lt;p&gt;
-by exp-lbrs.ulp</description>
+<library name="csandell">
 <packages>
 <package name="6-TMLF">
-<circle x="-0.7" y="0.55" radius="0.05" width="0.1" layer="21"/>
+<smd name="3" x="0" y="-0.65" dx="0.2" dy="0.7" layer="1"/>
+<smd name="6" x="0" y="0.65" dx="0.2" dy="0.7" layer="1"/>
+<smd name="5" x="0.65" y="0.25" dx="0.2" dy="0.7" layer="1" rot="R90"/>
+<smd name="4" x="0.65" y="-0.25" dx="0.2" dy="0.7" layer="1" rot="R90"/>
+<smd name="2" x="-0.65" y="-0.25" dx="0.2" dy="0.7" layer="1" rot="R90"/>
+<smd name="1" x="-0.65" y="0.25" dx="0.2" dy="0.7" layer="1" rot="R90"/>
 <wire x1="-0.5" y1="0.5" x2="0.5" y2="0.5" width="0.1" layer="51"/>
 <wire x1="0.5" y1="0.5" x2="0.5" y2="-0.5" width="0.1" layer="51"/>
 <wire x1="0.5" y1="-0.5" x2="-0.5" y2="-0.5" width="0.1" layer="51"/>
 <wire x1="-0.5" y1="-0.5" x2="-0.5" y2="0.5" width="0.1" layer="51"/>
+<circle x="-0.7" y="0.55" radius="0.05" width="0.1" layer="21"/>
 <wire x1="0.85" y1="0.85" x2="-0.85" y2="0.85" width="0.1" layer="21"/>
 <wire x1="-0.85" y1="0.85" x2="-0.85" y2="-0.85" width="0.1" layer="21"/>
 <wire x1="-0.85" y1="-0.85" x2="0.85" y2="-0.85" width="0.1" layer="21"/>
 <wire x1="0.85" y1="-0.85" x2="0.85" y2="0.85" width="0.1" layer="21"/>
-<smd name="1" x="-0.6" y="0.25" dx="0.2" dy="0.6" layer="1" rot="R90"/>
-<smd name="2" x="-0.6" y="-0.25" dx="0.2" dy="0.6" layer="1" rot="R90"/>
-<smd name="3" x="0" y="-0.6" dx="0.2" dy="0.6" layer="1"/>
-<smd name="4" x="0.6" y="-0.25" dx="0.2" dy="0.6" layer="1" rot="R90"/>
-<smd name="5" x="0.6" y="0.25" dx="0.2" dy="0.6" layer="1" rot="R90"/>
-<smd name="6" x="0" y="0.6" dx="0.2" dy="0.6" layer="1"/>
 <text x="1" y="0.5" size="0.6096" layer="25">&gt;Name</text>
 <text x="1" y="-0.5" size="0.6096" layer="21">&gt;Value</text>
-<smd name="9" x="-0.8" y="0.3" dx="0.3" dy="0.6" layer="1" rot="R90"/>
-<smd name="10" x="-0.8" y="-0.3" dx="0.3" dy="0.6" layer="1" rot="R90"/>
-<smd name="11" x="0" y="-0.8" dx="0.3" dy="0.6" layer="1"/>
-<smd name="12" x="0.8" y="-0.3" dx="0.3" dy="0.6" layer="1" rot="R90"/>
-<smd name="13" x="0.8" y="0.3" dx="0.3" dy="0.6" layer="1" rot="R90"/>
-<smd name="14" x="0" y="0.8" dx="0.3" dy="0.6" layer="1" stop="no"/>
+<polygon width="0" layer="1">
+<vertex x="-0.1" y="0.5"/>
+<vertex x="-0.15" y="0.5"/>
+<vertex x="-0.15" y="1"/>
+<vertex x="0.15" y="1"/>
+<vertex x="0.15" y="0.5"/>
+<vertex x="0.1" y="0.5"/>
+<vertex x="0.1" y="0.3"/>
+</polygon>
+<polygon width="0" layer="1">
+<vertex x="0.3" y="0.35"/>
+<vertex x="0.5" y="0.35"/>
+<vertex x="0.5" y="0.45"/>
+<vertex x="1" y="0.45"/>
+<vertex x="1" y="0.15"/>
+<vertex x="0.3" y="0.15"/>
+</polygon>
+<polygon width="0" layer="1">
+<vertex x="0.3" y="-0.15"/>
+<vertex x="1" y="-0.15"/>
+<vertex x="1" y="-0.45"/>
+<vertex x="0.5" y="-0.45"/>
+<vertex x="0.5" y="-0.35"/>
+<vertex x="0.3" y="-0.35"/>
+</polygon>
+<polygon width="0" layer="1">
+<vertex x="0.1" y="-0.5"/>
+<vertex x="0.15" y="-0.5"/>
+<vertex x="0.15" y="-1"/>
+<vertex x="-0.15" y="-1"/>
+<vertex x="-0.15" y="-0.5"/>
+<vertex x="-0.1" y="-0.5"/>
+<vertex x="-0.1" y="-0.3"/>
+<vertex x="0.1" y="-0.3"/>
+</polygon>
+<polygon width="0" layer="1">
+<vertex x="-0.3" y="-0.15"/>
+<vertex x="-1" y="-0.15"/>
+<vertex x="-1" y="-0.45"/>
+<vertex x="-0.5" y="-0.45"/>
+<vertex x="-0.5" y="-0.35"/>
+<vertex x="-0.3" y="-0.35"/>
+</polygon>
+<polygon width="0" layer="1">
+<vertex x="-1" y="0.15"/>
+<vertex x="-1" y="0.45"/>
+<vertex x="-0.5" y="0.45"/>
+<vertex x="-0.5" y="0.35"/>
+<vertex x="-0.3" y="0.35"/>
+</polygon>
+<polygon width="0" layer="1">
+<vertex x="-0.5" y="0.45"/>
+<vertex x="-1" y="0.45"/>
+<vertex x="-1" y="0.15"/>
+<vertex x="-0.3" y="0.15"/>
+<vertex x="-0.3" y="0.35"/>
+<vertex x="-0.5" y="0.35"/>
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-0.15" y="1"/>
+<vertex x="0.15" y="1"/>
+<vertex x="0.15" y="0.5"/>
+<vertex x="0.1" y="0.5"/>
+<vertex x="0.1" y="0.3"/>
+<vertex x="-0.1" y="0.3"/>
+<vertex x="-0.1" y="0.5"/>
+<vertex x="-0.15" y="0.5"/>
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="0.3" y="0.15"/>
+<vertex x="1" y="0.15"/>
+<vertex x="1" y="0.45"/>
+<vertex x="0.5" y="0.45"/>
+<vertex x="0.5" y="0.35"/>
+<vertex x="0.3" y="0.35"/>
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="0.3" y="-0.15"/>
+<vertex x="1" y="-0.15"/>
+<vertex x="1" y="-0.45"/>
+<vertex x="0.5" y="-0.45"/>
+<vertex x="0.5" y="-0.35"/>
+<vertex x="0.3" y="-0.35"/>
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-0.5" y="0.45"/>
+<vertex x="-1" y="0.45"/>
+<vertex x="-1" y="0.15"/>
+<vertex x="-0.3" y="0.15"/>
+<vertex x="-0.3" y="0.35"/>
+<vertex x="-0.5" y="0.35"/>
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-1" y="-0.15"/>
+<vertex x="-0.3" y="-0.15"/>
+<vertex x="-0.3" y="-0.35"/>
+<vertex x="-0.5" y="-0.35"/>
+<vertex x="-0.5" y="-0.45"/>
+<vertex x="-1" y="-0.45"/>
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-0.1" y="-0.3"/>
+<vertex x="-0.1" y="-0.5"/>
+<vertex x="-0.15" y="-0.5"/>
+<vertex x="-0.15" y="-1"/>
+<vertex x="0.15" y="-1"/>
+<vertex x="0.15" y="-0.5"/>
+<vertex x="0.1" y="-0.5"/>
+<vertex x="0.1" y="-0.3"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-0.5" y="0.45"/>
+<vertex x="-1" y="0.45"/>
+<vertex x="-1" y="0.15"/>
+<vertex x="-0.3" y="0.15"/>
+<vertex x="-0.3" y="0.35"/>
+<vertex x="-0.5" y="0.35"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-0.3" y="-0.15"/>
+<vertex x="-1" y="-0.15"/>
+<vertex x="-1" y="-0.45"/>
+<vertex x="-0.5" y="-0.45"/>
+<vertex x="-0.5" y="-0.35"/>
+<vertex x="-0.3" y="-0.35"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-0.1" y="-0.3"/>
+<vertex x="-0.1" y="-0.5"/>
+<vertex x="-0.15" y="-0.5"/>
+<vertex x="-0.15" y="-1"/>
+<vertex x="0.15" y="-1"/>
+<vertex x="0.15" y="-0.5"/>
+<vertex x="0.1" y="-0.5"/>
+<vertex x="0.1" y="-0.3"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="0.3" y="-0.15"/>
+<vertex x="1" y="-0.15"/>
+<vertex x="1" y="-0.45"/>
+<vertex x="0.5" y="-0.45"/>
+<vertex x="0.5" y="-0.35"/>
+<vertex x="0.3" y="-0.35"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="0.3" y="0.15"/>
+<vertex x="1" y="0.15"/>
+<vertex x="1" y="0.45"/>
+<vertex x="0.5" y="0.45"/>
+<vertex x="0.5" y="0.35"/>
+<vertex x="0.3" y="0.35"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-0.15" y="1"/>
+<vertex x="0.15" y="1"/>
+<vertex x="0.15" y="0.5"/>
+<vertex x="0.1" y="0.5"/>
+<vertex x="0.1" y="0.3"/>
+<vertex x="-0.1" y="0.3"/>
+<vertex x="-0.1" y="0.5"/>
+<vertex x="-0.15" y="0.5"/>
+</polygon>
 </package>
 </packages>
 <symbols>
 <symbol name="MIC5380">
 <wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
-<wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
-<pin name="EN1" x="-15.24" y="-5.08" length="middle" direction="in"/>
-<pin name="EN2" x="15.24" y="-5.08" length="middle" direction="in" rot="R180"/>
-<pin name="GND" x="0" y="-15.24" length="middle" direction="pwr" rot="R90"/>
-<pin name="VIN" x="-15.24" y="5.08" length="middle" direction="pwr"/>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="0" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
 <pin name="VOUT1" x="15.24" y="5.08" length="middle" direction="pwr" rot="R180"/>
 <pin name="VOUT2" x="15.24" y="0" length="middle" direction="pwr" rot="R180"/>
+<pin name="EN2" x="15.24" y="-5.08" length="middle" direction="in" rot="R180"/>
+<pin name="EN1" x="-15.24" y="-5.08" length="middle" direction="in"/>
+<pin name="GND" x="0" y="-15.24" length="middle" direction="pwr" rot="R90"/>
+<pin name="VIN" x="-15.24" y="5.08" length="middle" direction="pwr"/>
 <text x="-7.62" y="15.24" size="1.27" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
@@ -19359,12 +19519,12 @@ by exp-lbrs.ulp</description>
 <devices>
 <device name="" package="6-TMLF">
 <connects>
-<connect gate="G$1" pin="EN1" pad="4 12"/>
-<connect gate="G$1" pin="EN2" pad="3 11"/>
-<connect gate="G$1" pin="GND" pad="5 13"/>
-<connect gate="G$1" pin="VIN" pad="6 14"/>
-<connect gate="G$1" pin="VOUT1" pad="1 9"/>
-<connect gate="G$1" pin="VOUT2" pad="2 10"/>
+<connect gate="G$1" pin="EN1" pad="4"/>
+<connect gate="G$1" pin="EN2" pad="3"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="VIN" pad="6"/>
+<connect gate="G$1" pin="VOUT1" pad="1"/>
+<connect gate="G$1" pin="VOUT2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -19546,7 +19706,7 @@ by exp-lbrs.ulp</description>
 <part name="SD_3V3" library="supply1" deviceset="VDD" device=""/>
 <part name="SD_3V5" library="supply1" deviceset="VDD" device=""/>
 <part name="SD_3V6" library="supply1" deviceset="VDD" device=""/>
-<part name="3V3" library="logger" deviceset="MIC5380" device=""/>
+<part name="3V3" library="csandell" deviceset="MIC5380" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -20360,6 +20520,7 @@ by exp-lbrs.ulp</description>
 <pinref part="SD_3V1" gate="G$1" pin="VDD"/>
 <wire x1="637.54" y1="177.8" x2="637.54" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="3V3" gate="G$1" pin="VOUT2"/>
+<junction x="622.3" y="177.8"/>
 </segment>
 <segment>
 <wire x1="584.2" y1="-78.74" x2="589.28" y2="-78.74" width="0.1524" layer="91"/>
@@ -21106,6 +21267,12 @@ by exp-lbrs.ulp</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,584.2,111.76,5V_CHARGE_PUMP,VIN,VCC,,,"/>
+<approved hash="208,1,386.08,101.6,5V,sup,,,,"/>
+<approved hash="208,1,619.76,111.76,5V,out,,,,"/>
+<approved hash="208,1,635,116.84,5V,sup,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
