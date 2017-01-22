@@ -175,8 +175,8 @@ INT1</text>
 <text x="63.3025" y="7.5702" size="1.27" layer="21" rot="R90">5V</text>
 <text x="70.2626" y="7.5702" size="1.27" layer="21" rot="R90">GND</text>
 <text x="66.8175" y="7.5702" size="1.27" layer="21" rot="R90">VCC</text>
-<text x="3.0226" y="11.4681" size="0.8128" layer="21">ALog BottleLogger v. 2.0
-31 October 2016
+<text x="3.0226" y="11.4681" size="0.8128" layer="21">ALog BottleLogger v. 2.0-beta
+09 January 2017
 Andy Wickert
 Chad Sandell
 University of Minnesota
@@ -188,20 +188,20 @@ and Northern Widget LLC</text>
 <text x="22.8102" y="7.5001" size="1.27" layer="21">3V3</text>
 <text x="19.7876" y="7.5001" size="1.27" layer="21">A0</text>
 <text x="63.8048" y="29.21" size="0.6096" layer="21" rot="R90">TM</text>
-<text x="66.7609" y="42.2607" size="0.6096" layer="21" rot="R90">TM</text>
+<text x="71.0789" y="36.9267" size="0.6096" layer="21" rot="SR180">TM</text>
 <text x="77.9685" y="32.4245" size="0.8128" layer="21" rot="R180">1</text>
 <text x="73.7799" y="7.7226" size="1.27" layer="21" rot="R90">RX</text>
 <text x="77.4375" y="7.875" size="1.27" layer="21" rot="R90">TX</text>
 <text x="38.051015625" y="36.6016" size="1.016" layer="21" rot="R225">MOSI</text>
 <text x="44.419" y="36.5623" size="1.27" layer="21" rot="R270">SCK</text>
-<text x="51.5945" y="36.4353" size="1.27" layer="21" rot="R270">D7</text>
+<text x="51.5945" y="36.3083" size="1.27" layer="21" rot="R270">D7</text>
 <text x="80.93" y="7.5575" size="1.27" layer="21" rot="R90">SDA</text>
 <text x="84.4225" y="7.5575" size="1.27" layer="21" rot="R90">SCL</text>
-<text x="47.8635" y="36.5623" size="1.27" layer="21" rot="R270">VCC</text>
-<text x="62.1481" y="36.1813" size="1.27" layer="21" rot="R270">5V</text>
+<text x="47.7365" y="36.5623" size="1.27" layer="21" rot="R270">VCC</text>
+<text x="62.2751" y="36.3083" size="1.27" layer="21" rot="R270">5V</text>
 <text x="58.43" y="36.3083" size="1.27" layer="21" rot="R270">3V3</text>
-<text x="66.3645" y="36.8163" size="1.27" layer="21" rot="R235">GND</text>
-<text x="14.859" y="31.3055" size="0.6096" layer="21">TM</text>
+<text x="65.4755" y="36.3083" size="1.27" layer="21" rot="R270">GND</text>
+<text x="14.224" y="22.2885" size="0.6096" layer="21">TM</text>
 <text x="91.059" y="1.5875" size="0.8128" layer="21" rot="R180">Rx</text>
 <text x="92.8497" y="1.5875" size="0.8128" layer="21" rot="R180">Tx</text>
 <text x="30.0746" y="18.4221" size="0.6096" layer="21">A0</text>
@@ -213,8 +213,9 @@ and Northern Widget LLC</text>
 <text x="32.00103125" y="33.243734375" size="1.27" layer="21" rot="R45">GND</text>
 <text x="41.3202" y="36.5623" size="1.016" layer="21" rot="R235">MISO</text>
 <text x="54.8965" y="36.3083" size="1.27" layer="21" rot="R270">D8</text>
-<text x="75.565" y="43.053" size="0.8128" layer="21" rot="R270">v2.0a</text>
+<text x="75.565" y="43.053" size="0.8128" layer="21" rot="R270">v2.0b</text>
 <text x="86.741" y="19.05" size="1.6764" layer="21">3.7-     5.5V</text>
+<text x="93.091" y="31.75" size="1.016" layer="21" rot="R90">3.7-5.5V</text>
 </plain>
 <libraries>
 <library name="SparkFun">
