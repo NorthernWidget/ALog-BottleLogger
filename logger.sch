@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -19373,9 +19373,49 @@ LETTER portrait</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="logger">
-<description>Generated from &lt;b&gt;logger.sch&lt;/b&gt;&lt;p&gt;
-by exp-lbrs.ulp</description>
+<library name="rc-master-smd">
+<description>&lt;b&gt;R/C MASTER-SMD! - v1.01 (07/03/2007)&lt;/b&gt;&lt;p&gt;
+&lt;p&gt;This library is a collection of SMD ONLY resistors and capacitors by various manufacturers. The pad sizes, spacing and silkscreen widths have been tweaked for use in dense fine pitch layouts where space, alignment and precision are critical. In general these components are designed for routing in grid increments of 5 mils&lt;/p&gt;
+&lt;p&gt;* Silkscreen line elements are a minimum of 8 mils in width. All components have text sizes of 0.032"  or 0.04".&lt;/p&gt;
+&lt;p&gt;* A silkscreen text values use a ratio of 18 in all cases.&lt;/p&gt;
+&lt;p&gt;* ALL PADS AND PART OUTLINES ARE SNAPPED TO A 5 MIL GRID!&lt;/p&gt;
+&lt;p&gt;&lt;h4&gt;All components are prefixed using the following conventions:&lt;/h4&gt;&lt;/p&gt;
+&lt;table width="380" border="1" bordercolor="#000000"&gt;
+  &lt;tr&gt; 
+    &lt;td width="81" bgcolor="#33CCFF"&gt;&lt;div align="center"&gt;&lt;strong&gt;Prefix&lt;/strong&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td width="289" bgcolor="#33CCFF"&gt;&lt;div align="center"&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/div&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt; 
+    &lt;td&gt;&lt;div align="center"&gt;CBP_&lt;/div&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;div align="center"&gt;Bipolar Electrolytic Types&lt;/div&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt; 
+    &lt;td&gt;&lt;div align="center"&gt;CCA_&lt;/div&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;div align="center"&gt;Chip Cap Array Types&lt;/div&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt; 
+    &lt;td&gt;&lt;div align="center"&gt;CP_&lt;/div&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;div align="center"&gt;Polarized Electrolytic/Tantalum Types&lt;/div&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt; 
+    &lt;td&gt;&lt;div align="center"&gt;C_&lt;/div&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;div align="center"&gt;Non-Polarized Film / Chip Types&lt;/div&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt; 
+    &lt;td&gt;&lt;div align="center"&gt;FB_&lt;/div&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;div align="center"&gt;Simple Ferrite Bead Types&lt;/div&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt; 
+    &lt;td&gt;&lt;div align="center"&gt;L_&lt;/div&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;div align="center"&gt;Simple Chip Inductors&lt;/div&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt; 
+    &lt;td&gt;&lt;div align="center"&gt;R_&lt;/div&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;div align="center"&gt;Resistor Types&lt;/div&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;author&gt;THIS LIBRARY IS PROVIDED AS IS AND WITHOUT WARRANTY OF ANY KIND, EXPRESSED OR IMPLIED.&lt;br&gt;Copyright (C) 2007, Bob Starr&lt;br&gt; http://www.bobstarr.net&lt;br&gt;
+&lt;/author&gt;</description>
 <packages>
 <package name="CECJ-1206">
 <description>&lt;b&gt;CAPACITOR ARRAY&lt;/b&gt; - Panasonic&lt;p&gt;
@@ -19390,6 +19430,16 @@ by exp-lbrs.ulp</description>
 <wire x1="-1.667" y1="-1.5081" x2="-1.667" y2="1.5081" width="0.2032" layer="21"/>
 <wire x1="-1.2" y1="-0.3" x2="-1.4" y2="-0.1" width="0.2032" layer="21"/>
 <wire x1="-1" y1="-0.1" x2="-1.2" y2="-0.3" width="0.2032" layer="21"/>
+<smd name="C2" x="0.4" y="0.9" dx="0.8128" dy="0.4064" layer="1" rot="R90"/>
+<smd name="B2" x="-0.4" y="0.9" dx="0.8128" dy="0.4064" layer="1" rot="R90"/>
+<smd name="A2" x="-1.2" y="0.9" dx="0.8128" dy="0.4064" layer="1" rot="R90"/>
+<smd name="D2" x="1.2" y="0.9" dx="0.8128" dy="0.4064" layer="1" rot="R90"/>
+<smd name="A1" x="-1.2" y="-0.9" dx="0.8128" dy="0.4064" layer="1" rot="R90"/>
+<smd name="B1" x="-0.4" y="-0.9" dx="0.8128" dy="0.4064" layer="1" rot="R90"/>
+<smd name="C1" x="0.4" y="-0.9" dx="0.8128" dy="0.4064" layer="1" rot="R90"/>
+<smd name="D1" x="1.2" y="-0.9" dx="0.8128" dy="0.4064" layer="1" rot="R90"/>
+<text x="-2.032" y="-1.397" size="0.8128" layer="25" ratio="18" rot="R90">&gt;NAME</text>
+<text x="2.54" y="-1.397" size="0.6096" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
 <rectangle x1="-1.4" y1="0.5" x2="-1" y2="0.8" layer="51"/>
 <rectangle x1="-0.6" y1="0.5" x2="-0.2" y2="0.8" layer="51"/>
 <rectangle x1="0.2" y1="0.5" x2="0.6" y2="0.8" layer="51"/>
@@ -19398,16 +19448,6 @@ by exp-lbrs.ulp</description>
 <rectangle x1="-0.6" y1="-0.8" x2="-0.2" y2="-0.5" layer="51"/>
 <rectangle x1="0.2" y1="-0.8" x2="0.6" y2="-0.5" layer="51"/>
 <rectangle x1="1" y1="-0.8" x2="1.4" y2="-0.5" layer="51"/>
-<smd name="A1" x="-1.2" y="-0.9" dx="1.016" dy="0.4064" layer="1" rot="R90"/>
-<smd name="A2" x="-1.2" y="0.9" dx="1.016" dy="0.4064" layer="1" rot="R90"/>
-<smd name="B1" x="-0.4" y="-0.9" dx="1.016" dy="0.4064" layer="1" rot="R90"/>
-<smd name="B2" x="-0.4" y="0.9" dx="1.016" dy="0.4064" layer="1" rot="R90"/>
-<smd name="C1" x="0.4" y="-0.9" dx="1.016" dy="0.4064" layer="1" rot="R90"/>
-<smd name="C2" x="0.4" y="0.9" dx="1.016" dy="0.4064" layer="1" rot="R90"/>
-<smd name="D1" x="1.2" y="-0.9" dx="1.016" dy="0.4064" layer="1" rot="R90"/>
-<smd name="D2" x="1.2" y="0.9" dx="1.016" dy="0.4064" layer="1" rot="R90"/>
-<text x="-2.032" y="-1.397" size="0.8128" layer="25" ratio="18" rot="R90">&gt;NAME</text>
-<text x="2.54" y="-1.397" size="0.6096" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
 </package>
 <package name="CECJ-0805">
 <description>&lt;b&gt;CAPACITOR ARRAY&lt;/b&gt; - Panasonic&lt;p&gt;
@@ -19422,14 +19462,14 @@ by exp-lbrs.ulp</description>
 <wire x1="-1.1906" y1="-1.27" x2="-1.1906" y2="1.27" width="0.2032" layer="21"/>
 <wire x1="-0.75" y1="-0.15" x2="-0.95" y2="0.05" width="0.2032" layer="21"/>
 <wire x1="-0.55" y1="0.05" x2="-0.75" y2="-0.15" width="0.2032" layer="21"/>
-<smd name="A1" x="-0.75" y="-0.65" dx="0.6096" dy="0.3048" layer="1" rot="R90"/>
-<smd name="A2" x="-0.75" y="0.65" dx="0.6096" dy="0.3048" layer="1" rot="R90"/>
-<smd name="B1" x="-0.25" y="-0.65" dx="0.6096" dy="0.3048" layer="1" rot="R90"/>
-<smd name="B2" x="-0.25" y="0.65" dx="0.6096" dy="0.3048" layer="1" rot="R90"/>
-<smd name="C1" x="0.25" y="-0.65" dx="0.6096" dy="0.3048" layer="1" rot="R90"/>
 <smd name="C2" x="0.25" y="0.65" dx="0.6096" dy="0.3048" layer="1" rot="R90"/>
-<smd name="D1" x="0.75" y="-0.65" dx="0.6096" dy="0.3048" layer="1" rot="R90"/>
+<smd name="B2" x="-0.25" y="0.65" dx="0.6096" dy="0.3048" layer="1" rot="R90"/>
 <smd name="D2" x="0.75" y="0.65" dx="0.6096" dy="0.3048" layer="1" rot="R90"/>
+<smd name="A2" x="-0.75" y="0.65" dx="0.6096" dy="0.3048" layer="1" rot="R90"/>
+<smd name="A1" x="-0.75" y="-0.65" dx="0.6096" dy="0.3048" layer="1" rot="R90"/>
+<smd name="B1" x="-0.25" y="-0.65" dx="0.6096" dy="0.3048" layer="1" rot="R90"/>
+<smd name="C1" x="0.25" y="-0.65" dx="0.6096" dy="0.3048" layer="1" rot="R90"/>
+<smd name="D1" x="0.75" y="-0.65" dx="0.6096" dy="0.3048" layer="1" rot="R90"/>
 <text x="-1.524" y="-1.016" size="0.8128" layer="25" ratio="18" rot="R90">&gt;NAME</text>
 <text x="2.032" y="-1.016" size="0.6096" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
 </package>
@@ -19442,12 +19482,12 @@ by exp-lbrs.ulp</description>
 <wire x1="0.635" y1="0" x2="0.635" y2="-1.5875" width="0.508" layer="94"/>
 <wire x1="-0.635" y1="1.5875" x2="-0.635" y2="0" width="0.508" layer="94"/>
 <wire x1="-0.635" y1="0" x2="-0.635" y2="-1.5875" width="0.508" layer="94"/>
-<pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
-<pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
 <text x="-2.794" y="-1.27" size="0.8636" layer="93">1</text>
 <text x="2.286" y="-1.27" size="0.8636" layer="93">2</text>
 <text x="1.905" y="1.27" size="1.778" layer="95">&gt;NAME</text>
 <text x="-3.81" y="-4.1275" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+<pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -19583,8 +19623,8 @@ by exp-lbrs.ulp</description>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY32" library="supply2" deviceset="GND" device=""/>
 <part name="RESET" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="PTH" value="Reset"/>
-<part name="C14" library="logger" deviceset="CCA_" device="ECJ-1206" value="10nF"/>
-<part name="C15" library="logger" deviceset="CCA_" device="ECJ-1206" value="10nF"/>
+<part name="C14" library="rc-master-smd" deviceset="CCA_" device="ECJ-1206" value="10nF"/>
+<part name="C15" library="rc-master-smd" deviceset="CCA_" device="ECJ-1206" value="10nF"/>
 <part name="SUPPLY27" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY37" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY38" library="supply2" deviceset="GND" device=""/>
@@ -19693,6 +19733,15 @@ by exp-lbrs.ulp</description>
 <text x="693.928" y="-32.004" size="2.54" layer="97">3/4</text>
 <text x="693.928" y="-288.29" size="2.54" layer="97">4/4</text>
 <text x="591.82" y="48.26" size="1.778" layer="91">BATTERY_POWER</text>
+<text x="670.56" y="-248.92" size="1.778" layer="95">ALog data logger
+by:
+Andrew Wickert (2011-)
+and
+Chad Sandell (2016-)
+
+Northern Widget LLC
+and
+University of Minnesota</text>
 </plain>
 <instances>
 <instance part="XTAL" gate="G$1" x="452.12" y="152.4" rot="MR90"/>
@@ -19743,9 +19792,9 @@ by exp-lbrs.ulp</description>
 <instance part="SUPPLY21" gate="GND" x="350.52" y="48.26"/>
 <instance part="+3V1" gate="G$1" x="353.06" y="96.52" rot="R90"/>
 <instance part="+3V6" gate="G$1" x="386.08" y="182.88" rot="R90"/>
-<instance part="LED" gate="G$1" x="467.36" y="165.1" rot="R90"/>
-<instance part="SUPPLY24" gate="GND" x="477.52" y="162.56"/>
-<instance part="R_LED" gate="G$1" x="457.2" y="165.1"/>
+<instance part="LED" gate="G$1" x="474.98" y="170.18" rot="R90"/>
+<instance part="SUPPLY24" gate="GND" x="485.14" y="167.64"/>
+<instance part="R_LED" gate="G$1" x="464.82" y="170.18"/>
 <instance part="SUPPLY26" gate="GND" x="474.98" y="142.24" rot="MR0"/>
 <instance part="JP1" gate="G$1" x="576.58" y="-256.54" rot="R90"/>
 <instance part="U$2" gate="G$1" x="581.66" y="-261.62"/>
@@ -20391,19 +20440,6 @@ by exp-lbrs.ulp</description>
 <pinref part="D2" gate="G$1" pin="A2"/>
 </segment>
 </net>
-<net name="D7-CS-EXT" class="0">
-<segment>
-<wire x1="457.2" y1="175.26" x2="439.42" y2="175.26" width="0.1524" layer="91"/>
-<label x="441.96" y="175.26" size="1.778" layer="95"/>
-<label x="441.96" y="175.26" size="1.778" layer="95"/>
-<pinref part="MCU" gate="A" pin="PD7"/>
-</segment>
-<segment>
-<label x="441.96" y="88.9" size="1.778" layer="95"/>
-<wire x1="459.74" y1="88.9" x2="441.96" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="H3" gate="G$1" pin="7"/>
-</segment>
-</net>
 <net name="X0" class="0">
 <segment>
 <wire x1="439.42" y1="154.94" x2="452.12" y2="154.94" width="0.1524" layer="91"/>
@@ -20512,7 +20548,7 @@ by exp-lbrs.ulp</description>
 </net>
 <net name="LED+" class="0">
 <segment>
-<wire x1="462.28" y1="165.1" x2="464.82" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="469.9" y1="170.18" x2="472.44" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="LED" gate="G$1" pin="A"/>
 <pinref part="R_LED" gate="G$1" pin="2"/>
 </segment>
@@ -20734,13 +20770,16 @@ by exp-lbrs.ulp</description>
 <junction x="370.84" y="-76.2"/>
 </segment>
 </net>
-<net name="D9_LED" class="0">
+<net name="D9-CS-EXT" class="0">
 <segment>
-<pinref part="R_LED" gate="G$1" pin="1"/>
-<wire x1="439.42" y1="167.64" x2="452.12" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="452.12" y1="167.64" x2="452.12" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="439.42" y1="167.64" x2="457.2" y2="167.64" width="0.1524" layer="91"/>
 <label x="441.96" y="167.64" size="1.778" layer="95"/>
 <pinref part="MCU" gate="A" pin="PB1"/>
+</segment>
+<segment>
+<label x="441.96" y="91.44" size="1.778" layer="95"/>
+<wire x1="459.74" y1="91.44" x2="441.96" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="H3" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -20825,7 +20864,7 @@ by exp-lbrs.ulp</description>
 <wire x1="350.52" y1="50.8" x2="355.6" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="472.44" y1="165.1" x2="477.52" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="480.06" y1="170.18" x2="485.14" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="LED" gate="G$1" pin="C"/>
 <pinref part="SUPPLY24" gate="GND" pin="GND"/>
 </segment>
@@ -21181,32 +21220,6 @@ by exp-lbrs.ulp</description>
 <wire x1="467.36" y1="-93.98" x2="449.58" y2="-93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="D6-CLOCK_SD_SWITCH" class="0">
-<segment>
-<wire x1="439.42" y1="177.8" x2="472.44" y2="177.8" width="0.1524" layer="91"/>
-<label x="441.96" y="177.8" size="1.778" layer="95"/>
-<pinref part="MCU" gate="A" pin="PD6"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="172.72" x2="655.32" y2="172.72" width="0.1524" layer="91"/>
-<label x="627.38" y="172.72" size="1.778" layer="95"/>
-<pinref part="3V3" gate="G$1" pin="EN2"/>
-</segment>
-</net>
-<net name="D8-EXT" class="0">
-<segment>
-<label x="441.96" y="172.72" size="1.778" layer="95"/>
-<pinref part="MCU" gate="A" pin="PB0"/>
-<wire x1="441.96" y1="172.72" x2="457.2" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="439.42" y1="170.18" x2="441.96" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="441.96" y1="170.18" x2="441.96" y2="172.72" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<label x="447.04" y="91.44" size="1.778" layer="95"/>
-<wire x1="459.74" y1="91.44" x2="447.04" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="H3" gate="G$1" pin="6"/>
-</segment>
-</net>
 <net name="VBAT" class="0">
 <segment>
 <wire x1="604.52" y1="33.02" x2="601.98" y2="33.02" width="0.1524" layer="91"/>
@@ -21224,6 +21237,39 @@ by exp-lbrs.ulp</description>
 <junction x="584.2" y="45.72"/>
 </segment>
 </net>
+<net name="D8_LED" class="0">
+<segment>
+<label x="441.96" y="170.18" size="1.778" layer="95"/>
+<pinref part="MCU" gate="A" pin="PB0"/>
+<wire x1="439.42" y1="170.18" x2="459.74" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="R_LED" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="D7-CLOCK_SD_SWITCH" class="0">
+<segment>
+<wire x1="472.44" y1="175.26" x2="439.42" y2="175.26" width="0.1524" layer="91"/>
+<label x="441.96" y="175.26" size="1.778" layer="95"/>
+<label x="441.96" y="175.26" size="1.778" layer="95"/>
+<pinref part="MCU" gate="A" pin="PD7"/>
+</segment>
+<segment>
+<wire x1="607.06" y1="172.72" x2="655.32" y2="172.72" width="0.1524" layer="91"/>
+<label x="627.38" y="172.72" size="1.778" layer="95"/>
+<pinref part="3V3" gate="G$1" pin="EN2"/>
+</segment>
+</net>
+<net name="D6-EXT" class="0">
+<segment>
+<wire x1="439.42" y1="177.8" x2="452.12" y2="177.8" width="0.1524" layer="91"/>
+<label x="441.96" y="177.8" size="1.778" layer="95"/>
+<pinref part="MCU" gate="A" pin="PD6"/>
+</segment>
+<segment>
+<label x="447.04" y="88.9" size="1.778" layer="95"/>
+<wire x1="459.74" y1="88.9" x2="447.04" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="H3" gate="G$1" pin="7"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -21235,4 +21281,10 @@ by exp-lbrs.ulp</description>
 </errors>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
