@@ -8,7 +8,7 @@
 </settings>
 <grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="3.5" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -156,8 +156,8 @@
 </layers>
 <board>
 <plain>
-<wire x1="99.06" y1="41.3156" x2="95.9381" y2="44.1198" width="0" layer="20" curve="90"/>
-<wire x1="95.9381" y1="44.1198" x2="2.9214" y2="44.1198" width="0" layer="20"/>
+<wire x1="99.06" y1="41.3156" x2="96.0651" y2="43.7388" width="0" layer="20" curve="90"/>
+<wire x1="96.0651" y1="43.7388" x2="2.9214" y2="44.1198" width="0" layer="20"/>
 <wire x1="2.9214" y1="44.1198" x2="0.01" y2="41.2086" width="0" layer="20" curve="90"/>
 <wire x1="0.01" y1="41.2086" x2="0.01" y2="2.8475" width="0" layer="20"/>
 <wire x1="0.01" y1="2.8475" x2="2.8575" y2="0" width="0" layer="20" curve="90"/>
@@ -176,7 +176,7 @@ INT1</text>
 <text x="70.2626" y="7.5702" size="1.27" layer="21" rot="R90">GND</text>
 <text x="66.8175" y="7.5702" size="1.27" layer="21" rot="R90">VCC</text>
 <text x="3.0226" y="11.4681" size="0.8128" layer="21">ALog BottleLogger v. 2.0.0
-02 February 2017
+07 February 2017
 Andy Wickert
 Chad Sandell
 University of Minnesota
@@ -213,11 +213,11 @@ and Northern Widget LLC</text>
 <text x="34.29296875" y="36.606265625" size="1.27" layer="21" rot="R225">GND</text>
 <text x="40.9392" y="36.5623" size="1.016" layer="21" rot="R270">MISO</text>
 <text x="54.8965" y="36.3083" size="1.27" layer="21" rot="R270">D6</text>
-<text x="75.565" y="43.053" size="0.8128" layer="21" rot="R270">v2.0.0</text>
-<text x="86.614" y="19.05" size="1.6764" layer="21">3.7-     5.0V</text>
+<text x="76.835" y="39.878" size="0.8128" layer="21" rot="R90">v2.0.0</text>
+<text x="86.614" y="19.05" size="1.6764" layer="21">3.7--5.0V</text>
 <text x="93.091" y="31.75" size="1.016" layer="21" rot="R90">3.7-5.0V</text>
 <text x="1.4351" y="6.8834" size="0.8128" layer="22" rot="MR90">ALog BottleLogger v2.0.0
-03 February 2017
+07 February 2017
 Andy Wickert
 Chad Sandell</text>
 </plain>
