@@ -218,6 +218,7 @@ and Northern Widget LLC</text>
 10 March 2017
 Andy Wickert
 Chad Sandell</text>
+<text x="80.391" y="11.811" size="0.8128" layer="21">(3V3)</text>
 </plain>
 <libraries>
 <library name="SparkFun">
