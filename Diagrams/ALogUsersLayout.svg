@@ -17,7 +17,10 @@
    id="svg5767"
    version="1.1"
    inkscape:version="0.91 r"
-   sodipodi:docname="ALogUsersLayout.svg">
+   sodipodi:docname="ALogUsersLayout.svg"
+   inkscape:export-filename="/home/awickert/Dropbox/NorthernWidget/github/ALog-BottleLogger/Diagrams/ALogUsersLayout.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
   <defs
      id="defs5769">
     <linearGradient
@@ -36,9 +39,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.63642578"
-     inkscape:cx="638.48946"
-     inkscape:cy="544.24206"
+     inkscape:zoom="1.8000839"
+     inkscape:cx="256.45486"
+     inkscape:cy="170.86826"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -70,15 +73,15 @@
      id="layer1"
      transform="translate(0,-62.362205)">
     <image
-       transform="matrix(0,-1,1,0,0,0)"
-       width="337.461"
-       height="674.41583"
-       preserveAspectRatio="none"
-       id="image4260"
-       x="-1016.0148"
+       sodipodi:absref="/home/awickert/Dropbox/NorthernWidget/github/ALog-BottleLogger/Diagrams/ALog220_modified.png"
+       xlink:href="ALog220_modified.png"
        y="13.233932"
-       xlink:href="file:///home/awickert/Dropbox/Papers/InProgress/ALogDataLogger/figures/inprogress/ALog220_modified.png"
-       sodipodi:absref="/home/awickert/Dropbox/Papers/InProgress/ALogDataLogger/figures/inprogress/ALog220_modified.png" />
+       x="-1016.0148"
+       id="image4260"
+       preserveAspectRatio="none"
+       height="674.41583"
+       width="337.461"
+       transform="matrix(0,-1,1,0,0,0)" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -185,12 +188,12 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="348.17856"
+       x="360.17856"
        y="987.25922"
        id="text4696-6-9-7-5"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
-         x="348.17856"
+         x="360.17856"
          y="987.25922"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
          id="tspan5376">Screw terminals for sensors, etc.</tspan></text>
@@ -929,5 +932,28 @@
          y="196.92545"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:55px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:end;text-anchor:end;fill:#000000"
          id="tspan8928">User's layout</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="653.83215"
+       y="993.80994"
+       id="text4696-60-6-8-7"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="653.83215"
+         y="993.80994"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan4935-3">USB comms</tspan><tspan
+         sodipodi:role="line"
+         x="653.83215"
+         y="1013.8099"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan5515">indicator LEDs</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 589.28565,957.50938 12.77718,17.77694"
+       id="path5438-92-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
   </g>
 </svg>

@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210.78601mm"
+   height="126.29935mm"
+   viewBox="0 0 746.87957 447.51737"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r"
+   sodipodi:docname="ALogComponents.svg"
+   inkscape:export-filename="/home/awickert/Dropbox/NorthernWidget/github/ALog-BottleLogger/Diagrams/ALogComponents.png"
+   inkscape:export-xdpi="300.06"
+   inkscape:export-ydpi="300.06">
+  <defs
+     id="defs4">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5349">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.99999988;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5351"
+         width="573.51947"
+         height="245.86392"
+         x="103.40335"
+         y="146.22836"
+         ry="5.7558022"
+         transform="matrix(0.99996726,-0.00809166,0.00809166,0.99996726,0,0)" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.63642578"
+     inkscape:cx="395.45888"
+     inkscape:cy="222.73823"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1056"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(74.864273,-560.09372)">
+    <image
+       clip-path="url(#clipPath5349)"
+       transform="matrix(0.99996726,0.00809166,-0.00809166,0.99996726,-103.40335,521.84813)"
+       width="596.39612"
+       height="264.64285"
+       preserveAspectRatio="none"
+       id="image4198"
+       x="87.323647"
+       y="131.21565"
+       xlink:href="/home/awickert/Dropbox/Papers/InProgress/DataLogger/figures/inprogress/LoggerPhoto2_121332.png"
+       sodipodi:absref="/home/awickert/Dropbox/Papers/InProgress/DataLogger/figures/inprogress/LoggerPhoto2_121332.png" />
+    <image
+       sodipodi:absref="/home/awickert/Dropbox/NorthernWidget/github/ALog-BottleLogger/Diagrams/ALog220_modified.png"
+       xlink:href="ALog220_modified.png"
+       transform="matrix(0,-1,1,0,0,0)"
+       width="337.461"
+       height="674.41583"
+       preserveAspectRatio="none"
+       id="image4260"
+       x="-960.01477"
+       y="-74.864273" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="223.88989"
+       y="982.8111"
+       id="text4696-6-9"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="223.88989"
+         y="982.8111"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan4736-2">Microcontroller (MCU)</tspan><tspan
+         sodipodi:role="line"
+         x="223.88989"
+         y="1002.8111"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan5036">(CPU + memory + I/O)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="848.89862"
+       y="-524.14539"
+       id="text4696-60"
+       sodipodi:linespacing="100%"
+       transform="matrix(0,1,-1,0,0,0)"><tspan
+         sodipodi:role="line"
+         x="848.89862"
+         y="-524.14539"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan4700-2">USB</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="586.11664"
+       y="889.25092"
+       id="text4696-60-6-8"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="586.11664"
+         y="889.25092"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan4910-9">USB/Serial</tspan><tspan
+         sodipodi:role="line"
+         x="586.11664"
+         y="909.25092"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan4935">converter</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="193.98634"
+       y="801.63196"
+       id="text4696-60-2"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="193.98634"
+         y="801.63196"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#ffffff"
+         id="tspan4700-2-0">Reference</tspan><tspan
+         sodipodi:role="line"
+         x="193.98634"
+         y="821.63196"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#ffffff"
+         id="tspan5223">resistor</tspan><tspan
+         sodipodi:role="line"
+         x="193.98634"
+         y="841.63196"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#ffffff"
+         id="tspan4955">headers</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-782.6936"
+       y="30.601852"
+       id="text4696"
+       sodipodi:linespacing="100%"
+       transform="matrix(0,-1,1,0,0,0)"><tspan
+         sodipodi:role="line"
+         x="-782.6936"
+         y="30.601852"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan4700">SD card</tspan><tspan
+         sodipodi:role="line"
+         x="-782.6936"
+         y="50.601852"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan4884">holder</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="150.10487"
+       y="645.67188"
+       id="text4696-6"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="150.10487"
+         y="645.67188"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan5160">Indicator</tspan><tspan
+         sodipodi:role="line"
+         x="150.10487"
+         y="665.67188"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan5202">LED</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="405.34286"
+       y="934.64203"
+       id="text4696-6-9-7"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="405.34286"
+         y="934.64203"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan4736-2-0">Real-time</tspan><tspan
+         sodipodi:role="line"
+         x="405.34286"
+         y="954.64203"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan4984">clock (RTC)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="340.3287"
+       y="590.51422"
+       id="text4696-6-9-5"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="340.3287"
+         y="590.51422"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan5225">8 MHz MCU</tspan><tspan
+         sodipodi:role="line"
+         x="340.3287"
+         y="610.51422"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan5004">clock crystal</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="236.85121"
+       y="595.69604"
+       id="text4696-6-7"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="236.85121"
+         y="595.69604"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan4736-6">Voltage</tspan><tspan
+         sodipodi:role="line"
+         x="236.85121"
+         y="615.69604"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan5076">level</tspan><tspan
+         sodipodi:role="line"
+         x="236.85121"
+         y="635.69604"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan5078">shifter</tspan><tspan
+         sodipodi:role="line"
+         x="236.85121"
+         y="655.69604"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan5139">(for SD)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="481.36859"
+       y="984.11884"
+       id="text4696-6-9-7-2"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="481.36859"
+         y="984.11884"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan5120">3.3V power regulator</tspan><tspan
+         sodipodi:role="line"
+         x="481.36859"
+         y="1004.1188"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan5490">for SD and sensors</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:89.99999762%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="609.90155"
+       y="630.45374"
+       id="text4696-60-4"
+       sodipodi:linespacing="89.999998%"><tspan
+         sodipodi:role="line"
+         x="609.90155"
+         y="630.45374"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:89.99999762%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan5180">Power source</tspan><tspan
+         sodipodi:role="line"
+         x="609.90155"
+         y="648.45374"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:89.99999762%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan5182">autoselect</tspan><tspan
+         sodipodi:role="line"
+         x="609.90155"
+         y="666.45374"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:89.99999762%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan5258">(USB vs barrel</tspan><tspan
+         sodipodi:role="line"
+         x="609.90155"
+         y="684.45374"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:89.99999762%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan5316">jack or JST)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="564.62195"
+       y="781.24963"
+       id="text4696-60-9"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="564.62195"
+         y="781.24963"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:start;text-anchor:start;fill:#000000"
+         id="tspan4700-2-6">Barrel jack</tspan><tspan
+         sodipodi:role="line"
+         x="564.62195"
+         y="801.24963"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:start;text-anchor:start;fill:#000000"
+         id="tspan5289">for power</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="385.85373"
+       y="638.07025"
+       id="text4696-6-9-7-1"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="385.85373"
+         y="638.07025"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan4984-0">5V charge</tspan><tspan
+         sodipodi:role="line"
+         x="385.85373"
+         y="658.07025"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan5254">pump</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="535.80933"
+       y="720.77631"
+       id="text4696-60-9-6"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="535.80933"
+         y="720.77631"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:start;text-anchor:start;fill:#000000"
+         id="tspan5289-0">Optional JST</tspan><tspan
+         sodipodi:role="line"
+         x="535.80933"
+         y="740.77631"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:start;text-anchor:start;fill:#000000"
+         id="tspan5314">power plug</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="483.27374"
+       y="617.49677"
+       id="text4696-6-9-7-0"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="483.27374"
+         y="617.49677"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan4984-4">RTC backup</tspan><tspan
+         sodipodi:role="line"
+         x="483.27374"
+         y="637.49677"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan5341">battery</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="140.17856"
+       y="931.25922"
+       id="text4696-6-9-7-5"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="140.17856"
+         y="931.25922"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan4984-09">Screw terminals</tspan><tspan
+         sodipodi:role="line"
+         x="140.17856"
+         y="951.25922"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan5376">for sensors, etc.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="4.9908943"
+       y="935.96692"
+       id="text4696-6-9-7-5-9"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="4.9908943"
+         y="935.96692"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan5376-7">&quot;Log now&quot;</tspan><tspan
+         sodipodi:role="line"
+         x="4.9908943"
+         y="955.96692"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan5401">button</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="21.107313"
+       y="628.62622"
+       id="text4696-6-9-7-5-9-6"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="21.107313"
+         y="628.62622"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan5376-7-7">&quot;Reset&quot;</tspan><tspan
+         sodipodi:role="line"
+         x="21.107313"
+         y="648.62622"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan5401-6">button</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 28.054247,654.04745 19.443538,27.77648"
+       id="path5426"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 150.27077,667.38018 0,13.33271"
+       id="path5438"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 225.52006,660.74763 -41.13469,80.48271"
+       id="path5438-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 321.71857,614.77363 0,128.42861"
+       id="path5438-9"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.99999976;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 372.01426,662.13189 0,72.84475"
+       id="path5438-5"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 470.53363,641.8258 0,39.4426"
+       id="path5438-92"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 554.33131,683.70476 408.0747,742.2288"
+       id="path5438-0-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="558.9679"
+       y="935.05884"
+       id="text4696-60-6-8-7"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="558.9679"
+         y="935.05884"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan4935-3">USB comms</tspan><tspan
+         sodipodi:role="line"
+         x="558.9679"
+         y="955.05884"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan5515">indicator LEDs</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 494.42138,898.75826 12.77718,17.77694"
+       id="path5438-92-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 423.33911,824.12906 115.24688,63.79636"
+       id="path5438-92-6-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="290.82654"
+       y="933.34167"
+       id="text4696-6-7-7"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="290.82654"
+         y="933.34167"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan5076-9">3.3V level</tspan><tspan
+         sodipodi:role="line"
+         x="290.82654"
+         y="953.34167"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan5139-7">shifter (I2C)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-788.20203"
+       y="-13.079534"
+       id="text4696-2"
+       sodipodi:linespacing="100%"
+       transform="matrix(0,-1,1,0,0,0)"><tspan
+         sodipodi:role="line"
+         x="-788.20203"
+         y="-13.079534"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan4884-4">SD card</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 383.00694,805.86026 489.11505,968.89251"
+       id="path5438-92-6-4-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.99999976;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 259.98754,797.89595 213.63607,969.39714"
+       id="path5438-5-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.99999976;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 262.20653,846.63493 28.28297,76.77294"
+       id="path5438-5-6-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 317.38671,808.56212 72.6932,112.12557"
+       id="path5438-92-6-4-3-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 20.054247,919.82393 39.497785,892.04745"
+       id="path5426-0"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="97.039207"
+       y="573.93372"
+       id="text4696-6-7-5"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="97.039207"
+         y="573.93372"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan5139-76">In-system</tspan><tspan
+         sodipodi:role="line"
+         x="97.039207"
+         y="593.93372"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan5737">programmer</tspan><tspan
+         sodipodi:role="line"
+         x="97.039207"
+         y="613.93372"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Gillius ADF';-inkscape-font-specification:'Gillius ADF';text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan5739">access</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 95.725834,617.96953 12.814086,58.04184"
+       id="path5438-03"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+  </g>
+</svg>
