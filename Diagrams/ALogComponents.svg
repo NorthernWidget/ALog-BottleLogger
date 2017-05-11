@@ -43,9 +43,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.63642578"
-     inkscape:cx="395.45888"
-     inkscape:cy="222.73823"
+     inkscape:zoom="1.2728516"
+     inkscape:cx="524.59399"
+     inkscape:cy="292.90683"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -75,17 +75,6 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(74.864273,-560.09372)">
-    <image
-       clip-path="url(#clipPath5349)"
-       transform="matrix(0.99996726,0.00809166,-0.00809166,0.99996726,-103.40335,521.84813)"
-       width="596.39612"
-       height="264.64285"
-       preserveAspectRatio="none"
-       id="image4198"
-       x="87.323647"
-       y="131.21565"
-       xlink:href="/home/awickert/Dropbox/Papers/InProgress/DataLogger/figures/inprogress/LoggerPhoto2_121332.png"
-       sodipodi:absref="/home/awickert/Dropbox/Papers/InProgress/DataLogger/figures/inprogress/LoggerPhoto2_121332.png" />
     <image
        sodipodi:absref="/home/awickert/Dropbox/NorthernWidget/github/ALog-BottleLogger/Diagrams/ALog220_modified.png"
        xlink:href="ALog220_modified.png"
