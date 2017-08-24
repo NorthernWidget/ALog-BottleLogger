@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="8.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -19106,6 +19106,11 @@ both external lines (0.5A rated)</text>
 <wire x1="20.32" y1="111.76" x2="27.94" y2="111.76" width="0.1524" layer="91"/>
 <label x="25.4" y="111.76" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="127" y1="149.86" x2="111.76" y2="149.86" width="0.1524" layer="91"/>
+<label x="111.76" y="149.86" size="1.778" layer="95"/>
+<pinref part="J2" gate="G$1" pin="9"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -19140,16 +19145,6 @@ both external lines (0.5A rated)</text>
 <pinref part="J16" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="91.44" y1="152.4" x2="76.2" y2="152.4" width="0.1524" layer="91"/>
-<label x="76.2" y="152.4" size="1.778" layer="95"/>
-<pinref part="J15" gate="G$1" pin="8"/>
-</segment>
-<segment>
-<wire x1="58.42" y1="152.4" x2="43.18" y2="152.4" width="0.1524" layer="91"/>
-<label x="43.18" y="152.4" size="1.778" layer="95"/>
-<pinref part="J14" gate="G$1" pin="8"/>
-</segment>
-<segment>
 <wire x1="127" y1="114.3" x2="111.76" y2="114.3" width="0.1524" layer="91"/>
 <label x="111.76" y="114.3" size="1.778" layer="95"/>
 <pinref part="J1" gate="G$1" pin="5"/>
@@ -19165,19 +19160,34 @@ both external lines (0.5A rated)</text>
 <pinref part="J16" gate="G$1" pin="6"/>
 </segment>
 <segment>
-<wire x1="91.44" y1="165.1" x2="76.2" y2="165.1" width="0.1524" layer="91"/>
-<label x="76.2" y="165.1" size="1.778" layer="95"/>
-<pinref part="J15" gate="G$1" pin="3"/>
+<wire x1="91.44" y1="157.48" x2="76.2" y2="157.48" width="0.1524" layer="91"/>
+<label x="76.2" y="157.48" size="1.778" layer="95"/>
+<pinref part="J15" gate="G$1" pin="6"/>
 </segment>
 <segment>
-<wire x1="58.42" y1="165.1" x2="43.18" y2="165.1" width="0.1524" layer="91"/>
-<label x="43.18" y="165.1" size="1.778" layer="95"/>
-<pinref part="J14" gate="G$1" pin="3"/>
+<wire x1="58.42" y1="157.48" x2="43.18" y2="157.48" width="0.1524" layer="91"/>
+<label x="43.18" y="157.48" size="1.778" layer="95"/>
+<pinref part="J14" gate="G$1" pin="6"/>
 </segment>
 <segment>
-<wire x1="127" y1="160.02" x2="111.76" y2="160.02" width="0.1524" layer="91"/>
-<label x="111.76" y="160.02" size="1.778" layer="95"/>
-<pinref part="J2" gate="G$1" pin="5"/>
+<wire x1="91.44" y1="170.18" x2="76.2" y2="170.18" width="0.1524" layer="91"/>
+<label x="76.2" y="170.18" size="1.778" layer="95"/>
+<pinref part="J15" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<wire x1="58.42" y1="170.18" x2="43.18" y2="170.18" width="0.1524" layer="91"/>
+<label x="43.18" y="170.18" size="1.778" layer="95"/>
+<pinref part="J14" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<wire x1="127" y1="165.1" x2="111.76" y2="165.1" width="0.1524" layer="91"/>
+<label x="111.76" y="165.1" size="1.778" layer="95"/>
+<pinref part="J2" gate="G$1" pin="3"/>
+</segment>
+<segment>
+<wire x1="127" y1="147.32" x2="111.76" y2="147.32" width="0.1524" layer="91"/>
+<label x="111.76" y="147.32" size="1.778" layer="95"/>
+<pinref part="J2" gate="G$1" pin="10"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -19213,16 +19223,6 @@ both external lines (0.5A rated)</text>
 <pinref part="J16" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="91.44" y1="149.86" x2="76.2" y2="149.86" width="0.1524" layer="91"/>
-<label x="76.2" y="149.86" size="1.778" layer="95"/>
-<pinref part="J15" gate="G$1" pin="9"/>
-</segment>
-<segment>
-<wire x1="58.42" y1="149.86" x2="43.18" y2="149.86" width="0.1524" layer="91"/>
-<label x="43.18" y="149.86" size="1.778" layer="95"/>
-<pinref part="J14" gate="G$1" pin="9"/>
-</segment>
-<segment>
 <wire x1="127" y1="111.76" x2="111.76" y2="111.76" width="0.1524" layer="91"/>
 <label x="111.76" y="111.76" size="1.778" layer="95"/>
 <pinref part="J1" gate="G$1" pin="6"/>
@@ -19238,19 +19238,29 @@ both external lines (0.5A rated)</text>
 <pinref part="J16" gate="G$1" pin="7"/>
 </segment>
 <segment>
-<wire x1="91.44" y1="162.56" x2="76.2" y2="162.56" width="0.1524" layer="91"/>
-<label x="76.2" y="162.56" size="1.778" layer="95"/>
-<pinref part="J15" gate="G$1" pin="4"/>
+<wire x1="91.44" y1="154.94" x2="76.2" y2="154.94" width="0.1524" layer="91"/>
+<label x="76.2" y="154.94" size="1.778" layer="95"/>
+<pinref part="J15" gate="G$1" pin="7"/>
 </segment>
 <segment>
-<wire x1="58.42" y1="162.56" x2="43.18" y2="162.56" width="0.1524" layer="91"/>
-<label x="43.18" y="162.56" size="1.778" layer="95"/>
-<pinref part="J14" gate="G$1" pin="4"/>
+<wire x1="58.42" y1="154.94" x2="43.18" y2="154.94" width="0.1524" layer="91"/>
+<label x="43.18" y="154.94" size="1.778" layer="95"/>
+<pinref part="J14" gate="G$1" pin="7"/>
 </segment>
 <segment>
-<wire x1="127" y1="157.48" x2="111.76" y2="157.48" width="0.1524" layer="91"/>
-<label x="111.76" y="157.48" size="1.778" layer="95"/>
-<pinref part="J2" gate="G$1" pin="6"/>
+<wire x1="91.44" y1="167.64" x2="76.2" y2="167.64" width="0.1524" layer="91"/>
+<label x="76.2" y="167.64" size="1.778" layer="95"/>
+<pinref part="J15" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<wire x1="58.42" y1="167.64" x2="43.18" y2="167.64" width="0.1524" layer="91"/>
+<label x="43.18" y="167.64" size="1.778" layer="95"/>
+<pinref part="J14" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<wire x1="127" y1="162.56" x2="111.76" y2="162.56" width="0.1524" layer="91"/>
+<label x="111.76" y="162.56" size="1.778" layer="95"/>
+<pinref part="J2" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="EXT_5V" class="0">
@@ -19265,24 +19275,24 @@ both external lines (0.5A rated)</text>
 <pinref part="J16" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<wire x1="91.44" y1="147.32" x2="76.2" y2="147.32" width="0.1524" layer="91"/>
-<label x="76.2" y="147.32" size="1.778" layer="95"/>
-<pinref part="J15" gate="G$1" pin="10"/>
-</segment>
-<segment>
-<wire x1="58.42" y1="147.32" x2="43.18" y2="147.32" width="0.1524" layer="91"/>
-<label x="43.18" y="147.32" size="1.778" layer="95"/>
-<pinref part="J14" gate="G$1" pin="10"/>
-</segment>
-<segment>
 <wire x1="127" y1="109.22" x2="111.76" y2="109.22" width="0.1524" layer="91"/>
 <label x="111.76" y="109.22" size="1.778" layer="95"/>
 <pinref part="J1" gate="G$1" pin="7"/>
 </segment>
 <segment>
-<wire x1="127" y1="154.94" x2="111.76" y2="154.94" width="0.1524" layer="91"/>
-<label x="111.76" y="154.94" size="1.778" layer="95"/>
-<pinref part="J2" gate="G$1" pin="7"/>
+<wire x1="91.44" y1="152.4" x2="76.2" y2="152.4" width="0.1524" layer="91"/>
+<label x="76.2" y="152.4" size="1.778" layer="95"/>
+<pinref part="J15" gate="G$1" pin="8"/>
+</segment>
+<segment>
+<wire x1="58.42" y1="152.4" x2="43.18" y2="152.4" width="0.1524" layer="91"/>
+<label x="43.18" y="152.4" size="1.778" layer="95"/>
+<pinref part="J14" gate="G$1" pin="8"/>
+</segment>
+<segment>
+<wire x1="127" y1="160.02" x2="111.76" y2="160.02" width="0.1524" layer="91"/>
+<label x="111.76" y="160.02" size="1.778" layer="95"/>
+<pinref part="J2" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="RST" class="0">
@@ -19308,30 +19318,30 @@ both external lines (0.5A rated)</text>
 </net>
 <net name="ADC8" class="0">
 <segment>
-<wire x1="91.44" y1="154.94" x2="76.2" y2="154.94" width="0.1524" layer="91"/>
-<label x="76.2" y="154.94" size="1.778" layer="95"/>
-<pinref part="J15" gate="G$1" pin="7"/>
+<wire x1="91.44" y1="160.02" x2="76.2" y2="160.02" width="0.1524" layer="91"/>
+<label x="76.2" y="160.02" size="1.778" layer="95"/>
+<pinref part="J15" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="ADC9" class="0">
 <segment>
-<wire x1="91.44" y1="157.48" x2="76.2" y2="157.48" width="0.1524" layer="91"/>
-<label x="76.2" y="157.48" size="1.778" layer="95"/>
-<pinref part="J15" gate="G$1" pin="6"/>
+<wire x1="91.44" y1="162.56" x2="76.2" y2="162.56" width="0.1524" layer="91"/>
+<label x="76.2" y="162.56" size="1.778" layer="95"/>
+<pinref part="J15" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="ADC11" class="0">
 <segment>
-<wire x1="91.44" y1="170.18" x2="76.2" y2="170.18" width="0.1524" layer="91"/>
-<label x="76.2" y="170.18" size="1.778" layer="95"/>
-<pinref part="J15" gate="G$1" pin="1"/>
+<wire x1="58.42" y1="149.86" x2="43.18" y2="149.86" width="0.1524" layer="91"/>
+<label x="43.18" y="149.86" size="1.778" layer="95"/>
+<pinref part="J14" gate="G$1" pin="9"/>
 </segment>
 </net>
 <net name="ADC10" class="0">
 <segment>
-<wire x1="91.44" y1="167.64" x2="76.2" y2="167.64" width="0.1524" layer="91"/>
-<label x="76.2" y="167.64" size="1.778" layer="95"/>
-<pinref part="J15" gate="G$1" pin="2"/>
+<wire x1="58.42" y1="147.32" x2="43.18" y2="147.32" width="0.1524" layer="91"/>
+<label x="43.18" y="147.32" size="1.778" layer="95"/>
+<pinref part="J14" gate="G$1" pin="10"/>
 </segment>
 </net>
 <net name="EXT_5V1" class="0">
@@ -19346,14 +19356,14 @@ both external lines (0.5A rated)</text>
 <pinref part="J16" gate="G$1" pin="8"/>
 </segment>
 <segment>
-<wire x1="91.44" y1="160.02" x2="76.2" y2="160.02" width="0.1524" layer="91"/>
-<label x="76.2" y="160.02" size="1.778" layer="95"/>
-<pinref part="J15" gate="G$1" pin="5"/>
+<wire x1="91.44" y1="165.1" x2="76.2" y2="165.1" width="0.1524" layer="91"/>
+<label x="76.2" y="165.1" size="1.778" layer="95"/>
+<pinref part="J15" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<wire x1="58.42" y1="160.02" x2="43.18" y2="160.02" width="0.1524" layer="91"/>
-<label x="43.18" y="160.02" size="1.778" layer="95"/>
-<pinref part="J14" gate="G$1" pin="5"/>
+<wire x1="58.42" y1="165.1" x2="43.18" y2="165.1" width="0.1524" layer="91"/>
+<label x="43.18" y="165.1" size="1.778" layer="95"/>
+<pinref part="J14" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="ADC0" class="0">
@@ -19393,23 +19403,16 @@ both external lines (0.5A rated)</text>
 </net>
 <net name="ADC12" class="0">
 <segment>
-<wire x1="58.42" y1="154.94" x2="43.18" y2="154.94" width="0.1524" layer="91"/>
-<label x="43.18" y="154.94" size="1.778" layer="95"/>
-<pinref part="J14" gate="G$1" pin="7"/>
+<wire x1="58.42" y1="160.02" x2="43.18" y2="160.02" width="0.1524" layer="91"/>
+<label x="43.18" y="160.02" size="1.778" layer="95"/>
+<pinref part="J14" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="ADC13" class="0">
 <segment>
-<wire x1="58.42" y1="157.48" x2="43.18" y2="157.48" width="0.1524" layer="91"/>
-<label x="43.18" y="157.48" size="1.778" layer="95"/>
-<pinref part="J14" gate="G$1" pin="6"/>
-</segment>
-</net>
-<net name="1.8V_REF" class="0">
-<segment>
-<wire x1="58.42" y1="170.18" x2="43.18" y2="170.18" width="0.1524" layer="91"/>
-<label x="43.18" y="170.18" size="1.778" layer="95"/>
-<pinref part="J14" gate="G$1" pin="1"/>
+<wire x1="58.42" y1="162.56" x2="43.18" y2="162.56" width="0.1524" layer="91"/>
+<label x="43.18" y="162.56" size="1.778" layer="95"/>
+<pinref part="J14" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -19418,11 +19421,6 @@ both external lines (0.5A rated)</text>
 <pinref part="+3V7" gate="G$1" pin="+3V3"/>
 <pinref part="ISP2" gate="G$1" pin="VCC"/>
 <wire x1="99.06" y1="83.82" x2="101.6" y2="83.82" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="58.42" y1="167.64" x2="43.18" y2="167.64" width="0.1524" layer="91"/>
-<label x="43.18" y="167.64" size="1.778" layer="95"/>
-<pinref part="J14" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="RX/INT0" class="0">
@@ -19441,16 +19439,16 @@ both external lines (0.5A rated)</text>
 </net>
 <net name="D3~" class="0">
 <segment>
-<wire x1="127" y1="152.4" x2="111.76" y2="152.4" width="0.1524" layer="91"/>
-<label x="111.76" y="152.4" size="1.778" layer="95"/>
-<pinref part="J2" gate="G$1" pin="8"/>
+<wire x1="127" y1="157.48" x2="111.76" y2="157.48" width="0.1524" layer="91"/>
+<label x="111.76" y="157.48" size="1.778" layer="95"/>
+<pinref part="J2" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="SS/D4" class="0">
 <segment>
-<wire x1="127" y1="162.56" x2="111.76" y2="162.56" width="0.1524" layer="91"/>
-<label x="111.76" y="162.56" size="1.778" layer="95"/>
-<pinref part="J2" gate="G$1" pin="4"/>
+<wire x1="127" y1="167.64" x2="111.76" y2="167.64" width="0.1524" layer="91"/>
+<label x="111.76" y="167.64" size="1.778" layer="95"/>
+<pinref part="J2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="MOSI/D5" class="0">
@@ -19460,9 +19458,9 @@ both external lines (0.5A rated)</text>
 <label x="101.6" y="81.28" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="127" y1="165.1" x2="111.76" y2="165.1" width="0.1524" layer="91"/>
-<label x="111.76" y="165.1" size="1.778" layer="95"/>
-<pinref part="J2" gate="G$1" pin="3"/>
+<wire x1="127" y1="170.18" x2="111.76" y2="170.18" width="0.1524" layer="91"/>
+<label x="111.76" y="170.18" size="1.778" layer="95"/>
+<pinref part="J2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="MISO/D6" class="0">
@@ -19472,9 +19470,9 @@ both external lines (0.5A rated)</text>
 <label x="60.96" y="83.82" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="127" y1="167.64" x2="111.76" y2="167.64" width="0.1524" layer="91"/>
-<label x="111.76" y="167.64" size="1.778" layer="95"/>
-<pinref part="J2" gate="G$1" pin="2"/>
+<wire x1="91.44" y1="147.32" x2="76.2" y2="147.32" width="0.1524" layer="91"/>
+<label x="76.2" y="147.32" size="1.778" layer="95"/>
+<pinref part="J15" gate="G$1" pin="10"/>
 </segment>
 </net>
 <net name="SCK/D7" class="0">
@@ -19484,16 +19482,16 @@ both external lines (0.5A rated)</text>
 <label x="60.96" y="81.28" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="127" y1="170.18" x2="111.76" y2="170.18" width="0.1524" layer="91"/>
-<label x="111.76" y="170.18" size="1.778" layer="95"/>
-<pinref part="J2" gate="G$1" pin="1"/>
+<wire x1="91.44" y1="149.86" x2="76.2" y2="149.86" width="0.1524" layer="91"/>
+<label x="76.2" y="149.86" size="1.778" layer="95"/>
+<pinref part="J15" gate="G$1" pin="9"/>
 </segment>
 </net>
 <net name="D15~" class="0">
 <segment>
-<wire x1="127" y1="147.32" x2="111.76" y2="147.32" width="0.1524" layer="91"/>
-<label x="111.76" y="147.32" size="1.778" layer="95"/>
-<pinref part="J2" gate="G$1" pin="10"/>
+<wire x1="127" y1="152.4" x2="111.76" y2="152.4" width="0.1524" layer="91"/>
+<label x="111.76" y="152.4" size="1.778" layer="95"/>
+<pinref part="J2" gate="G$1" pin="8"/>
 </segment>
 </net>
 <net name="D12~" class="0">
@@ -19519,9 +19517,9 @@ both external lines (0.5A rated)</text>
 </net>
 <net name="MCU_ADC0" class="0">
 <segment>
-<wire x1="127" y1="149.86" x2="111.76" y2="149.86" width="0.1524" layer="91"/>
-<label x="111.76" y="149.86" size="1.778" layer="95"/>
-<pinref part="J2" gate="G$1" pin="9"/>
+<wire x1="127" y1="154.94" x2="111.76" y2="154.94" width="0.1524" layer="91"/>
+<label x="111.76" y="154.94" size="1.778" layer="95"/>
+<pinref part="J2" gate="G$1" pin="7"/>
 </segment>
 </net>
 </nets>
