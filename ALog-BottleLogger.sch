@@ -16657,12 +16657,12 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
-<part name="C12" library="rcl" deviceset="C-EU" device="C0603" value="10nF"/>
-<part name="C13" library="rcl" deviceset="C-EU" device="C0603" value="10nF"/>
-<part name="C14" library="rcl" deviceset="C-EU" device="C0603" value="10nF"/>
-<part name="C15" library="rcl" deviceset="C-EU" device="C0603" value="10nF"/>
-<part name="C16" library="rcl" deviceset="C-EU" device="C0603" value="10nF"/>
-<part name="C17" library="rcl" deviceset="C-EU" device="C0603" value="10nF"/>
+<part name="C12" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF"/>
+<part name="C13" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF"/>
+<part name="C14" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF"/>
+<part name="C15" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF"/>
+<part name="C16" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF"/>
+<part name="C17" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF"/>
 <part name="J8" library="SparkFun-Connectors" deviceset="CONN_10" device=""/>
 <part name="ISP2" library="adafruit" deviceset="AVRISP" device="-6"/>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
@@ -16679,26 +16679,26 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <part name="SD" library="adafruit" deviceset="SDMMC" device="06132"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_10" device=""/>
 <part name="J2" library="SparkFun-Connectors" deviceset="CONN_10" device=""/>
-<part name="U$6" library="Custom" deviceset="TPS306X" device="" value="TPS63061"/>
+<part name="U$6" library="Custom" deviceset="TPS306X" device="" value="TPS63060"/>
 <part name="U$9" library="Custom" deviceset="WE-MAIA(INDUCTOR)" device="" value="1uH"/>
 <part name="C21" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF"/>
-<part name="C22" library="rcl" deviceset="C-EU" device="C0603" value="10uF"/>
+<part name="C22" library="rcl" deviceset="C-EU" device="C0805" value="10uF"/>
 <part name="GND38" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="C23" library="rcl" deviceset="C-EU" device="C0603" value="10pF"/>
-<part name="C24" library="rcl" deviceset="C-EU" device="C0603" value="22uF"/>
+<part name="C23" library="rcl" deviceset="C-EU" device="C0603" value="33pF"/>
+<part name="C24" library="rcl" deviceset="C-EU" device="C0805" value="22uF"/>
 <part name="GND39" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND40" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="C25" library="rcl" deviceset="C-EU" device="C0603" value="10uF"/>
+<part name="C25" library="rcl" deviceset="C-EU" device="C0805" value="10uF"/>
 <part name="R15" library="rcl" deviceset="R-EU_" device="R0603" value="143k"/>
 <part name="R16" library="rcl" deviceset="R-EU_" device="R0603" value="953k"/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="22uF"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="22uF"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="22uF"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="22uF"/>
 <part name="U$3" library="texas" deviceset="TPS6217X" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="L1" library="Custom" deviceset="WE-LSQ(INDUCTOR)" device="" value="10uH"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
-<part name="C10" library="rcl" deviceset="C-EU" device="C0603" value="22uF"/>
+<part name="C10" library="rcl" deviceset="C-EU" device="C0805" value="22uF"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="U$4" library="Custom" deviceset="SKRPABE010" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
@@ -16719,10 +16719,10 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <part name="R12" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="R17" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="C28" library="rcl" deviceset="C-EU" device="C0603" value="10nF"/>
+<part name="C28" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF"/>
 <part name="R23" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
-<part name="C29" library="rcl" deviceset="C-EU" device="C0603" value="10nF"/>
+<part name="C29" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF"/>
 <part name="R24" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="SJ1" library="SparkFun-Retired" deviceset="SOLDERJUMPER-OLD" device="TRACE"/>
 <part name="SJ2" library="SparkFun-Retired" deviceset="SOLDERJUMPER-OLD" device="TRACE"/>
@@ -16730,16 +16730,16 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
 <part name="GND37" library="supply1" deviceset="GND" device=""/>
 <part name="GND41" library="supply1" deviceset="GND" device=""/>
-<part name="C30" library="rcl" deviceset="C-EU" device="C0603" value="10nF"/>
-<part name="C31" library="rcl" deviceset="C-EU" device="C0603" value="10nF"/>
+<part name="C30" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF"/>
+<part name="C31" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF"/>
 <part name="GND42" library="supply1" deviceset="GND" device=""/>
-<part name="C32" library="rcl" deviceset="C-EU" device="C0603" value="10nF"/>
+<part name="C32" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF"/>
 <part name="GND43" library="supply1" deviceset="GND" device=""/>
-<part name="C33" library="rcl" deviceset="C-EU" device="C0603" value="10nF"/>
+<part name="C33" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF"/>
 <part name="GND44" library="supply1" deviceset="GND" device=""/>
 <part name="GND45" library="supply1" deviceset="GND" device=""/>
-<part name="C34" library="rcl" deviceset="C-EU" device="C0603" value="10nF"/>
-<part name="C35" library="rcl" deviceset="C-EU" device="C0603" value="10nF"/>
+<part name="C34" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF"/>
+<part name="C35" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF"/>
 <part name="LED1" library="SparkFun-LED" deviceset="LED" device="0603" value="Yellow"/>
 <part name="LED2" library="SparkFun-LED" deviceset="LED" device="0603" value="Blue"/>
 <part name="SUPPLY31" library="supply2" deviceset="GND" device=""/>
@@ -16916,20 +16916,6 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <label x="243.84" y="-10.16" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="MOSI/D6" class="0">
-<segment>
-<wire x1="335.28" y1="5.08" x2="340.36" y2="5.08" width="0.1524" layer="91"/>
-<label x="337.82" y="5.08" size="1.778" layer="95"/>
-<pinref part="SD" gate="G$1" pin="DATA_IN"/>
-</segment>
-</net>
-<net name="MISO/D5" class="0">
-<segment>
-<wire x1="335.28" y1="2.54" x2="340.36" y2="2.54" width="0.1524" layer="91"/>
-<label x="337.82" y="2.54" size="1.778" layer="95"/>
-<pinref part="SD" gate="G$1" pin="DATA_OUT"/>
-</segment>
-</net>
 <net name="GND" class="0">
 <segment>
 <pinref part="RTC1" gate="G$1" pin="GND"/>
@@ -17052,6 +17038,11 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <wire x1="335.28" y1="10.16" x2="340.36" y2="10.16" width="0.1524" layer="91"/>
 <label x="337.82" y="10.16" size="1.778" layer="95"/>
 <pinref part="SD" gate="G$1" pin="CS"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="(PCINT21/TDI)PC5"/>
+<wire x1="241.3" y1="2.54" x2="248.92" y2="2.54" width="0.1524" layer="91"/>
+<label x="243.84" y="2.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SD_VCC" class="0">
@@ -17200,13 +17191,6 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <label x="243.84" y="-25.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D21" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="(PCINT21/TDI)PC5"/>
-<wire x1="241.3" y1="2.54" x2="248.92" y2="2.54" width="0.1524" layer="91"/>
-<label x="243.84" y="2.54" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="VDD1" class="0">
 <segment>
 <wire x1="414.02" y1="25.4" x2="414.02" y2="20.32" width="0.1524" layer="91"/>
@@ -17337,12 +17321,22 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <wire x1="241.3" y1="25.4" x2="248.92" y2="25.4" width="0.1524" layer="91"/>
 <label x="243.84" y="25.4" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="335.28" y1="5.08" x2="340.36" y2="5.08" width="0.1524" layer="91"/>
+<label x="337.82" y="5.08" size="1.778" layer="95"/>
+<pinref part="SD" gate="G$1" pin="DATA_IN"/>
+</segment>
 </net>
 <net name="MISO/D6" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="(PCINT14/MISO)PB6"/>
 <wire x1="241.3" y1="27.94" x2="248.92" y2="27.94" width="0.1524" layer="91"/>
 <label x="243.84" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="335.28" y1="2.54" x2="340.36" y2="2.54" width="0.1524" layer="91"/>
+<label x="337.82" y="2.54" size="1.778" layer="95"/>
+<pinref part="SD" gate="G$1" pin="DATA_OUT"/>
 </segment>
 </net>
 <net name="SCK/D7" class="0">
