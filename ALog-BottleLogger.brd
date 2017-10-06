@@ -4611,16 +4611,16 @@ Covered vias can be set in Masks (Limit).
 <wire x1="73.95" y1="18.3" x2="74.55" y2="17.7" width="0.2032" layer="1"/>
 <wire x1="73.95" y1="21.3" x2="73.95" y2="18.3" width="0.2032" layer="1"/>
 <wire x1="75.15" y1="22.5" x2="73.95" y2="21.3" width="0.2032" layer="1"/>
-<wire x1="75.15" y1="29.1" x2="75.15" y2="22.5" width="0.2032" layer="1"/>
-<wire x1="75.45" y1="29.4" x2="75.15" y2="29.1" width="0.2032" layer="16"/>
-<wire x1="75.45" y1="40.2" x2="75.45" y2="29.4" width="0.2032" layer="16"/>
+<wire x1="75.15" y1="28.2" x2="75.15" y2="22.5" width="0.2032" layer="1"/>
+<wire x1="75.45" y1="28.5" x2="75.15" y2="28.2" width="0.2032" layer="16"/>
+<wire x1="75.45" y1="40.2" x2="75.45" y2="28.5" width="0.2032" layer="16"/>
 <wire x1="76.2" y1="40.95" x2="75.45" y2="40.2" width="0.2032" layer="16"/>
 <wire x1="74.7" y1="17.7" x2="74.825" y2="17.75" width="0.2032" layer="1"/>
-<wire x1="73.05" y1="27" x2="75.15" y2="29.1" width="0.2032" layer="16"/>
-<wire x1="50.1" y1="27" x2="73.05" y2="27" width="0.2032" layer="16"/>
+<wire x1="73.95" y1="27" x2="75.15" y2="28.2" width="0.2032" layer="16"/>
+<wire x1="50.1" y1="27" x2="73.95" y2="27" width="0.2032" layer="16"/>
 <wire x1="50.1" y1="28.8" x2="50.1" y2="27" width="0.2032" layer="16"/>
 <wire x1="50.1" y1="28.8" x2="49.96" y2="28.88" width="0.2032" layer="16"/>
-<via x="75.15" y="29.1" extent="1-16" drill="0.3048"/>
+<via x="75.15" y="28.2" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="SCK/D7">
 <contactref element="IC2" pad="3"/>
@@ -4924,14 +4924,14 @@ Covered vias can be set in Masks (Limit).
 <approved hash="3,1,b7bc7109a5bb3544"/>
 <approved hash="3,1,263eb54eb58b26fb"/>
 <approved hash="3,1,7022700fe67bd026"/>
-<approved hash="3,16,2504837482a024d0"/>
 <approved hash="3,1,e1909de09d24e154"/>
 <approved hash="3,1,00353b453b9500e5"/>
+<approved hash="3,16,2504837482a024d0"/>
 <approved hash="3,1,bc05f075f1b8bdc8"/>
 <approved hash="3,1,8bccb7bcb77e8b0e"/>
 <approved hash="19,1,fb2af3f96dc49edf"/>
-<approved hash="19,1,1ddbc9f753d4fa7f"/>
 <approved hash="19,1,012322283f3c61b0"/>
+<approved hash="19,1,1ddbc9f753d4fa7f"/>
 <approved hash="19,1,22a75d138270fb47"/>
 <approved hash="19,1,63efe579c4764463"/>
 <approved hash="19,1,1a4801f75be1e4a1"/>
