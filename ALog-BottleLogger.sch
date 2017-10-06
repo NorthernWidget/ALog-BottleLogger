@@ -1632,15 +1632,6 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <wire x1="2.54" y1="2.54" x2="-2.54" y2="2.54" width="0.127" layer="21"/>
 <text x="-2.54" y="3.175" size="1.27" layer="21">&gt;VALUE</text>
 </package>
-<package name="WE-LQS(INDUCTOR)">
-<smd name="P$1" x="-1.15" y="0" dx="3.6" dy="1.5" layer="1" rot="R90"/>
-<smd name="P$2" x="1.15" y="0" dx="3.6" dy="1.5" layer="1" rot="R90"/>
-<wire x1="-2.54" y1="1.905" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-2.54" x2="2.54" y2="2.54" width="0.127" layer="21"/>
-<wire x1="2.54" y1="2.54" x2="-2.54" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.905" width="0.127" layer="21"/>
-</package>
 </packages>
 <symbols>
 <symbol name="BUTTON">
@@ -1667,16 +1658,6 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <text x="3.81" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="2" x="0" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 <pin name="1" x="0" y="7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-</symbol>
-<symbol name="INDUCTOR">
-<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
-<pin name="P$1" x="-7.62" y="0" visible="off" length="short"/>
-<pin name="P$2" x="7.62" y="0" visible="off" length="short" rot="R180"/>
-<text x="-5.08" y="2.032" size="1.27" layer="96">&gt;VALUE</text>
-<text x="-5.08" y="3.556" size="1.27" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1710,22 +1691,6 @@ Rated to 50 mA 16V (DC)</description>
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="WE-LSQ(INDUCTOR)" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="WE-LQS(INDUCTOR)">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5848,6 +5813,22 @@ Source: AVX .. aphvc.pdf</description>
 <rectangle x1="-4.57" y1="-5.1" x2="-3.05" y2="5.1" layer="51"/>
 <rectangle x1="3.05" y1="-5.1" x2="4.5688" y2="5.1" layer="51"/>
 </package>
+<package name="R0603@1">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
+<wire x1="-0.432" y1="-0.3306" x2="0.432" y2="-0.3306" width="0.2032" layer="51"/>
+<wire x1="0.432" y1="0.3306" x2="-0.432" y2="0.3306" width="0.2032" layer="51"/>
+<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
+<rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+</package>
 <package name="R0603">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
 <wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
@@ -5912,6 +5893,28 @@ Source: AVX .. aphvc.pdf</description>
 <rectangle x1="0.9517" y1="-1.3045" x2="1.7018" y2="1.2954" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
+<package name="PRL1632">
+<description>&lt;b&gt;PRL1632 are realized as 1W for 3.2 × 1.6mm(1206)&lt;/b&gt;&lt;p&gt;
+Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
+<wire x1="0.7275" y1="-1.5228" x2="-0.7277" y2="-1.5228" width="0.1524" layer="51"/>
+<wire x1="0.7275" y1="1.5228" x2="-0.7152" y2="1.5228" width="0.1524" layer="51"/>
+<smd name="2" x="0.822" y="0" dx="1" dy="3.2" layer="1"/>
+<smd name="1" x="-0.822" y="0" dx="1" dy="3.2" layer="1"/>
+<text x="-1.4" y="1.8" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.4" y="-3" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.8" y1="-1.6" x2="-0.4" y2="1.6" layer="51"/>
+<rectangle x1="0.4" y1="-1.6" x2="0.8" y2="1.6" layer="51"/>
+</package>
+<package name="R01005">
+<smd name="1" x="-0.1625" y="0" dx="0.2" dy="0.25" layer="1"/>
+<smd name="2" x="0.1625" y="0" dx="0.2" dy="0.25" layer="1"/>
+<text x="-0.4" y="0.3" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.4" y="-1.6" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.2" y1="-0.1" x2="-0.075" y2="0.1" layer="51"/>
+<rectangle x1="0.075" y1="-0.1" x2="0.2" y2="0.1" layer="51"/>
+<rectangle x1="-0.15" y1="0.05" x2="0.15" y2="0.1" layer="51"/>
+<rectangle x1="-0.15" y1="-0.1" x2="0.15" y2="-0.05" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="R-EU">
@@ -5966,7 +5969,7 @@ Source: AVX .. aphvc.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="R0603" package="R0603">
+<device name="R0603" package="R0603@1">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -5985,15 +5988,6 @@ Source: AVX .. aphvc.pdf</description>
 </technologies>
 </device>
 <device name="R0805W" package="R0805W">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="R1005" package="R1005">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -6714,6 +6708,24 @@ Source: AVX .. aphvc.pdf</description>
 </technologies>
 </device>
 <device name="1812X7R" package="1812X7R">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PRL1632" package="PRL1632">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="01005" package="R01005">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -16795,6 +16807,61 @@ See a 3.3V fixed output version of this chip in action on the &lt;a href="https:
 </deviceset>
 </devicesets>
 </library>
+<library name="csandell">
+<packages>
+<package name="WURTH2.2UF">
+<wire x1="-1.5" y1="0.9" x2="1.5" y2="0.9" width="0.0508" layer="39"/>
+<wire x1="1.5" y1="-0.9" x2="-1.5" y2="-0.9" width="0.0508" layer="39"/>
+<wire x1="-1.5" y1="-0.9" x2="-1.5" y2="0.9" width="0.0508" layer="39"/>
+<wire x1="1.5" y1="0.9" x2="1.5" y2="-0.9" width="0.0508" layer="39"/>
+<wire x1="-1" y1="0.8" x2="1" y2="0.8" width="0.1524" layer="51"/>
+<wire x1="1" y1="0.8" x2="1" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="1" y1="-0.8" x2="-1" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="-1" y1="-0.8" x2="-1" y2="0.8" width="0.1524" layer="51"/>
+<smd name="1" x="-0.8" y="0" dx="0.85" dy="1.2" layer="1"/>
+<smd name="2" x="0.8" y="0" dx="0.85" dy="1.2" layer="1"/>
+<text x="-1.5" y="1.5" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.5" y="-2" size="0.6096" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="L-US">
+<wire x1="0" y1="5.08" x2="1.27" y2="3.81" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="3.81" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="-2.54" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="-2.54" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="-5.08" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="90"/>
+<text x="-1.27" y="-5.08" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="3.81" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="2" x="0" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<pin name="1" x="0" y="7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="74404020022">
+<description>Wurth 2.2uF inductor part number 74404020022</description>
+<gates>
+<gate name="G$1" symbol="L-US" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WURTH2.2UF">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="WURTH" value="2.2uF"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -16852,7 +16919,6 @@ See a 3.3V fixed output version of this chip in action on the &lt;a href="https:
 <part name="U$3" library="SparkFun-IC-Power" deviceset="TPS62172" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="L1" library="Custom" deviceset="WE-LSQ(INDUCTOR)" device="" value="10uH"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="C10" library="rcl" deviceset="C-EU" device="C0805" value="22uF"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
@@ -16986,6 +17052,8 @@ See a 3.3V fixed output version of this chip in action on the &lt;a href="https:
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
 <part name="U3" library="microbuilder" deviceset="VREG_TPS63060/1" device="" value="TPS63060"/>
 <part name="GND33" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="R20" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="U$6" library="csandell" deviceset="74404020022" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -17901,7 +17969,6 @@ REFERENCE VOLTAGE</text>
 <instance part="U$3" gate="G$1" x="-63.5" y="50.8"/>
 <instance part="GND2" gate="1" x="-45.72" y="40.64"/>
 <instance part="GND3" gate="1" x="-81.28" y="40.64"/>
-<instance part="L1" gate="G$1" x="-35.56" y="55.88"/>
 <instance part="GND16" gate="1" x="-20.32" y="43.18"/>
 <instance part="C10" gate="G$1" x="-20.32" y="53.34"/>
 <instance part="+3V4" gate="G$1" x="-20.32" y="66.04"/>
@@ -17918,6 +17985,10 @@ REFERENCE VOLTAGE</text>
 <instance part="GND7" gate="1" x="-27.94" y="0"/>
 <instance part="U3" gate="G$1" x="-66.04" y="101.6"/>
 <instance part="GND33" gate="1" x="-50.8" y="83.82"/>
+<instance part="U$6" gate="G$1" x="-35.56" y="55.88" smashed="yes" rot="R90">
+<attribute name="NAME" x="-35.56" y="62.23" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-30.48" y="59.69" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -17987,10 +18058,6 @@ REFERENCE VOLTAGE</text>
 <pinref part="C3" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="-40.64" y1="5.08" x2="-40.64" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="GND5" gate="1" pin="GND"/>
-</segment>
-<segment>
 <wire x1="-104.14" y1="7.62" x2="-104.14" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <pinref part="C5" gate="G$1" pin="2"/>
@@ -18005,6 +18072,12 @@ REFERENCE VOLTAGE</text>
 <pinref part="GND33" gate="1" pin="GND"/>
 <wire x1="-53.34" y1="93.98" x2="-50.8" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="93.98" x2="-50.8" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="GND"/>
+<wire x1="-43.18" y1="5.08" x2="-40.64" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="GND5" gate="1" pin="GND"/>
+<wire x1="-40.64" y1="5.08" x2="-40.64" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BATT+" class="0">
@@ -18046,21 +18119,22 @@ REFERENCE VOLTAGE</text>
 <net name="N$1" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="SW"/>
-<pinref part="L1" gate="G$1" pin="P$1"/>
 <wire x1="-50.8" y1="55.88" x2="-43.18" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="U$6" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="VOS"/>
-<pinref part="L1" gate="G$1" pin="P$2"/>
 <wire x1="-20.32" y1="55.88" x2="-27.94" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="-27.94" y1="55.88" x2="-27.94" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="-27.94" y1="53.34" x2="-50.8" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="C10" gate="G$1" pin="1"/>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
+<wire x1="-27.94" y1="53.34" x2="-50.8" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="55.88" x2="-20.32" y2="63.5" width="0.1524" layer="91"/>
 <junction x="-20.32" y="55.88"/>
+<pinref part="U$6" gate="G$1" pin="2"/>
+<junction x="-27.94" y="55.88"/>
 </segment>
 <segment>
 <pinref part="+3V15" gate="G$1" pin="+3V3"/>
@@ -18099,12 +18173,6 @@ REFERENCE VOLTAGE</text>
 <wire x1="-81.28" y1="55.88" x2="-76.2" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="55.88" x2="-81.28" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="1" pin="+5V"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="GND"/>
-<wire x1="-43.18" y1="5.08" x2="-40.64" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="1.8V_REF" class="0">
@@ -18200,12 +18268,13 @@ REFERENCE VOLTAGE</text>
 <attribute name="NAME" x="-4.826" y="107.188" size="1.27" layer="95"/>
 </instance>
 <instance part="U$8" gate="G$1" x="86.36" y="106.68"/>
-<instance part="U$10" gate="G$1" x="15.24" y="129.54"/>
-<instance part="P+10" gate="1" x="45.72" y="111.76"/>
-<instance part="Q11" gate="NMOS" x="22.86" y="106.68" smashed="yes" rot="R270"/>
-<instance part="Q12" gate="G$1" x="27.94" y="121.92" smashed="yes"/>
-<instance part="R14" gate="G$1" x="35.56" y="109.22" rot="R90"/>
-<instance part="GND21" gate="1" x="38.1" y="121.92"/>
+<instance part="U$10" gate="G$1" x="15.24" y="154.94"/>
+<instance part="P+10" gate="1" x="35.56" y="111.76"/>
+<instance part="Q11" gate="NMOS" x="45.72" y="124.46" smashed="yes" rot="R180"/>
+<instance part="Q12" gate="G$1" x="22.86" y="109.22" smashed="yes" rot="R90"/>
+<instance part="R14" gate="G$1" x="43.18" y="109.22" rot="R90"/>
+<instance part="GND21" gate="1" x="33.02" y="127"/>
+<instance part="R20" gate="G$1" x="43.18" y="139.7" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -18256,15 +18325,21 @@ REFERENCE VOLTAGE</text>
 </segment>
 <segment>
 <pinref part="U$10" gate="G$1" pin="VUSB"/>
-<wire x1="15.24" y1="104.14" x2="15.24" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="104.14" x2="15.24" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="MICRO_USB" gate="G$1" pin="VDD"/>
-<wire x1="15.24" y1="119.38" x2="15.24" y2="127" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="104.14" x2="15.24" y2="104.14" width="0.1524" layer="91"/>
-<junction x="15.24" y="104.14"/>
-<pinref part="Q11" gate="NMOS" pin="S"/>
-<pinref part="Q12" gate="G$1" pin="G"/>
-<wire x1="22.86" y1="119.38" x2="15.24" y2="119.38" width="0.1524" layer="91"/>
-<junction x="15.24" y="119.38"/>
+<pinref part="Q12" gate="G$1" pin="D"/>
+<wire x1="15.24" y1="111.76" x2="15.24" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="147.32" x2="15.24" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="111.76" x2="17.78" y2="111.76" width="0.1524" layer="91"/>
+<junction x="15.24" y="111.76"/>
+<pinref part="Q11" gate="NMOS" pin="G"/>
+<wire x1="50.8" y1="127" x2="50.8" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="147.32" x2="43.18" y2="147.32" width="0.1524" layer="91"/>
+<junction x="15.24" y="147.32"/>
+<pinref part="R20" gate="G$1" pin="2"/>
+<wire x1="43.18" y1="147.32" x2="15.24" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="147.32" x2="43.18" y2="144.78" width="0.1524" layer="91"/>
+<junction x="43.18" y="147.32"/>
 </segment>
 </net>
 <net name="N$29" class="0">
@@ -18345,9 +18420,13 @@ REFERENCE VOLTAGE</text>
 </segment>
 <segment>
 <pinref part="GND21" gate="1" pin="GND"/>
-<pinref part="Q12" gate="G$1" pin="D"/>
-<wire x1="38.1" y1="127" x2="38.1" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="127" x2="38.1" y2="127" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="132.08" x2="33.02" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="Q11" gate="NMOS" pin="S"/>
+<pinref part="R20" gate="G$1" pin="1"/>
+<wire x1="43.18" y1="129.54" x2="43.18" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="132.08" x2="43.18" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="132.08" x2="33.02" y2="132.08" width="0.1524" layer="91"/>
+<junction x="43.18" y="132.08"/>
 </segment>
 </net>
 <net name="N$28" class="0">
@@ -18420,27 +18499,30 @@ REFERENCE VOLTAGE</text>
 <wire x1="127" y1="48.26" x2="127" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="Q11" gate="NMOS" pin="G"/>
-<pinref part="Q12" gate="G$1" pin="S"/>
-<wire x1="20.32" y1="111.76" x2="20.32" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="114.3" x2="30.48" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="114.3" x2="30.48" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="114.3" x2="30.48" y2="114.3" width="0.1524" layer="91"/>
-<junction x="30.48" y="114.3"/>
-</segment>
-</net>
 <net name="+5V" class="0">
 <segment>
-<pinref part="Q11" gate="NMOS" pin="D"/>
 <pinref part="R14" gate="G$1" pin="1"/>
-<wire x1="27.94" y1="104.14" x2="35.56" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="104.14" x2="45.72" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="104.14" x2="45.72" y2="109.22" width="0.1524" layer="91"/>
-<junction x="35.56" y="104.14"/>
+<wire x1="43.18" y1="104.14" x2="35.56" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="Q12" gate="G$1" pin="S"/>
+<wire x1="35.56" y1="104.14" x2="27.94" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="111.76" x2="27.94" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="P+10" gate="1" pin="+5V"/>
+<wire x1="35.56" y1="109.22" x2="35.56" y2="104.14" width="0.1524" layer="91"/>
+<junction x="35.56" y="104.14"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="Q12" gate="G$1" pin="G"/>
+<wire x1="25.4" y1="104.14" x2="25.4" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="101.6" x2="48.26" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="101.6" x2="48.26" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="116.84" x2="43.18" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="Q11" gate="NMOS" pin="D"/>
+<wire x1="43.18" y1="116.84" x2="43.18" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="43.18" y1="116.84" x2="43.18" y2="114.3" width="0.1524" layer="91"/>
+<junction x="43.18" y="116.84"/>
 </segment>
 </net>
 </nets>
