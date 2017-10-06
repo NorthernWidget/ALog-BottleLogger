@@ -16987,7 +16987,6 @@ See a 3.3V fixed output version of this chip in action on the &lt;a href="https:
 <part name="GND49" library="supply1" deviceset="GND" device=""/>
 <part name="GND50" library="supply1" deviceset="GND" device=""/>
 <part name="C43" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF"/>
-<part name="GND51" library="supply1" deviceset="GND" device=""/>
 <part name="CLOCK_BATT" library="awickert" deviceset="LINX-BAT-HLD-012-SMT-OTL" device="" value="3V Backup Battery"/>
 <part name="D2" library="semicon-smd-ipc" deviceset="DIODE_AC-CA_" device="" value="BAT54C"/>
 <part name="RCKL2" library="rcl" deviceset="R-US_" device="R0603" value="220"/>
@@ -17069,8 +17068,8 @@ See a 3.3V fixed output version of this chip in action on the &lt;a href="https:
 <instance part="RTC1" gate="G$1" x="383.54" y="22.86"/>
 <instance part="GND25" gate="1" x="398.78" y="7.62"/>
 <instance part="SD" gate="G$1" x="322.58" y="12.7" rot="R180"/>
-<instance part="R1" gate="G$1" x="165.1" y="58.42" rot="R90"/>
-<instance part="U$4" gate="G$1" x="139.7" y="53.34"/>
+<instance part="R1" gate="G$1" x="165.1" y="63.5" rot="R90"/>
+<instance part="U$4" gate="G$1" x="139.7" y="58.42"/>
 <instance part="GND12" gate="1" x="342.9" y="25.4"/>
 <instance part="GND15" gate="1" x="340.36" y="-10.16"/>
 <instance part="IC2" gate="G$1" x="215.9" y="10.16"/>
@@ -17084,12 +17083,11 @@ See a 3.3V fixed output version of this chip in action on the &lt;a href="https:
 <attribute name="VALUE" x="160.02" y="33.02" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND49" gate="1" x="182.88" y="-40.64"/>
-<instance part="GND50" gate="1" x="132.08" y="50.8"/>
-<instance part="C43" gate="G$1" x="165.1" y="50.8" smashed="yes">
-<attribute name="NAME" x="166.624" y="51.181" size="1.778" layer="95"/>
-<attribute name="VALUE" x="156.464" y="46.101" size="1.778" layer="96"/>
+<instance part="GND50" gate="1" x="132.08" y="55.88"/>
+<instance part="C43" gate="G$1" x="165.1" y="55.88" smashed="yes">
+<attribute name="NAME" x="166.624" y="56.261" size="1.778" layer="95"/>
+<attribute name="VALUE" x="156.464" y="51.181" size="1.778" layer="96"/>
 </instance>
-<instance part="GND51" gate="1" x="165.1" y="43.18"/>
 <instance part="CLOCK_BATT" gate="G$1" x="414.02" y="-10.16" rot="R90"/>
 <instance part="D2" gate="G$1" x="414.02" y="22.86" rot="R90"/>
 <instance part="RCKL2" gate="G$1" x="426.72" y="30.48"/>
@@ -17105,7 +17103,7 @@ See a 3.3V fixed output version of this chip in action on the &lt;a href="https:
 <instance part="GND54" gate="1" x="261.62" y="55.88"/>
 <instance part="+3V1" gate="G$1" x="439.42" y="40.64"/>
 <instance part="+3V2" gate="G$1" x="185.42" y="63.5"/>
-<instance part="+3V3" gate="G$1" x="165.1" y="68.58"/>
+<instance part="+3V3" gate="G$1" x="165.1" y="73.66"/>
 <instance part="L_LPF" gate="G$1" x="167.64" y="5.08"/>
 <instance part="ADECOUP" gate="G$1" x="167.64" y="-12.7"/>
 <instance part="SUPPLY12" gate="GND" x="167.64" y="-22.86"/>
@@ -17202,15 +17200,11 @@ See a 3.3V fixed output version of this chip in action on the &lt;a href="https:
 </segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="1"/>
-<junction x="139.7" y="53.34"/>
-<wire x1="139.7" y1="53.34" x2="132.08" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="50.8" x2="139.7" y2="53.34" width="0.1524" layer="91"/>
+<junction x="139.7" y="58.42"/>
+<wire x1="139.7" y1="58.42" x2="132.08" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="55.88" x2="139.7" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="GND50" gate="1" pin="GND"/>
 <pinref part="U$4" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="C43" gate="G$1" pin="2"/>
-<pinref part="GND51" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="CLOCK_BATT" gate="G$1" pin="-"/>
@@ -17243,19 +17237,19 @@ See a 3.3V fixed output version of this chip in action on the &lt;a href="https:
 <net name="RST" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="177.8" y1="53.34" x2="165.1" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="53.34" x2="165.1" y2="53.34" width="0.1524" layer="91"/>
-<label x="147.32" y="58.42" size="1.778" layer="95"/>
+<wire x1="177.8" y1="58.42" x2="165.1" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="58.42" x2="165.1" y2="58.42" width="0.1524" layer="91"/>
+<label x="147.32" y="63.5" size="1.778" layer="95"/>
 <pinref part="U$4" gate="G$1" pin="3"/>
-<wire x1="154.94" y1="50.8" x2="154.94" y2="53.34" width="0.1524" layer="91"/>
-<junction x="154.94" y="53.34"/>
+<wire x1="154.94" y1="55.88" x2="154.94" y2="58.42" width="0.1524" layer="91"/>
+<junction x="154.94" y="58.42"/>
 <pinref part="C43" gate="G$1" pin="1"/>
-<junction x="165.1" y="53.34"/>
+<junction x="165.1" y="58.42"/>
 <pinref part="U$4" gate="G$1" pin="4"/>
 <pinref part="IC2" gate="G$1" pin="RESET"/>
 <wire x1="187.96" y1="40.64" x2="177.8" y2="40.64" width="0.1524" layer="91"/>
 <label x="180.34" y="40.64" size="1.778" layer="95"/>
-<wire x1="177.8" y1="40.64" x2="177.8" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="40.64" x2="177.8" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SD_CS" class="0">
@@ -17489,7 +17483,7 @@ See a 3.3V fixed output version of this chip in action on the &lt;a href="https:
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="165.1" y1="66.04" x2="165.1" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="71.12" x2="165.1" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
@@ -17650,6 +17644,14 @@ See a 3.3V fixed output version of this chip in action on the &lt;a href="https:
 <pinref part="IC2" gate="G$1" pin="(PCINT9/CLKO/T1)PB1"/>
 <wire x1="241.3" y1="15.24" x2="248.92" y2="15.24" width="0.1524" layer="91"/>
 <label x="243.84" y="15.24" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DTR" class="0">
+<segment>
+<pinref part="C43" gate="G$1" pin="2"/>
+<wire x1="165.1" y1="50.8" x2="165.1" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="45.72" x2="157.48" y2="45.72" width="0.1524" layer="91"/>
+<label x="160.02" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
