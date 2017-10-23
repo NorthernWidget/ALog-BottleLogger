@@ -16995,8 +16995,8 @@ See a 3.3V fixed output version of this chip in action on the &lt;a href="https:
 <part name="D1" library="semicon-smd-ipc" deviceset="DIODE_AC-CA_" device="" value="BAT54C"/>
 <part name="GND52" library="supply1" deviceset="GND" device=""/>
 <part name="S1" library="Custom" deviceset="SKRPABE010" device=""/>
-<part name="R18" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
-<part name="R19" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="R18" library="rcl" deviceset="R-EU_" device="R0603" value="953k"/>
+<part name="R19" library="rcl" deviceset="R-EU_" device="R0603" value="143k"/>
 <part name="GND54" library="supply1" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
@@ -17098,8 +17098,12 @@ See a 3.3V fixed output version of this chip in action on the &lt;a href="https:
 <instance part="S1" gate="G$1" x="274.32" y="0" smashed="yes">
 <attribute name="NAME" x="274.32" y="1.524" size="1.778" layer="95" font="vector" align="bottom-center"/>
 </instance>
-<instance part="R18" gate="G$1" x="254" y="60.96"/>
-<instance part="R19" gate="G$1" x="254" y="58.42" rot="MR180"/>
+<instance part="R18" gate="G$1" x="254" y="60.96" smashed="yes">
+<attribute name="VALUE" x="250.19" y="62.738" size="1.778" layer="96"/>
+</instance>
+<instance part="R19" gate="G$1" x="254" y="58.42" smashed="yes" rot="MR180">
+<attribute name="VALUE" x="250.19" y="56.642" size="1.778" layer="96" rot="MR180"/>
+</instance>
 <instance part="GND54" gate="1" x="261.62" y="55.88"/>
 <instance part="+3V1" gate="G$1" x="439.42" y="40.64"/>
 <instance part="+3V2" gate="G$1" x="185.42" y="63.5"/>

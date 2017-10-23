@@ -2782,8 +2782,8 @@ Covered vias can be set in Masks (Limit).
 <attribute name="VALUE" x="88.755" y="18.925" size="0.6096" layer="27" rot="R180"/>
 </element>
 <element name="S1" library="Custom" package="SKRPABE010_(SWITCH)" value="SKRPABE010" x="10.65" y="13.95" rot="R270"/>
-<element name="R18" library="rcl" package="R0603@1" value="10k" x="88.65" y="23.1"/>
-<element name="R19" library="rcl" package="R0603@1" value="10k" x="88.65" y="21"/>
+<element name="R18" library="rcl" package="R0603@1" value="953k" x="88.65" y="23.1"/>
+<element name="R19" library="rcl" package="R0603@1" value="143k" x="88.65" y="21"/>
 <element name="U$2" library="bschulz" package="SOT23-6L" value="MAX6070" x="19.95" y="30.9" rot="R270"/>
 <element name="Q1" library="SparkFun-DiscreteSemi" package="SOT23-3" value="220mA/50V/3.5Ω" x="92.4" y="13.8" rot="R90">
 <attribute name="PROD_ID" value="TRANS-00830" x="85.68" y="8.04" size="1.778" layer="27" rot="R90" display="off"/>
