@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.2">
+<eagle version="8.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -5813,22 +5814,6 @@ Source: AVX .. aphvc.pdf</description>
 <rectangle x1="-4.57" y1="-5.1" x2="-3.05" y2="5.1" layer="51"/>
 <rectangle x1="3.05" y1="-5.1" x2="4.5688" y2="5.1" layer="51"/>
 </package>
-<package name="R0603@1">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
-<wire x1="-0.432" y1="-0.3306" x2="0.432" y2="-0.3306" width="0.2032" layer="51"/>
-<wire x1="0.432" y1="0.3306" x2="-0.432" y2="0.3306" width="0.2032" layer="51"/>
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
-<smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
-<rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-</package>
 <package name="R0603">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
 <wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
@@ -5839,8 +5824,8 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
 <smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
-<text x="-1.0668" y="0.9398" size="0.6096" layer="25">&gt;NAME</text>
-<text x="-1.0922" y="-1.4732" size="0.6096" layer="27">&gt;VALUE</text>
+<text x="-0.9144" y="0.7874" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.9144" y="-1.0668" size="0.4064" layer="27">&gt;VALUE</text>
 <rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
 <rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
@@ -5892,28 +5877,6 @@ Source: AVX .. aphvc.pdf</description>
 <rectangle x1="-1.7018" y1="-1.2954" x2="-0.9517" y2="1.3045" layer="51"/>
 <rectangle x1="0.9517" y1="-1.3045" x2="1.7018" y2="1.2954" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-</package>
-<package name="PRL1632">
-<description>&lt;b&gt;PRL1632 are realized as 1W for 3.2 × 1.6mm(1206)&lt;/b&gt;&lt;p&gt;
-Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
-<wire x1="0.7275" y1="-1.5228" x2="-0.7277" y2="-1.5228" width="0.1524" layer="51"/>
-<wire x1="0.7275" y1="1.5228" x2="-0.7152" y2="1.5228" width="0.1524" layer="51"/>
-<smd name="2" x="0.822" y="0" dx="1" dy="3.2" layer="1"/>
-<smd name="1" x="-0.822" y="0" dx="1" dy="3.2" layer="1"/>
-<text x="-1.4" y="1.8" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.4" y="-3" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.8" y1="-1.6" x2="-0.4" y2="1.6" layer="51"/>
-<rectangle x1="0.4" y1="-1.6" x2="0.8" y2="1.6" layer="51"/>
-</package>
-<package name="R01005">
-<smd name="1" x="-0.1625" y="0" dx="0.2" dy="0.25" layer="1"/>
-<smd name="2" x="0.1625" y="0" dx="0.2" dy="0.25" layer="1"/>
-<text x="-0.4" y="0.3" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.4" y="-1.6" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.2" y1="-0.1" x2="-0.075" y2="0.1" layer="51"/>
-<rectangle x1="0.075" y1="-0.1" x2="0.2" y2="0.1" layer="51"/>
-<rectangle x1="-0.15" y1="0.05" x2="0.15" y2="0.1" layer="51"/>
-<rectangle x1="-0.15" y1="-0.1" x2="0.15" y2="-0.05" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -5969,7 +5932,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="R0603" package="R0603@1">
+<device name="R0603" package="R0603">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -5988,6 +5951,15 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technologies>
 </device>
 <device name="R0805W" package="R0805W">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="R1005" package="R1005">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -6708,24 +6680,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technologies>
 </device>
 <device name="1812X7R" package="1812X7R">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="PRL1632" package="PRL1632">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="01005" package="R01005">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -16912,8 +16866,8 @@ See a 3.3V fixed output version of this chip in action on the &lt;a href="https:
 <part name="GND39" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND40" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C25" library="rcl" deviceset="C-EU" device="C0805" value="10uF"/>
-<part name="R15" library="rcl" deviceset="R-EU_" device="R0603" value="143k"/>
-<part name="R16" library="rcl" deviceset="R-EU_" device="R0603" value="953k"/>
+<part name="R15" library="rcl" deviceset="R-EU_" device="R0603" value="111k"/>
+<part name="R16" library="rcl" deviceset="R-EU_" device="R0603" value="1M"/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="22uF"/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="22uF"/>
 <part name="U$3" library="SparkFun-IC-Power" deviceset="TPS62172" device=""/>
@@ -16995,8 +16949,8 @@ See a 3.3V fixed output version of this chip in action on the &lt;a href="https:
 <part name="D1" library="semicon-smd-ipc" deviceset="DIODE_AC-CA_" device="" value="BAT54C"/>
 <part name="GND52" library="supply1" deviceset="GND" device=""/>
 <part name="S1" library="Custom" deviceset="SKRPABE010" device=""/>
-<part name="R18" library="rcl" deviceset="R-EU_" device="R0603" value="953k"/>
-<part name="R19" library="rcl" deviceset="R-EU_" device="R0603" value="143k"/>
+<part name="R18" library="rcl" deviceset="R-EU_" device="R0603" value="1M"/>
+<part name="R19" library="rcl" deviceset="R-EU_" device="R0603" value="111k"/>
 <part name="GND54" library="supply1" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
@@ -17025,7 +16979,6 @@ See a 3.3V fixed output version of this chip in action on the &lt;a href="https:
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="C6" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
@@ -17053,6 +17006,12 @@ See a 3.3V fixed output version of this chip in action on the &lt;a href="https:
 <part name="GND33" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R20" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="U$6" library="csandell" deviceset="74404020022" device=""/>
+<part name="R22" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="R25" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="P+1" library="supply1" deviceset="+5V" device=""/>
+<part name="GND8" library="supply1" deviceset="GND" device=""/>
+<part name="GND18" library="supply1" deviceset="GND" device=""/>
+<part name="C4" library="rcl" deviceset="C-EU" device="C0805" value="10uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -17979,7 +17938,7 @@ REFERENCE VOLTAGE</text>
 <instance part="C10" gate="G$1" x="-20.32" y="53.34"/>
 <instance part="+3V4" gate="G$1" x="-20.32" y="66.04"/>
 <instance part="P+2" gate="1" x="0" y="111.76"/>
-<instance part="P+3" gate="1" x="-83.82" y="58.42"/>
+<instance part="P+3" gate="1" x="-88.9" y="63.5"/>
 <instance part="U$2" gate="G$1" x="-60.96" y="10.16"/>
 <instance part="+3V15" gate="G$1" x="-73.66" y="20.32"/>
 <instance part="C3" gate="G$1" x="-91.44" y="10.16"/>
@@ -17995,6 +17954,8 @@ REFERENCE VOLTAGE</text>
 <attribute name="NAME" x="-35.56" y="62.23" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-30.48" y="59.69" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="GND18" gate="1" x="-91.44" y="40.64"/>
+<instance part="C4" gate="G$1" x="-91.44" y="48.26"/>
 </instances>
 <busses>
 </busses>
@@ -18084,6 +18045,10 @@ REFERENCE VOLTAGE</text>
 <wire x1="-43.18" y1="5.08" x2="-40.64" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="-40.64" y1="5.08" x2="-40.64" y2="2.54" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="GND18" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="BATT+" class="0">
@@ -18177,8 +18142,14 @@ REFERENCE VOLTAGE</text>
 <wire x1="-81.28" y1="53.34" x2="-81.28" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="VIN"/>
 <wire x1="-81.28" y1="55.88" x2="-76.2" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="-83.82" y1="55.88" x2="-81.28" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="1" pin="+5V"/>
+<wire x1="-81.28" y1="55.88" x2="-88.9" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="-88.9" y1="55.88" x2="-88.9" y2="60.96" width="0.1524" layer="91"/>
+<junction x="-81.28" y="55.88"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="-81.28" y1="53.34" x2="-91.44" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="-91.44" y1="53.34" x2="-91.44" y2="50.8" width="0.1524" layer="91"/>
+<junction x="-81.28" y="53.34"/>
 </segment>
 </net>
 <net name="1.8V_REF" class="0">
@@ -19162,10 +19133,13 @@ both external lines (0.5A rated)</text>
 <instance part="P+7" gate="1" x="38.1" y="58.42"/>
 <instance part="P+8" gate="1" x="38.1" y="40.64"/>
 <instance part="+3V6" gate="G$1" x="109.22" y="55.88"/>
-<instance part="GND8" gate="1" x="96.52" y="40.64"/>
 <instance part="GND9" gate="1" x="53.34" y="63.5"/>
 <instance part="GND10" gate="1" x="53.34" y="40.64"/>
 <instance part="P+6" gate="1" x="53.34" y="50.8"/>
+<instance part="R22" gate="G$1" x="101.6" y="35.56" rot="R90"/>
+<instance part="R25" gate="G$1" x="101.6" y="25.4" rot="R90"/>
+<instance part="P+1" gate="1" x="101.6" y="43.18"/>
+<instance part="GND8" gate="1" x="101.6" y="17.78"/>
 </instances>
 <busses>
 </busses>
@@ -19219,14 +19193,13 @@ both external lines (0.5A rated)</text>
 <pinref part="GND9" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$7" gate="G$1" pin="COM"/>
-<wire x1="91.44" y1="43.18" x2="96.52" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="GND8" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="U$7" gate="G$1" pin="REF-"/>
 <wire x1="58.42" y1="43.18" x2="53.34" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="GND10" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R25" gate="G$1" pin="1"/>
+<pinref part="GND8" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="ADC0" class="0">
@@ -19416,12 +19389,27 @@ both external lines (0.5A rated)</text>
 <wire x1="53.34" y1="45.72" x2="53.34" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="P+6" gate="1" pin="+5V"/>
 </segment>
+<segment>
+<pinref part="R22" gate="G$1" pin="2"/>
+<pinref part="P+1" gate="1" pin="+5V"/>
+</segment>
 </net>
 <net name="1.8V_REF" class="0">
 <segment>
 <pinref part="U$7" gate="G$1" pin="CH15"/>
 <wire x1="91.44" y1="48.26" x2="104.14" y2="48.26" width="0.1524" layer="91"/>
 <label x="93.98" y="48.26" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="R22" gate="G$1" pin="1"/>
+<pinref part="R25" gate="G$1" pin="2"/>
+<pinref part="U$7" gate="G$1" pin="COM"/>
+<wire x1="91.44" y1="43.18" x2="93.98" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="43.18" x2="93.98" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="30.48" x2="101.6" y2="30.48" width="0.1524" layer="91"/>
+<junction x="101.6" y="30.48"/>
 </segment>
 </net>
 </nets>
