@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.0">
+<eagle version="8.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -225,18 +225,18 @@
 <text x="110.93775" y="37.02925" size="1.27" layer="51" font="vector" ratio="10" rot="R225">GND</text>
 <text x="107.63775" y="37.02925" size="1.27" layer="51" font="vector" ratio="10" rot="R225">BATT</text>
 <text x="86.4" y="22.8" size="1.4224" layer="22" ratio="20" rot="MR0" align="bottom-right">ALog BottleLogger v3.0.0
-----------------------------------
+----------------------
 Open-source scientific
 data logger
-----------------------------------
+----------------------
 Made in Minnesota</text>
-<text x="76.2" y="18.3" size="1.778" layer="22" ratio="20" rot="MR0" align="bottom-right">Open-source for the outdoors</text>
-<text x="75" y="19.8" size="0.6096" layer="22" ratio="20" rot="MR0" align="bottom-right">TM</text>
+<text x="74.25" y="17.7" size="1.778" layer="22" ratio="20" rot="MR0" align="bottom-right">Open-source for the outdoors</text>
+<text x="73.05" y="19.2" size="0.6096" layer="22" ratio="20" rot="MR0" align="bottom-right">TM</text>
 <text x="106.35" y="15" size="1.4224" layer="22" ratio="20" rot="MR0" align="top-left">Developed in part at the
 University of Minnesota in
 parntnership with 
 Northern Widget LLC</text>
-<text x="73.7444" y="12.978" size="0.6096" layer="22" rot="MR0">TM</text>
+<text x="63.0944" y="15.378" size="0.6096" layer="22" rot="MR0">TM</text>
 </plain>
 <libraries>
 <library name="rcl">
@@ -4052,9 +4052,10 @@ Covered vias can be set in Masks (Limit).
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
+<param name="checkGrid" value="0"/>
+<param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
-<param name="checkStop" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -4399,7 +4400,7 @@ Covered vias can be set in Masks (Limit).
 <element name="U$13" library="csandell" package="MN_SILK" value="" x="77.25" y="23.25"/>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="44.8066" y="30.4108" smashed="yes" rot="R90"/>
 <element name="U$14" library="awickert" package="ALOG_LOGO_V1_SMALL" value="ALOG_LOGO_V1_5.5MM" x="40.9642" y="16.9232" smashed="yes"/>
-<element name="U$15" library="awickert" package="NWLOGO_MED" value="NWLOGO_MED" x="77.9234" y="11.1888" smashed="yes" rot="MR0"/>
+<element name="U$15" library="awickert" package="NWLOGO_MED" value="NWLOGO_MED" x="67.5734" y="11.4888" smashed="yes" rot="MR0"/>
 </elements>
 <signals>
 <signal name="SDA">
