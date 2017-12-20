@@ -21594,7 +21594,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="MPN" value="AC0603FR-07180KL"/>
 <attribute name="VALUE_PART" value="180k"/>
 </part>
-<part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="C4" library="bschulz_passives" deviceset="C-EU" device="C0805" technology="10UF" value="10uF"/>
@@ -23789,7 +23788,6 @@ both external lines (0.5A rated)</text>
 <instance part="P+6" gate="1" x="53.34" y="50.8"/>
 <instance part="R22" gate="G$1" x="101.6" y="35.56" rot="R90"/>
 <instance part="R25" gate="G$1" x="101.6" y="25.4" rot="R90"/>
-<instance part="P+1" gate="1" x="101.6" y="45.72"/>
 <instance part="GND8" gate="1" x="101.6" y="17.78"/>
 </instances>
 <busses>
@@ -24045,11 +24043,6 @@ both external lines (0.5A rated)</text>
 <wire x1="53.34" y1="45.72" x2="53.34" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="P+6" gate="1" pin="+5V"/>
 </segment>
-<segment>
-<pinref part="R22" gate="G$1" pin="2"/>
-<pinref part="P+1" gate="1" pin="+5V"/>
-<wire x1="101.6" y1="43.18" x2="101.6" y2="40.64" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="1.8V_REF" class="0">
 <segment>
@@ -24067,6 +24060,14 @@ both external lines (0.5A rated)</text>
 <wire x1="93.98" y1="43.18" x2="93.98" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="30.48" x2="101.6" y2="30.48" width="0.1524" layer="91"/>
 <junction x="101.6" y="30.48"/>
+</segment>
+</net>
+<net name="EXT_5V" class="0">
+<segment>
+<pinref part="R22" gate="G$1" pin="2"/>
+<wire x1="101.6" y1="40.64" x2="101.6" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="43.18" x2="111.76" y2="43.18" width="0.1524" layer="91"/>
+<label x="101.6" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
