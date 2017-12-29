@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.3">
+<eagle version="8.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -12581,16 +12581,6 @@ Source: &lt;a href="http://cds.linear.com/docs/Datasheet/2444589fb.pdf"&gt; Data
 <wire x1="-2.4" y1="2.54" x2="-1.524" y2="3.4" width="0.2032" layer="51"/>
 <rectangle x1="-2.54" y1="2.9972" x2="-1.778" y2="3.5052" layer="29"/>
 </package>
-<package name="SKRPABE010_(SWITCH)">
-<smd name="P$1" x="-2.075" y="1.4" dx="1.05" dy="0.65" layer="1"/>
-<smd name="P$2" x="2.075" y="1.4" dx="1.05" dy="0.65" layer="1"/>
-<smd name="P$3" x="2.075" y="-1.4" dx="1.05" dy="0.65" layer="1"/>
-<smd name="P$4" x="-2.075" y="-1.4" dx="1.05" dy="0.65" layer="1"/>
-<wire x1="-2.3" y1="1.6" x2="-2.3" y2="-1.6" width="0.127" layer="21"/>
-<wire x1="-2.3" y1="-1.6" x2="2.3" y2="-1.6" width="0.127" layer="21"/>
-<wire x1="2.3" y1="-1.6" x2="2.3" y2="1.6" width="0.127" layer="21"/>
-<wire x1="2.3" y1="1.6" x2="-2.3" y2="1.6" width="0.127" layer="21"/>
-</package>
 <package name="WSON-8-PAD">
 <wire x1="-1" y1="-1" x2="-1" y2="1" width="0.127" layer="51"/>
 <wire x1="-1" y1="1" x2="1" y2="1" width="0.127" layer="51"/>
@@ -13110,17 +13100,6 @@ Switches electronic signals</description>
 <wire x1="30.48" y1="73.66" x2="7.62" y2="73.66" width="0.254" layer="94"/>
 <text x="7.62" y="76.2" size="1.778" layer="95">LTC2495</text>
 <pin name="GND@8" x="2.54" y="50.8" length="middle" direction="pwr"/>
-</symbol>
-<symbol name="BUTTON">
-<pin name="1" x="0" y="0" visible="off" length="middle"/>
-<pin name="3" x="15.24" y="0" visible="off" length="middle" rot="R180"/>
-<circle x="5.08" y="0" radius="0.567959375" width="0" layer="94"/>
-<circle x="10.16" y="0" radius="0.567959375" width="0" layer="94"/>
-<wire x1="5.08" y1="0" x2="10.16" y2="2.54" width="0.254" layer="94"/>
-<pin name="2" x="0" y="-2.54" visible="off" length="middle"/>
-<pin name="4" x="15.24" y="-2.54" visible="off" length="middle" rot="R180"/>
-<wire x1="5.08" y1="-2.54" x2="5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-2.54" x2="10.16" y2="0" width="0.254" layer="94"/>
 </symbol>
 <symbol name="TPS62172">
 <description>&lt;h3&gt;TPS62172&lt;/h3&gt;
@@ -14073,26 +14052,6 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <attribute name="MF" value="LT" constant="no"/>
 <attribute name="MPN" value="LTC2495IUHF#PBF" constant="no"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="SKRPABE010">
-<description>SPST Switch
-Rated to 50 mA 16V (DC)</description>
-<gates>
-<gate name="G$1" symbol="BUTTON" x="-5.08" y="0"/>
-</gates>
-<devices>
-<device name="" package="SKRPABE010_(SWITCH)">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-<connect gate="G$1" pin="3" pad="P$3"/>
-<connect gate="G$1" pin="4" pad="P$4"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -19039,6 +18998,58 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="bschulz_Old">
+<packages>
+<package name="SWITCH_4.2X3.2">
+<smd name="P$1" x="-2" y="1.35" dx="1.3" dy="0.8" layer="1"/>
+<smd name="P$2" x="2" y="1.35" dx="1.3" dy="0.8" layer="1"/>
+<smd name="P$3" x="2" y="-1.35" dx="1.3" dy="0.8" layer="1"/>
+<smd name="P$4" x="-2" y="-1.35" dx="1.3" dy="0.8" layer="1"/>
+<wire x1="-2.3" y1="1.6" x2="-2.3" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-2.3" y1="-1.6" x2="2.3" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="2.3" y1="-1.6" x2="2.3" y2="1.6" width="0.127" layer="21"/>
+<wire x1="2.3" y1="1.6" x2="-2.3" y2="1.6" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="BUTTON">
+<pin name="1" x="0" y="0" visible="off" length="middle"/>
+<pin name="3" x="15.24" y="0" visible="off" length="middle" rot="R180"/>
+<circle x="5.08" y="0" radius="0.567959375" width="0" layer="94"/>
+<circle x="10.16" y="0" radius="0.567959375" width="0" layer="94"/>
+<wire x1="5.08" y1="0" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<pin name="2" x="0" y="-2.54" visible="off" length="middle"/>
+<pin name="4" x="15.24" y="-2.54" visible="off" length="middle" rot="R180"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="10.16" y2="0" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SWITCH">
+<description>Genaric SPST Switch</description>
+<gates>
+<gate name="G$1" symbol="BUTTON" x="-5.08" y="0"/>
+</gates>
+<devices>
+<device name="C&amp;K_400GF" package="SWITCH_4.2X3.2">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="4" pad="P$4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="CKN10504CT-ND" constant="no"/>
+<attribute name="MF" value="C&amp;K" constant="no"/>
+<attribute name="MPN" value="PTS810 SJG 250 SMTR LFS" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -19099,7 +19110,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="C10" library="bschulz_passives" deviceset="C-EU" device="C0805" technology="22UF" value="22uF"/>
 <part name="R1" library="bschulz_passives" deviceset="R-EU_" device="R0603" technology="10K" value="10k"/>
-<part name="U$4" library="bschulz" deviceset="SKRPABE010" device=""/>
+<part name="U$4" library="bschulz_Old" deviceset="SWITCH" device="C&amp;K_400GF"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="Q5" library="bschulz" deviceset="MOSFET_PCH" device="-IRLML2244" value="MOSFET_PCH-IRLML2244"/>
@@ -19164,7 +19175,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="D1" library="semicon-smd-ipc" deviceset="DIODE_AC-CA_" device="" value="BAT54C"/>
 <part name="GND52" library="supply1" deviceset="GND" device=""/>
-<part name="S1" library="bschulz" deviceset="SKRPABE010" device=""/>
+<part name="S1" library="bschulz_Old" deviceset="SWITCH" device="C&amp;K_400GF"/>
 <part name="R18" library="bschulz_passives" deviceset="R-EU_" device="R0603" technology="1.62M" value="1.62M"/>
 <part name="R19" library="bschulz_passives" deviceset="R-EU_" device="R0603" technology="180K" value="180k"/>
 <part name="GND54" library="supply1" deviceset="GND" device=""/>
