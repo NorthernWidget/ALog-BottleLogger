@@ -1,6 +1,16 @@
 ALog-BottleLogger
 =================
 
+## Deprecation / update notice
+
+The lovely ALog has a dear place in our hearts, but time flows by.
+
+For our modern supported data loggers, see:
+* [Project Margay](https://github.com/NorthernWidget-Skunkworks/Project-Margay): Small form factor ALog-like data logger, optimized for digital communications
+* [Project Resnik](https://github.com/NorthernWidget-Skunkworks/Project-Resnik): Data logger for large installations, solar power, and telemetry
+
+## ALog BottleLogger Basic Information
+
 The ALog BottleLogger is an Arduino-based low-power field environmental data logging platform.
 
 This repository contains hardware design files, centered around:
